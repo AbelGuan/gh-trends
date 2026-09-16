@@ -49,7 +49,7 @@ def badge(it):
     if ch == "new":
         return "🆕 新上榜"
     if ch == "up":
-        return f"⬆️{it['delta']}"
+        return f"⬆️{abs(it['delta'] or 0)}"
     if ch == "down":
         return f"⬇️{abs(it['delta'] or 0)}"
     return ""

@@ -98,7 +98,7 @@ def change_badge(it):
     if ch == "new":
         return "🆕"
     if ch == "up":
-        return f"⬆️{it['delta']}"
+        return f"⬆️{abs(it['delta'] or 0)}"
     if ch == "down":
         return f"⬇️{abs(it['delta'] or 0)}"
     return ""
@@ -127,6 +127,51 @@ def overview(snap, top):
         dist = " · ".join(f"{lang}×{n}" for lang, n in langs.most_common(3))
         lines.append("🧩 " + GREY("语言分布：" + dist))
     return "\n".join(lines)
+
+
+def change_board(snap, limit=5):
+    """名次变化榜：上升最猛 / 掉得最狠 / 新上榜 / 掉出榜单。"""
+    items = snap["items"]
+    ups = [i for i in items if i.get("change") == "up"]
+    downs = [i for i in items if i.get("change") == "down"]
+    news = [i for i in items if i.get("change") == "new"]
+    dropped = snap.get("dropped") or []
+    lines = []
+    if ups:
+        b = max(ups, key=lambda i: abs(i["delta"]))
+        lines.append(f"⬆️ 上升最猛 **[{b['repo']}]({b['url']})** "
+                     + GREY(f"#{b['prev_rank']} → #{b['rank']}"))
+    if downs:
+        w = max(downs, key=lambda i: abs(i["delta"]))
+        lines.append(f"⬇️ 掉得最狠 **[{w['repo']}]({w['url']})** "
+                     + GREY(f"#{w['prev_rank']} → #{w['rank']}"))
+    if news:
+        lines.append("🆕 新上榜：" + " / ".join(
+            f"[{i['repo']}]({i['url']})" for i in news[:limit]))
+    if dropped:
+        lines.append("👋 掉出榜单：" + " / ".join(
+            f"[{d['repo']}]({d['url']})" for d in dropped[:limit]))
+    return "\n".join(lines)
+
+
+def item_uniform(it, label, with_desc=True, width=76):
+    """统一格式：一行数据 + 一行简介（十名一视同仁）。"""
+    head = f"**{it['rank']}.** **[{it['repo']}]({it['url']})**"
+    meta = [it.get("lang") or "未知语言"]
+    if it.get("stars"):
+        meta.append(f"★{it['stars']:,}")
+    if it.get("forks"):
+        meta.append(f"fork {it['forks']:,}")
+    if it.get("today") is not None:
+        meta.append(f"{label} +{it['today']:,}")
+    badge = change_badge(it)
+    if badge:
+        meta.append(badge)
+    rows = [head + "　" + GREY("　".join(meta))]
+    if with_desc:
+        d = it.get("desc") or "（该仓库未提供简介）"
+        rows.append(GREY(d if len(d) <= width else d[:width] + "…"))
+    return "\n".join(rows)
 
 
 def item_block(it, label, with_desc=True, width=70):
@@ -198,7 +243,7 @@ def build_card(snap, top, pages_base, with_desc=True, style="fancy"):
     if style == "compact":
         elements = [{"tag": "div", "text": {"tag": "lark_md",
                     "content": "\n".join(item_line(i, label) for i in items)}}]
-    else:
+    elif style == "medal":
         top3 = [i for i in items if i["rank"] <= 3]
         rest = [i for i in items if i["rank"] > 3]
         elements = [
@@ -213,6 +258,17 @@ def build_card(snap, top, pages_base, with_desc=True, style="fancy"):
                 {"tag": "div", "text": {"tag": "lark_md",
                  "content": "\n".join(item_line(i, label) for i in rest)}},
             ]
+    else:                                   # uniform：默认，十名统一格式
+        elements = [{"tag": "div", "text": {"tag": "lark_md", "content": overview(snap, top)}}]
+        board = change_board(snap)
+        if board:
+            elements += [{"tag": "hr"},
+                         {"tag": "div", "text": {"tag": "lark_md", "content": board}}]
+        elements += [
+            {"tag": "hr"},
+            {"tag": "div", "text": {"tag": "lark_md",
+             "content": "\n\n".join(item_uniform(i, label, with_desc) for i in items)}},
+        ]
 
     elements.append({"tag": "hr"})
     elements.append({"tag": "note", "elements": [{
@@ -302,8 +358,8 @@ def main():
     p.add_argument("--pages-base", default="")
     p.add_argument("--no-desc", action="store_true", help="不带简介，卡片更短")
     p.add_argument("--text", action="store_true", help="发纯文本而不是卡片")
-    p.add_argument("--style", default="fancy", choices=["fancy", "compact"],
-                   help="fancy=前三名带简介的大卡片；compact=每名一行")
+    p.add_argument("--style", default="uniform", choices=["uniform", "medal", "compact"],
+                   help="uniform=十名统一格式（默认）；medal=前三名奖牌加宽；compact=每名一行")
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
 

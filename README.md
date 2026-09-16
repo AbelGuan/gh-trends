@@ -83,33 +83,40 @@ schtasks /create /tn "GitHub Trending 每日" ^
 ```bash
 python notify_feishu.py --dry-run          # 只打印将发送的 JSON，不发
 python notify_feishu.py --top 5            # 只推前 5 名
-python notify_feishu.py --style compact    # 每人一行（默认 fancy：前三名带简介）
+python notify_feishu.py --style medal      # 前三名奖牌 + 加宽数据行
+python notify_feishu.py --style compact    # 每人一行，不带简介
 python notify_feishu.py --no-desc          # 卡片更短，不带简介
 python notify_feishu.py --text             # 用纯文本消息（排障用）
 python notify_feishu.py --pages-base https://user.github.io/gh-trends
 ```
 
-卡片长什么样（默认 fancy）：
+卡片长什么样（默认 `--style uniform`，十名一视同仁）：
 
 ```
-🚀 GitHub Trending 今日榜 · 2026-09-17        ← 蓝色标题栏
-📊 今日上榜 21 个　🆕 新上榜 3 个
+🚀 GitHub Trending 今日榜 · 2026-09-17        ← 蓝色标题栏，整张卡可点
+📊 今日上榜 21 个　🆕 新上榜 2 个
 🔥 今日最热：owner/repo +3,215 · ★ 31,658
 🧩 语言分布：TypeScript×5 · Python×5 · JavaScript×3
 ──────
-🥇 owner/repo      ← 前三名：奖牌 + 简介 + 加宽数据行
-Go　★ 31,658　今日 +3,215　fork 2,249
-简介…
+⬆️ 上升最猛 owner/repo  #9 → #3          ← 名次变化榜
+⬇️ 掉得最狠 owner/repo  #4 → #9
+🆕 新上榜：repo-a / repo-b
+👋 掉出榜单：repo-c
 ──────
-4. repo　语言　★5,548　+1,136     ← 第四名起压缩成一行
+1. owner/repo　Go　★31,658　fork 2,249　今日 +3,215
+简介一行…                                 ← 十条全部带简介，想看个大概
+
+2. owner/repo　…
 …
 ──────
 〔抓取时间 · 数据来源〕
 〔📊 完整看板〕〔📝 Markdown 版〕
 ```
 
-两个实现细节：
+三个值得一行：
 
+- **名次变化榜**需要“昨天”的对比基准。「上升/下降/新上榜」来自今天的快照，
+  **「掉出榜单」需要昨天的名单** —— 所以快照 JSON 里多了一个 `dropped` 字段（旧快照没有也不报错，最多是少一行）。
 - **只用了飞书卡片 1.0 的元素**（`div`/`lark_md`/`hr`/`note`/`action`），颜色只用官方明确支持的 `red`/`grey`，
   因为 webhook 机器人**不能发图片**（飞书图片必须先上传换 `img_key`，那个要自建应用）。
 - **三级降级**：漂亮卡片 → 简化卡片（只留 div+按钮）→ 纯文本。任何一级发送失败自动退到下一级，

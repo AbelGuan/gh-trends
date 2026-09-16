@@ -126,8 +126,10 @@ def load_prev(since, day, lang="", spoken=""):
 
 
 def annotate(items, prev):
-    """给每个项目打上「相对上次」的变化标签。"""
-    prev_map = {it["repo"]: it for it in (prev or {}).get("items", [])}
+    """给每个项目打上「相对上次」的变化标签；同时算出掉出榜单的项目。"""
+    prev_items = (prev or {}).get("items", [])
+    prev_map = {it["repo"]: it for it in prev_items}
+    cur = {it["repo"] for it in items}
     prev_day = (prev or {}).get("date")
     for it in items:
         p = prev_map.get(it["repo"])
@@ -135,10 +137,16 @@ def annotate(items, prev):
         if not p:
             it["change"] = "new" if prev else ""
             it["delta"] = None
+            it["prev_rank"] = None
             continue
         it["change"] = "up" if it["rank"] < p["rank"] else ("down" if it["rank"] > p["rank"] else "same")
         it["delta"] = it["rank"] - p["rank"]
-    return items
+        it["prev_rank"] = p["rank"]
+    dropped = [{"repo": p["repo"], "url": p.get("url", ""), "rank": p["rank"],
+                "stars": p.get("stars"), "today": p.get("today")}
+               for p in prev_items if p["repo"] not in cur] if prev else []
+    dropped.sort(key=lambda d: d["rank"])
+    return items, dropped
 
 
 # ---------------------------------------------------------------- 终端渲染
@@ -164,7 +172,7 @@ def render_terminal(items, meta, color=True):
 
     wrank, wrepo = 3, max(len(i["repo"]) for i in items)
     for it in items:
-        mark = {"new": c("★新", "yellow"), "up": c(f"↑{it['delta']}", "green"),
+        mark = {"new": c("★新", "yellow"), "up": c(f"↑{abs(it['delta'] or 0)}", "green"),
                 "down": c(f"↓{abs(it['delta'] or 0)}", "red"), "same": "  "}.get(it.get("change", ""), "  ")
         today = "+" + format(it["today"], ",") if it["today"] is not None else "-"
         star = f"{it['stars']:,}" if it["stars"] is not None else "?"
@@ -191,7 +199,7 @@ def render_md(items, meta):
     lines += ["", f"| # | 变化 | 仓库 | 语言 | ★ 总数 | {PERIOD.get(meta['since'], '今日')}新增 | 简介 |",
               "| --- | --- | --- | --- | --- | --- | --- |"]
     for it in items:
-        ch = {"new": "🆕 新上榜", "up": f"⬆️ {it['delta']}", "down": f"⬇️ {abs(it['delta'] or 0)}",
+        ch = {"new": "🆕 新上榜", "up": f"⬆️ {abs(it['delta'] or 0)}", "down": f"⬇️ {abs(it['delta'] or 0)}",
               "same": "—"}.get(it.get("change", ""), "")
         desc = (it["desc"] or "").replace("|", "\\|")
         lines.append(f"| {it['rank']} | {ch} | [{it['repo']}]({it['url']}) | {it['lang'] or '-'} | "
@@ -238,7 +246,7 @@ def render_html(items, meta, extra_nav=""):
     for it in items:
         ch = it.get("change", "")
         badge = {"new": '<span class="new">NEW</span>',
-                 "up": f'<span class="up">▲{it["delta"]}</span>',
+                 "up": f'<span class="up">▲{abs(it["delta"] or 0)}</span>',
                  "down": f'<span class="down">▼{abs(it["delta"] or 0)}</span>',
                  "same": ""}.get(ch, "")
         rows.append(f"""<article class="card">
@@ -330,11 +338,11 @@ def build(args):
     if args.limit:
         items = items[:args.limit]
     prev = load_prev(since, day, args.lang, args.spoken)
-    annotate(items, prev)
+    items, dropped = annotate(items, prev)
 
     meta = {"date": day, "since": since, "lang": args.lang or "", "spoken": args.spoken or "",
             "fetched_at": now.strftime("%Y-%m-%d %H:%M:%S"), "url": url,
-            "prev_date": (prev or {}).get("date")}
+            "prev_date": (prev or {}).get("date"), "dropped": dropped}
 
     # 存档
     if not args.no_save:
