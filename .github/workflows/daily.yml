@@ -5,6 +5,9 @@ on:
     # 每天 01:10 UTC = 北京时间 09:10（避开整点：Actions 和飞书在整点都容易拥堵）
     - cron: "10 1 * * *"
   workflow_dispatch:        # 也可以在网页上手动点一次来测试
+  push:
+    paths:
+      - ".github/workflows/daily.yml"   # 改了 workflow 自己就立刻验证一次（机器人提交不会碰这个路径，不会循环）
 
 permissions:
   contents: write           # 需要写权限才能把报告提交回仓库
