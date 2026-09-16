@@ -56,6 +56,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "内容没有变化，跳过提交"
           else
-            git commit -m "chore: GitHub Trending $(date -u +%F)"
+            git commit -m "chore: GitHub Trending $(date +%F)"
             git push
           fi
