@@ -141,6 +141,31 @@ def hot_board(snap, n=3):
     return "\n".join(lines)
 
 
+def odd_board(snap, n=3, min_stars=500, min_today=50):
+    """涨星速度异常：今日新增 / 昨日星数（分母用 stars - today，否则今天的增长会抬高分母）。"""
+    if n <= 0:
+        return ""
+    rows = []
+    for it in snap["items"]:
+        stars, today = it.get("stars"), it.get("today")
+        if not stars or not today:
+            continue
+        base = stars - today
+        if base < min_stars or today < min_today:
+            continue                        # 过滤小数仓 / 微小波动带来的假异常
+        rows.append((today / base, it, base))
+    if not rows:
+        return ""
+    rows.sort(key=lambda r: r[0], reverse=True)
+    lines = ["💥 涨星速度异常　" + GREY("（今日新增 ÷ 昨日星数）")]
+    for k, (ratio, it, base) in enumerate(rows[:n], 1):
+        badge = change_badge(it)
+        lines.append(f"{k}. [{it['repo']}]({it['url']}) " + RED(f"+{ratio * 100:.1f}%")
+                     + GREY(f"　今日 +{it['today']:,} · ★ {it['stars']:,}")
+                     + (f"　{badge}" if badge else ""))
+    return "\n".join(lines)
+
+
 def change_board(snap, limit=5):
     """名次变化榜：上升最猛 / 掉得最狠 / 新上榜 / 掉出榜单。"""
     items = snap["items"]
@@ -247,7 +272,7 @@ def build_lines(snap, top, with_desc=True, width=64, plain=False):
     return "\n".join(lines).strip()
 
 
-def build_card(snap, top, pages_base, with_desc=True, style="uniform", hot=3):
+def build_card(snap, top, pages_base, with_desc=True, style="uniform", hot=3, odd=3):
     label = PERIOD.get(snap.get("since", "daily"), "今日")
     date = snap.get("date", "")
     items = snap["items"][:top]
@@ -280,6 +305,10 @@ def build_card(snap, top, pages_base, with_desc=True, style="uniform", hot=3):
         if hots:
             elements += [{"tag": "hr"},
                          {"tag": "div", "text": {"tag": "lark_md", "content": hots}}]
+        odds = odd_board(snap, odd)
+        if odds:
+            elements += [{"tag": "hr"},
+                         {"tag": "div", "text": {"tag": "lark_md", "content": odds}}]
         elements += [
             {"tag": "hr"},
             {"tag": "div", "text": {"tag": "lark_md",
@@ -375,6 +404,8 @@ def main():
     p.add_argument("--no-desc", action="store_true", help="不带简介，卡片更短")
     p.add_argument("--hot", type=int, default=3,
                    help="「涨星最猛」显示前 N 名（默认 3，0=不显示）")
+    p.add_argument("--odd", type=int, default=3,
+                   help="「涨星速度异常」显示前 N 名（默认 3，0=不显示）")
     p.add_argument("--text", action="store_true", help="发纯文本而不是卡片")
     p.add_argument("--style", default="uniform", choices=["uniform", "medal", "compact"],
                    help="uniform=十名统一格式（默认）；medal=前三名奖牌加宽；compact=每名一行")
@@ -393,7 +424,7 @@ def main():
         return 1
     print(f"使用快照：{path}（{snap.get('date')}，{len(snap['items'])} 项）")
 
-    kwargs = {} if args.text else {"style": args.style, "hot": args.hot}
+    kwargs = {} if args.text else {"style": args.style, "hot": args.hot, "odd": args.odd}
     payload = (build_text if args.text else build_card)(
         snap, args.top, args.pages_base, with_desc=not args.no_desc, **kwargs)
 

@@ -83,6 +83,7 @@ schtasks /create /tn "GitHub Trending 每日" ^
 ```bash
 python notify_feishu.py --dry-run          # 只打印将发送的 JSON，不发
 python notify_feishu.py --hot 5            # 「涨星最猛」展示前 5（默认 3，0=不展示）
+python notify_feishu.py --odd 5            # 「涨星速度异常」展示前 5（默认 3，0=不展示）
 python notify_feishu.py --top 5            # 榜单只推前 5 名
 python notify_feishu.py --style medal      # 前三名奖牌 + 加宽数据行
 python notify_feishu.py --style compact    # 每人一行，不带简介
@@ -108,6 +109,11 @@ python notify_feishu.py --pages-base https://user.github.io/gh-trends
 2. owner/repo +1,532 · ★ 34,991　⬆️6
 3. owner/repo +1,249 · ★ 7,041
 ──────
+💥 涨星速度异常（今日新增 ÷ 昨日星数）     ← 找“小仓爆火”
+1. owner/repo +31.1%　今日 +1,036 · ★ 4,368
+2. owner/repo +25.7%　今日 +1,136 · ★ 5,552
+3. owner/repo +21.6%　今日 +1,249 · ★ 7,041
+──────
 1. owner/repo　Go　★31,689　fork 2,251　今日 +3,215
 简介一行…                                 ← 十条全部带简介，想看个大概
 
@@ -119,6 +125,11 @@ python notify_feishu.py --pages-base https://user.github.io/gh-trends
 ```
 
 三个值得一行：
+
+- **两个涨星榜互补**：「最猛」看绝对增量（大仓库占优），「速度异常」看相对增速（小仓库容易露头）。
+  分母用 `stars - today`（昨日星数）而不是当前总星，否则今天的增长会把自己的分母撞大。
+  默认过滤 `昨日星数 < 500` 或 `今日新增 < 50` 的项目，避免小数仓/微小波动制造假异常
+  （阈值在 `odd_board(min_stars=, min_today=)`，想调就改这里）。
 
 - **名次变化榜**需要“昨天”的对比基准。「上升/下降/新上榜」来自今天的快照，
   **「掉出榜单」需要昨天的名单** —— 所以快照 JSON 里多了一个 `dropped` 字段（旧快照没有也不报错，最多是少一行）。
