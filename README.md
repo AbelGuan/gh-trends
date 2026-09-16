@@ -90,6 +90,31 @@ python notify_feishu.py --pages-base https://user.github.io/gh-trends
 凭据从环境变量读：`FEISHU_WEBHOOK`、`FEISHU_SECRET`（开了签名校验才需要）、`PAGES_BASE`。
 没配 webhook 时会自动跳过推送（打印内容后正常退出），所以 Actions 上漏配 secret 不会把流程弄挂。
 
+## 推送到 Obsidian（走 Atom feed，不动你的笔记库）
+
+`make_feed.py` 把历史快照汇总成一个 Atom feed，挂在 GitHub Pages 上：
+
+```bash
+python make_feed.py --base https://<用户名>.github.io/gh-trends   # 输出 ./feed.xml
+```
+
+参数：`--limit 30`（收录最近 N 期）、`--top 10`（每期只取前 N 名，控制体积）、`--out`（输出路径）。
+Actions 里已经在每次抓取后自动跑这一步，所以订阅地址固定是：
+
+```
+https://<用户名>.github.io/gh-trends/feed.xml
+```
+
+Obsidian 侧（二选一，推荐前者）：
+
+1. **RSS 插件订阅**：社区插件市场搜 `RSS`，装上后在插件设置里添加订阅源，填上面的 feed 地址，
+   指定一个落盘目录（如 `Inbox/GitHub-Trends`）。之后每天自动多一篇笔记，**不需要把 vault 变成 git 仓库、不需要 PAT**。
+2. **vault 变 git 仓库**：vault 建 git 仓库 + 装 `Obsidian Git` 插件定时 pull，让 Actions 直接往 vault 的某个子目录提交。
+   控制力最强，代价是 vault 要变仓库、要存一个能写 vault 的 PAT，且手机端插件支持相对受限。
+
+> 选方案 1 的话，建议先把 Pages 打开（见 `部署清单.md` 第 5 步），否则 feed 地址不可访问。
+> 想改期名/期数，直接改 `make_feed.py` 里的 `feed_title` 或命令行参数。
+
 ## 说明与已知限制
 
 - 数据源是 GitHub 的非官方趋势页（`github.com/trending`），没有官方 API；页面改版可能让解析失效，届时改 `parse_trending()` 里的正则即可。

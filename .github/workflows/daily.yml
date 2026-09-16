@@ -13,6 +13,11 @@ concurrency:
   group: daily-trends
   cancel-in-progress: false
 
+env:
+  # 让 python 的 datetime.now() 用北京时间（否则 runner 按 UTC 生成日期，
+  # 手动在晚上触发时会写成“昨天”的文件名）
+  TZ: Asia/Shanghai
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -34,6 +39,11 @@ jobs:
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
           PAGES_BASE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: python notify_feishu.py --top 10
+
+      - name: 生成 Atom feed（给 Obsidian / RSS 阅读器订阅）
+        env:
+          PAGES_BASE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: python make_feed.py --top 10 --limit 30
 
       - name: 提交报告（供 GitHub Pages / Obsidian 拉取）
         run: |
