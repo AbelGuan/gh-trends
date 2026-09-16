@@ -1,0 +1,74 @@
+{
+ "date": "2026-09-17",
+ "since": "weekly",
+ "lang": "python",
+ "spoken": "",
+ "fetched_at": "2026-09-17 05:26:38",
+ "url": "https://github.com/trending/python?since=weekly",
+ "prev_date": null,
+ "items": [
+  {
+   "repo": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "lang": "Python",
+   "stars": 46848,
+   "forks": 2728,
+   "today": 17880,
+   "period": "this week",
+   "contributors": [
+    "ayghri",
+    "thejesh23",
+    "claude",
+    "SillyDark",
+    "commie70"
+   ],
+   "rank": 1,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "lang": "Python",
+   "stars": 49127,
+   "forks": 3984,
+   "today": 3248,
+   "period": "this week",
+   "contributors": [
+    "blader",
+    "claude",
+    "mvanhorn",
+    "Scott-Emberson",
+    "warp-agent"
+   ],
+   "rank": 2,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "petergyang/no-ai-slop",
+   "url": "https://github.com/petergyang/no-ai-slop",
+   "desc": "Removes 20+ patterns of AI slop from any piece of writing.",
+   "lang": "Python",
+   "stars": 10102,
+   "forks": 709,
+   "today": 2160,
+   "period": "this week",
+   "contributors": [
+    "petergyang",
+    "amateurhuman",
+    "tmchow",
+    "tymrtn",
+    "CooperSheroy"
+   ],
+   "rank": 3,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  }
+ ]
+}
