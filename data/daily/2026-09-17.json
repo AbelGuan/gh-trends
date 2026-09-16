@@ -3,17 +3,17 @@
  "since": "daily",
  "lang": "",
  "spoken": "",
- "fetched_at": "2026-09-17 05:26:49",
+ "fetched_at": "2026-09-17 06:19:25",
  "url": "https://github.com/trending?since=daily",
- "prev_date": null,
+ "prev_date": "2026-09-16",
  "items": [
   {
    "repo": "alibaba/open-code-review",
    "url": "https://github.com/alibaba/open-code-review",
    "desc": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
    "lang": "Go",
-   "stars": 31565,
-   "forks": 2245,
+   "stars": 31627,
+   "forks": 2248,
    "today": 3215,
    "period": "today",
    "contributors": [
@@ -24,17 +24,17 @@
     "claude"
    ],
    "rank": 1,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "cloudflare/security-audit-skill",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": 6897,
-   "forks": 409,
+   "stars": 6995,
+   "forks": 412,
    "today": 1249,
    "period": "today",
    "contributors": [
@@ -43,17 +43,17 @@
     "kennysarnoski-jarvis"
    ],
    "rank": 2,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "JustVugg/colibri",
    "url": "https://github.com/JustVugg/colibri",
    "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
    "lang": "C",
-   "stars": 34934,
-   "forks": 3669,
+   "stars": 34962,
+   "forks": 3671,
    "today": 1532,
    "period": "today",
    "contributors": [
@@ -64,17 +64,17 @@
     "steve-m"
    ],
    "rank": 3,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "abue-ammar/tinycast",
    "url": "https://github.com/abue-ammar/tinycast",
    "desc": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
    "lang": "Swift",
-   "stars": 5522,
-   "forks": 263,
+   "stars": 5537,
+   "forks": 264,
    "today": 1136,
    "period": "today",
    "contributors": [
@@ -85,17 +85,17 @@
     "notsoshu"
    ],
    "rank": 4,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "jamiepine/voicebox",
    "url": "https://github.com/jamiepine/voicebox",
    "desc": "The open-source AI voice studio. Clone, dictate, create.",
    "lang": "TypeScript",
-   "stars": 54303,
-   "forks": 6784,
+   "stars": 54329,
+   "forks": 6785,
    "today": 409,
    "period": "today",
    "contributors": [
@@ -106,16 +106,16 @@
     "selop"
    ],
    "rank": 5,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "Lakr233/vphone-cli",
    "url": "https://github.com/Lakr233/vphone-cli",
    "desc": "",
    "lang": "Swift",
-   "stars": 13302,
+   "stars": 13313,
    "forks": 1586,
    "today": 444,
    "period": "today",
@@ -127,16 +127,16 @@
     "mpass99"
    ],
    "rank": 6,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "anthropics/knowledge-work-plugins",
    "url": "https://github.com/anthropics/knowledge-work-plugins",
    "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
    "lang": "Python",
-   "stars": 24264,
+   "stars": 24266,
    "forks": 2921,
    "today": 96,
    "period": "today",
@@ -148,16 +148,16 @@
     "mattpic-ant"
    ],
    "rank": 7,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "ever-co/ever-gauzy",
    "url": "https://github.com/ever-co/ever-gauzy",
    "desc": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
    "lang": "TypeScript",
-   "stars": 7245,
+   "stars": 7267,
    "forks": 1085,
    "today": 771,
    "period": "today",
@@ -169,16 +169,16 @@
     "AlexTasev"
    ],
    "rank": 8,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "ankitects/anki",
    "url": "https://github.com/ankitects/anki",
    "desc": "Anki is a smart spaced repetition flashcard program",
    "lang": "Rust",
-   "stars": 30792,
+   "stars": 30822,
    "forks": 3208,
    "today": 50,
    "period": "today",
@@ -190,17 +190,17 @@
     "Arthur-Milchior"
    ],
    "rank": 9,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "NationalSecurityAgency/ghidra",
    "url": "https://github.com/NationalSecurityAgency/ghidra",
    "desc": "Ghidra is a software reverse engineering (SRE) framework",
    "lang": "Java",
-   "stars": 77690,
-   "forks": 8589,
+   "stars": 77717,
+   "forks": 8592,
    "today": 1059,
    "period": "today",
    "contributors": [
@@ -211,17 +211,17 @@
     "caheckman"
    ],
    "rank": 10,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
    "lang": "TypeScript",
-   "stars": 145446,
-   "forks": 23469,
+   "stars": 145472,
+   "forks": 23471,
    "today": 155,
    "period": "today",
    "contributors": [
@@ -232,16 +232,16 @@
     "ant-kurt"
    ],
    "rank": 11,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "roboflow/supervision",
    "url": "https://github.com/roboflow/supervision",
    "desc": "We write your reusable computer vision tools. 💜",
    "lang": "Python",
-   "stars": 50566,
+   "stars": 50570,
    "forks": 4812,
    "today": 292,
    "period": "today",
@@ -253,16 +253,16 @@
     "github-actions"
    ],
    "rank": 12,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "alphaXiv/OpenResearch",
    "url": "https://github.com/alphaXiv/OpenResearch",
    "desc": "Turn your coding agents into research agents",
    "lang": "Rust",
-   "stars": 4309,
+   "stars": 4349,
    "forks": 270,
    "today": 1036,
    "period": "today",
@@ -274,17 +274,17 @@
     "dajiaohuang"
    ],
    "rank": 13,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "supabase/supabase",
    "url": "https://github.com/supabase/supabase",
    "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
    "lang": "TypeScript",
-   "stars": 109634,
-   "forks": 14026,
+   "stars": 109664,
+   "forks": 14027,
    "today": 118,
    "period": "today",
    "contributors": [
@@ -295,16 +295,16 @@
     "alaister"
    ],
    "rank": 14,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "rlaope/oh-my-hermes",
    "url": "https://github.com/rlaope/oh-my-hermes",
    "desc": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
    "lang": "Python",
-   "stars": 2515,
+   "stars": 2520,
    "forks": 182,
    "today": 74,
    "period": "today",
@@ -316,17 +316,17 @@
     "sisyphus-dev-ai"
    ],
    "rank": 15,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "Tencent/WeKnora",
    "url": "https://github.com/Tencent/WeKnora",
    "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
    "lang": "Go",
-   "stars": 25193,
-   "forks": 3466,
+   "stars": 25220,
+   "forks": 3467,
    "today": 1201,
    "period": "today",
    "contributors": [
@@ -337,17 +337,17 @@
     "dependabot"
    ],
    "rank": 16,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "SnailSploit/Claude-Red",
    "url": "https://github.com/SnailSploit/Claude-Red",
    "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
    "lang": "Python",
-   "stars": 5729,
-   "forks": 734,
+   "stars": 5741,
+   "forks": 737,
    "today": 383,
    "period": "today",
    "contributors": [
@@ -358,17 +358,17 @@
     "IzenJ"
    ],
    "rank": 17,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "multimodal-art-projection/YuE",
    "url": "https://github.com/multimodal-art-projection/YuE",
    "desc": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
    "lang": "Python",
-   "stars": 9329,
-   "forks": 1006,
+   "stars": 9339,
+   "forks": 1007,
    "today": 370,
    "period": "today",
    "contributors": [
@@ -379,17 +379,17 @@
     "Skrill2001"
    ],
    "rank": 18,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "addyosmani/agent-skills",
    "url": "https://github.com/addyosmani/agent-skills",
    "desc": "Production-grade engineering skills for AI coding agents.",
    "lang": "JavaScript",
-   "stars": 95342,
-   "forks": 10106,
+   "stars": 95393,
+   "forks": 10108,
    "today": 656,
    "period": "today",
    "contributors": [
@@ -400,16 +400,16 @@
     "HMAKT99"
    ],
    "rank": 19,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "cline/cline",
    "url": "https://github.com/cline/cline",
    "desc": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
    "lang": "TypeScript",
-   "stars": 68315,
+   "stars": 68343,
    "forks": 7381,
    "today": 102,
    "period": "today",
@@ -421,17 +421,17 @@
     "BarreiroT"
    ],
    "rank": 20,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   },
   {
    "repo": "affaan-m/ECC",
    "url": "https://github.com/affaan-m/ECC",
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
    "lang": "JavaScript",
-   "stars": 260142,
-   "forks": 38936,
+   "stars": 260193,
+   "forks": 38943,
    "today": 1046,
    "period": "today",
    "contributors": [
@@ -442,9 +442,9 @@
     "pangerlkr"
    ],
    "rank": 21,
-   "prev_day": null,
-   "change": "",
-   "delta": null
+   "prev_day": "2026-09-16",
+   "change": "same",
+   "delta": 0
   }
  ]
 }
