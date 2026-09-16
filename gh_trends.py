@@ -211,13 +211,13 @@ a{{color:#58a6ff;text-decoration:none}} a:hover{{text-decoration:underline}}
 header{{position:sticky;top:0;background:#0d1117ee;backdrop-filter:blur(8px);border-bottom:1px solid #21262d;padding:16px 24px}}
 h1{{margin:0;font-size:19px}} .meta{{color:#8b949e;font-size:13px;margin-top:5px}}
 main{{max-width:1080px;margin:0 auto;padding:20px 24px 60px}}
-.card{{display:grid;grid-template-columns:56px 1fr;gap:14px;background:#161b22;border:1px solid #21262d;border-radius:10px;padding:14px 16px;margin-bottom:10px}}
-.rank{{font:600 22px/1.2 ui-monospace,SFMono-Regular,Consolas,monospace;color:#8b949e;text-align:center}}
-.rank small{{display:block;font-size:11px;font-weight:500;margin-top:4px}}
+.card{{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:14px 16px;margin-bottom:10px}}
+.name{{margin:0;font-size:16.5px;font-weight:600;word-break:break-all;line-height:1.45}}
+.name .rank{{color:#8b949e;font:500 15px/1 ui-monospace,SFMono-Regular,Consolas,monospace}}
+.name .badge{{font-size:11.5px;font-weight:600;margin-left:2px}}
 .up{{color:#3fb950}} .down{{color:#f85149}} .new{{color:#d29922}}
-.name{{font-size:16px;font-weight:600;word-break:break-all}}
-.desc{{color:#c9d1d9;margin:4px 0 8px;font-size:14px}}
-.tags{{display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px;color:#8b949e}}
+.desc{{color:#c9d1d9;margin:7px 0 9px;font-size:14px}}
+.tags{{display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px;color:#8b949e;margin:0}}
 .tag{{background:#21262d;border-radius:20px;padding:2px 10px}}
 .tag b{{color:#e6edf3;font-weight:600}}
 .hot{{background:#3d2c00;color:#d29922}} .hot b{{color:#d29922}}
@@ -240,20 +240,17 @@ def render_html(items, meta, extra_nav=""):
         badge = {"new": '<span class="new">NEW</span>',
                  "up": f'<span class="up">▲{it["delta"]}</span>',
                  "down": f'<span class="down">▼{abs(it["delta"] or 0)}</span>',
-                 "same": '<span style="color:#484f58">—</span>'}.get(ch, "")
+                 "same": ""}.get(ch, "")
         rows.append(f"""<div class="card">
-  <div class="rank">{it['rank']}<small>{badge}</small></div>
-  <div>
-    <div class="name"><a href="{esc(it['url'])}" target="_blank" rel="noopener">{esc(it['repo'])}</a></div>
-    <div class="desc">{esc(it['desc'])}</div>
-    <div class="tags">
-      <span class="tag">{esc(it['lang'] or '未知语言')}</span>
-      <span class="tag">★ <b>{it['stars']:,}</b></span>
-      {f'<span class="tag hot">{PERIOD.get(meta["since"], "今日")} <b>+{it["today"]:,}</b></span>' if it['today'] is not None else ''}
-      <span class="tag">fork <b>{it['forks']:,}</b></span>
-      {f'<span class="tag">上次 #{it.get("prev_rank", "")}</span>' if it.get("change") in ("up", "down") else ''}
-    </div>
-  </div>
+  <h3 class="name"><span class="rank">{it['rank']}.</span> <a href="{esc(it['url'])}" target="_blank" rel="noopener">{esc(it['repo'])}</a> <small class="badge">{badge}</small></h3>
+  <p class="desc">{esc(it['desc'])}</p>
+  <p class="tags">
+    <span class="tag">{esc(it['lang'] or '未知语言')}</span>
+    <span class="tag">★ <b>{it['stars']:,}</b></span>
+    {f'<span class="tag hot">{PERIOD.get(meta["since"], "今日")} <b>+{it["today"]:,}</b></span>' if it['today'] is not None else ''}
+    <span class="tag">fork <b>{it['forks']:,}</b></span>
+    {f'<span class="tag">上次 #{it.get("prev_rank", "")}</span>' if it.get("change") in ("up", "down") else ''}
+  </p>
 </div>""")
 
     head = f"""<header><h1>GitHub Trending · {esc(meta['since'])}
