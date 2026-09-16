@@ -241,7 +241,7 @@ def render_html(items, meta, extra_nav=""):
                  "up": f'<span class="up">▲{it["delta"]}</span>',
                  "down": f'<span class="down">▼{abs(it["delta"] or 0)}</span>',
                  "same": ""}.get(ch, "")
-        rows.append(f"""<div class="card">
+        rows.append(f"""<article class="card">
   <h3 class="name"><span class="rank">{it['rank']}.</span> <a href="{esc(it['url'])}" target="_blank" rel="noopener">{esc(it['repo'])}</a> <small class="badge">{badge}</small></h3>
   <p class="desc">{esc(it['desc'])}</p>
   <p class="tags">
@@ -251,7 +251,7 @@ def render_html(items, meta, extra_nav=""):
     <span class="tag">fork <b>{it['forks']:,}</b></span>
     {f'<span class="tag">上次 #{it.get("prev_rank", "")}</span>' if it.get("change") in ("up", "down") else ''}
   </p>
-</div>""")
+</article>""")
 
     head = f"""<header><h1>GitHub Trending · {esc(meta['since'])}
 {esc('· ' + meta['lang']) if meta['lang'] else ''}{esc('· ' + meta['spoken']) if meta['spoken'] else ''}</h1>
