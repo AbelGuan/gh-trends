@@ -82,7 +82,8 @@ schtasks /create /tn "GitHub Trending 每日" ^
 
 ```bash
 python notify_feishu.py --dry-run          # 只打印将发送的 JSON，不发
-python notify_feishu.py --top 5            # 只推前 5 名
+python notify_feishu.py --hot 5            # 「涨星最猛」展示前 5（默认 3，0=不展示）
+python notify_feishu.py --top 5            # 榜单只推前 5 名
 python notify_feishu.py --style medal      # 前三名奖牌 + 加宽数据行
 python notify_feishu.py --style compact    # 每人一行，不带简介
 python notify_feishu.py --no-desc          # 卡片更短，不带简介
@@ -95,7 +96,6 @@ python notify_feishu.py --pages-base https://user.github.io/gh-trends
 ```
 🚀 GitHub Trending 今日榜 · 2026-09-17        ← 蓝色标题栏，整张卡可点
 📊 今日上榜 21 个　🆕 新上榜 2 个
-🔥 今日最热：owner/repo +3,215 · ★ 31,658
 🧩 语言分布：TypeScript×5 · Python×5 · JavaScript×3
 ──────
 ⬆️ 上升最猛 owner/repo  #9 → #3          ← 名次变化榜
@@ -103,7 +103,12 @@ python notify_feishu.py --pages-base https://user.github.io/gh-trends
 🆕 新上榜：repo-a / repo-b
 👋 掉出榜单：repo-c
 ──────
-1. owner/repo　Go　★31,658　fork 2,249　今日 +3,215
+🔥 今日涨星最猛                            ← 按今日 +N 排，不看名次
+1. owner/repo +3,215 · ★ 31,689
+2. owner/repo +1,532 · ★ 34,991　⬆️6
+3. owner/repo +1,249 · ★ 7,041
+──────
+1. owner/repo　Go　★31,689　fork 2,251　今日 +3,215
 简介一行…                                 ← 十条全部带简介，想看个大概
 
 2. owner/repo　…

@@ -116,16 +116,28 @@ def overview(snap, top):
     news = [i for i in items if i.get("change") == "new"]
     lines = [f"📊 {label}上榜 **{len(items)}** 个"
              + (f"　🆕 新上榜 **{len(news)}** 个" if news else "")]
-
-    hot = max(items, key=lambda i: i.get("today") or 0, default=None)
-    if hot and hot.get("today"):
-        lines.append(f"🔥 今日最热：\n[{hot['repo']}]({hot['url']}) "
-                     + RED(f"+{hot['today']:,}") + GREY(f" · ★ {hot['stars']:,}"))
-
     langs = Counter(i["lang"] for i in items if i.get("lang"))
     if langs:
         dist = " · ".join(f"{lang}×{n}" for lang, n in langs.most_common(3))
         lines.append("🧩 " + GREY("语言分布：" + dist))
+    return "\n".join(lines)
+
+
+def hot_board(snap, n=3):
+    """涨星最猛榜：按今日新增 star 排，不看名次。"""
+    if n <= 0:
+        return ""
+    items = [i for i in snap["items"] if i.get("today")]
+    if not items:
+        return ""
+    label = PERIOD.get(snap.get("since", "daily"), "今日")
+    top = sorted(items, key=lambda i: i["today"], reverse=True)[:n]
+    lines = [f"🔥 {label}涨星最猛"]
+    for k, it in enumerate(top, 1):
+        badge = change_badge(it)
+        lines.append(f"{k}. [{it['repo']}]({it['url']}) " + RED(f"+{it['today']:,}")
+                     + (GREY(f" · ★ {it['stars']:,}") if it.get("stars") else "")
+                     + (f"　{badge}" if badge else ""))
     return "\n".join(lines)
 
 
@@ -235,7 +247,7 @@ def build_lines(snap, top, with_desc=True, width=64, plain=False):
     return "\n".join(lines).strip()
 
 
-def build_card(snap, top, pages_base, with_desc=True, style="fancy"):
+def build_card(snap, top, pages_base, with_desc=True, style="uniform", hot=3):
     label = PERIOD.get(snap.get("since", "daily"), "今日")
     date = snap.get("date", "")
     items = snap["items"][:top]
@@ -264,6 +276,10 @@ def build_card(snap, top, pages_base, with_desc=True, style="fancy"):
         if board:
             elements += [{"tag": "hr"},
                          {"tag": "div", "text": {"tag": "lark_md", "content": board}}]
+        hots = hot_board(snap, hot)
+        if hots:
+            elements += [{"tag": "hr"},
+                         {"tag": "div", "text": {"tag": "lark_md", "content": hots}}]
         elements += [
             {"tag": "hr"},
             {"tag": "div", "text": {"tag": "lark_md",
@@ -357,6 +373,8 @@ def main():
     p.add_argument("--secret", default="")
     p.add_argument("--pages-base", default="")
     p.add_argument("--no-desc", action="store_true", help="不带简介，卡片更短")
+    p.add_argument("--hot", type=int, default=3,
+                   help="「涨星最猛」显示前 N 名（默认 3，0=不显示）")
     p.add_argument("--text", action="store_true", help="发纯文本而不是卡片")
     p.add_argument("--style", default="uniform", choices=["uniform", "medal", "compact"],
                    help="uniform=十名统一格式（默认）；medal=前三名奖牌加宽；compact=每名一行")
@@ -375,7 +393,7 @@ def main():
         return 1
     print(f"使用快照：{path}（{snap.get('date')}，{len(snap['items'])} 项）")
 
-    kwargs = {} if args.text else {"style": args.style}
+    kwargs = {} if args.text else {"style": args.style, "hot": args.hot}
     payload = (build_text if args.text else build_card)(
         snap, args.top, args.pages_base, with_desc=not args.no_desc, **kwargs)
 
