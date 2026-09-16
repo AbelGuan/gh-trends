@@ -50,12 +50,36 @@ jobs:
 
       - name: 提交报告（供 GitHub Pages / Obsidian 拉取）
         run: |
+          set -e
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "内容没有变化，跳过提交"
-          else
-            git commit -m "chore: GitHub Trending $(date +%F)"
-            git push
-          fi
+
+          # 这个仓库可能同时在被手动推送（改代码/改配置），所以推送被拒很正常。
+          # 策略：第 1 次直接用已生成的文件；失败就 fetch + reset 到最新远端，
+          # 重新生成一遍再试。因为报告/feed 都是确定性的，重新生成不会丢东西。
+          for attempt in 1 2 3; do
+            if [ "$attempt" -gt 1 ]; then
+              echo "第 $attempt 次尝试：拉取最新远端并重新生成"
+              git fetch -q origin main
+              git reset --hard -q origin/main
+              python gh_trends.py --since daily  --no-color > /dev/null
+              python gh_trends.py --since weekly --no-color --limit 15 > /dev/null
+              python make_feed.py --top 10 --limit 30 > /dev/null
+            fi
+
+            git add -A
+            if git diff --cached --quiet; then
+              echo "内容没有变化，跳过提交"
+              exit 0
+            fi
+            git commit -q -m "chore: GitHub Trending $(date +%F)"
+
+            if git push -q origin main; then
+              echo "✅ 已提交（第 $attempt 次尝试成功）"
+              exit 0
+            fi
+            echo "⚠️  推送被拒（可能同时有别的提交），10 秒后重试"
+            sleep 10
+          done
+          echo "❌ 连续 3 次推送失败，请手动看一下仓库状态"
+          exit 1
