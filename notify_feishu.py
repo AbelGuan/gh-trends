@@ -28,6 +28,7 @@ import os
 import sys
 import time
 import urllib.request
+from collections import Counter
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -95,12 +96,73 @@ def latest_snapshot(since="daily"):
 def change_badge(it):
     ch = it.get("change", "")
     if ch == "new":
-        return "🆕 新上榜"
+        return "🆕"
     if ch == "up":
         return f"⬆️{it['delta']}"
     if ch == "down":
         return f"⬇️{abs(it['delta'] or 0)}"
     return ""
+
+
+MEDALS = ("🥇", "🥈", "🥉")
+GREY = lambda s: f"<font color='grey'>{s}</font>"      # noqa: E731
+RED = lambda s: f"<font color='red'>{s}</font>"        # noqa: E731
+
+
+def overview(snap, top):
+    """三行概览：上榜数/新上榜 · 今日最热 · 语言分布。"""
+    items = snap["items"]
+    label = PERIOD.get(snap.get("since", "daily"), "今日")
+    news = [i for i in items if i.get("change") == "new"]
+    lines = [f"📊 {label}上榜 **{len(items)}** 个"
+             + (f"　🆕 新上榜 **{len(news)}** 个" if news else "")]
+
+    hot = max(items, key=lambda i: i.get("today") or 0, default=None)
+    if hot and hot.get("today"):
+        lines.append(f"🔥 今日最热：\n[{hot['repo']}]({hot['url']}) "
+                     + RED(f"+{hot['today']:,}") + GREY(f" · ★ {hot['stars']:,}"))
+
+    langs = Counter(i["lang"] for i in items if i.get("lang"))
+    if langs:
+        dist = " · ".join(f"{lang}×{n}" for lang, n in langs.most_common(3))
+        lines.append("🧩 " + GREY("语言分布：" + dist))
+    return "\n".join(lines)
+
+
+def item_block(it, label, with_desc=True, width=70):
+    """前三名：奖牌 + 名字 + 数据行 + 简介。"""
+    medal = MEDALS[it["rank"] - 1] if it["rank"] <= 3 else f"**{it['rank']}.**"
+    head = f"{medal} **[{it['repo']}]({it['url']})**"
+    meta = [GREY(it.get("lang") or "未知语言")]
+    if it.get("stars"):
+        meta.append(GREY(f"★ {it['stars']:,}"))
+    if it.get("today") is not None:
+        meta.append(RED(f"{label} +{it['today']:,}"))
+    if it.get("forks"):
+        meta.append(GREY(f"fork {it['forks']:,}"))
+    badge = change_badge(it)
+    if badge:
+        meta.append(badge)
+    lines = [head, "　".join(meta)]
+    if with_desc and it.get("desc"):
+        d = it["desc"]
+        lines.append(GREY(d if len(d) <= width else d[:width] + "…"))
+    return "\n".join(lines)
+
+
+def item_line(it, label):
+    """第四名之后：一行一条，紧凑。"""
+    parts = [f"**{it['rank']}.** [{it['repo']}]({it['url']})"]
+    tags = [it.get("lang") or "未知语言"]
+    if it.get("stars"):
+        tags.append(f"★{it['stars']:,}")
+    if it.get("today") is not None:
+        tags.append(f"+{it['today']:,}")
+    badge = change_badge(it)
+    if badge:
+        tags.append(badge)
+    parts.append(GREY("　".join(tags)))
+    return "　".join(parts)
 
 
 def build_lines(snap, top, with_desc=True, width=64, plain=False):
@@ -128,29 +190,74 @@ def build_lines(snap, top, with_desc=True, width=64, plain=False):
     return "\n".join(lines).strip()
 
 
-def build_card(snap, top, pages_base, with_desc=True):
+def build_card(snap, top, pages_base, with_desc=True, style="fancy"):
     label = PERIOD.get(snap.get("since", "daily"), "今日")
-    title = f"GitHub Trending {label}榜 · {snap.get('date', '')}"
-    elements = [{"tag": "div", "text": {"tag": "lark_md", "content": build_lines(snap, top, with_desc)}}]
-    if pages_base:
-        elements += [
+    date = snap.get("date", "")
+    items = snap["items"][:top]
+
+    if style == "compact":
+        elements = [{"tag": "div", "text": {"tag": "lark_md",
+                    "content": "\n".join(item_line(i, label) for i in items)}}]
+    else:
+        top3 = [i for i in items if i["rank"] <= 3]
+        rest = [i for i in items if i["rank"] > 3]
+        elements = [
+            {"tag": "div", "text": {"tag": "lark_md", "content": overview(snap, top)}},
             {"tag": "hr"},
-            {"tag": "action", "actions": [{
-                "tag": "button",
-                "text": {"tag": "plain_text", "content": "查看完整看板"},
-                "url": pages_base.rstrip("/") + f"/reports/{snap.get('since', 'daily')}/" +
-                       f"{snap.get('date', '')}.html",
-                "type": "primary",
-            }]},
+            {"tag": "div", "text": {"tag": "lark_md",
+             "content": "\n\n".join(item_block(i, label, with_desc) for i in top3)}},
         ]
-    return {
-        "msg_type": "interactive",
-        "card": {
-            "config": {"wide_screen_mode": True},
-            "header": {"template": "blue", "title": {"tag": "plain_text", "content": title}},
-            "elements": elements,
-        },
+        if rest:
+            elements += [
+                {"tag": "hr"},
+                {"tag": "div", "text": {"tag": "lark_md",
+                 "content": "\n".join(item_line(i, label) for i in rest)}},
+            ]
+
+    elements.append({"tag": "hr"})
+    elements.append({"tag": "note", "elements": [{
+        "tag": "plain_text",
+        "content": f"抓取于 {snap.get('fetched_at', '')} · 数据来自 github.com/trending",
+    }]})
+
+    url = (pages_base.rstrip("/") + f"/reports/{snap.get('since', 'daily')}/{date}.html"
+           if pages_base else "")
+    if url:
+        elements.append({"tag": "action", "actions": [
+            {"tag": "button", "text": {"tag": "plain_text", "content": "📊 完整看板"},
+             "url": url, "type": "primary"},
+            {"tag": "button", "text": {"tag": "plain_text", "content": "📝 Markdown 版"},
+             "url": url[:-5] + ".md", "type": "default"},
+        ]})
+
+    card = {
+        "config": {"wide_screen_mode": True},
+        "header": {"template": "blue", "title": {
+            "tag": "plain_text", "content": f"🚀 GitHub Trending {label}榜 · {date}"}},
+        "elements": elements,
     }
+    if url:
+        card["card_link"] = {"url": url, "pc_url": url, "ios_url": url, "android_url": url}
+    return {"msg_type": "interactive", "card": card}
+
+
+def build_card_simple(snap, top, pages_base, with_desc=True):
+    """降级版卡片：只用最老的元素（div + action），万一 fancy 版被飞书拒绝就用它。"""
+    label = PERIOD.get(snap.get("since", "daily"), "今日")
+    date = snap.get("date", "")
+    card = {
+        "config": {"wide_screen_mode": True},
+        "header": {"template": "blue", "title": {
+            "tag": "plain_text", "content": f"GitHub Trending {label}榜 · {date}"}},
+        "elements": [{"tag": "div", "text": {
+            "tag": "lark_md", "content": build_lines(snap, top, with_desc)}}],
+    }
+    if pages_base:
+        card["elements"].append({"tag": "action", "actions": [{
+            "tag": "button", "text": {"tag": "plain_text", "content": "查看完整看板"},
+            "url": pages_base.rstrip("/") + f"/reports/{snap.get('since', 'daily')}/{date}.html",
+            "type": "primary"}]})
+    return {"msg_type": "interactive", "card": card}
 
 
 def build_text(snap, top, pages_base, with_desc=True):
@@ -195,6 +302,8 @@ def main():
     p.add_argument("--pages-base", default="")
     p.add_argument("--no-desc", action="store_true", help="不带简介，卡片更短")
     p.add_argument("--text", action="store_true", help="发纯文本而不是卡片")
+    p.add_argument("--style", default="fancy", choices=["fancy", "compact"],
+                   help="fancy=前三名带简介的大卡片；compact=每名一行")
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
 
@@ -210,8 +319,9 @@ def main():
         return 1
     print(f"使用快照：{path}（{snap.get('date')}，{len(snap['items'])} 项）")
 
-    build = build_text if args.text else build_card
-    payload = build(snap, args.top, args.pages_base, with_desc=not args.no_desc)
+    kwargs = {} if args.text else {"style": args.style}
+    payload = (build_text if args.text else build_card)(
+        snap, args.top, args.pages_base, with_desc=not args.no_desc, **kwargs)
 
     if args.dry_run or not args.webhook:
         if not args.webhook and not args.dry_run:
@@ -219,13 +329,22 @@ def main():
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return 0
 
-    try:
-        ok, resp = send(payload, args.webhook, args.secret or None)
-    except Exception as e:                  # noqa: BLE001
-        print(f"❌ 发送失败：{e}", file=sys.stderr)
-        return 2
-    print(("✅ 已推送：" if ok else "❌ 飞书返回异常：") + resp)
-    return 0 if ok else 2
+    # 依次降级：漂亮卡片 → 简化卡片 → 纯文本，保证至少有一条能发出去
+    attempts = ([(payload, "卡片")] if args.text else
+                [(payload, "卡片"),
+                 (build_card_simple(snap, args.top, args.pages_base, not args.no_desc), "简化卡片"),
+                 (build_text(snap, args.top, args.pages_base, not args.no_desc), "纯文本")])
+    for i, (pl, name) in enumerate(attempts):
+        try:
+            ok, resp = send(pl, args.webhook, args.secret or None)
+        except Exception as e:                  # noqa: BLE001
+            print(f"❌ {name}发送异常：{e}", file=sys.stderr)
+            continue
+        if ok:
+            print(f"✅ 已推送（{name}）：{resp}")
+            return 0
+        print(f"⚠️  {name}发送失败：{resp}", file=sys.stderr)
+    return 2
 
 
 if __name__ == "__main__":
