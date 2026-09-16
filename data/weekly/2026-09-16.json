@@ -1,0 +1,326 @@
+{
+ "date": "2026-09-16",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-16 22:15:28",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": null,
+ "items": [
+  {
+   "repo": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "lang": "Python",
+   "stars": 46865,
+   "forks": 2727,
+   "today": 17880,
+   "period": "this week",
+   "contributors": [
+    "ayghri",
+    "thejesh23",
+    "claude",
+    "SillyDark",
+    "commie70"
+   ],
+   "rank": 1,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars": 35749,
+   "forks": 7144,
+   "today": 15193,
+   "period": "this week",
+   "contributors": [
+    "samehkhamis",
+    "bilawalsidhu",
+    "Tom-Neverwinter",
+    "claude",
+    "daikaginza"
+   ],
+   "rank": 2,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 31624,
+   "forks": 2248,
+   "today": 5169,
+   "period": "this week",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "stay-foolish-forever",
+    "claude"
+   ],
+   "rank": 3,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 260189,
+   "forks": 38941,
+   "today": 5398,
+   "period": "this week",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "dependabot",
+    "pangerlkr"
+   ],
+   "rank": 4,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "openai/plugins",
+   "url": "https://github.com/openai/plugins",
+   "desc": "OpenAI Plugins",
+   "lang": "JavaScript",
+   "stars": 6853,
+   "forks": 895,
+   "today": 1206,
+   "period": "this week",
+   "contributors": [
+    "cching-openai",
+    "ashwinm-oai",
+    "Aismit",
+    "vb-openai",
+    "gverma-openai"
+   ],
+   "rank": 5,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 23222,
+   "forks": 1676,
+   "today": 1832,
+   "period": "this week",
+   "contributors": [
+    "mksglu",
+    "claude",
+    "github-actions",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 6,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "lang": "Go",
+   "stars": 25219,
+   "forks": 3467,
+   "today": 1892,
+   "period": "this week",
+   "contributors": [
+    "lyingbug",
+    "voidkey",
+    "begoniezhao",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 7,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 287605,
+   "forks": 25722,
+   "today": 4170,
+   "period": "this week",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "jjshanks"
+   ],
+   "rank": 8,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 140289,
+   "forks": 7537,
+   "today": 7499,
+   "period": "this week",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "Lakshya77089",
+    "ousamabenyounes",
+    "dhedhialy"
+   ],
+   "rank": 9,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "lang": "Rust",
+   "stars": 7915,
+   "forks": 272,
+   "today": 871,
+   "period": "this week",
+   "contributors": [
+    "max-sixty",
+    "claude",
+    "worktrunk-bot",
+    "dependabot",
+    "github-actions"
+   ],
+   "rank": 10,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "lang": "Python",
+   "stars": 49138,
+   "forks": 3983,
+   "today": 3248,
+   "period": "this week",
+   "contributors": [
+    "blader",
+    "claude",
+    "mvanhorn",
+    "Scott-Emberson",
+    "warp-agent"
+   ],
+   "rank": 11,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "kunchenguid/firstmate",
+   "url": "https://github.com/kunchenguid/firstmate",
+   "desc": "Talk to one agent. Ship with a crew.",
+   "lang": "Shell",
+   "stars": 6187,
+   "forks": 1914,
+   "today": 1056,
+   "period": "this week",
+   "contributors": [
+    "kunchenguid",
+    "karotkriss",
+    "claude",
+    "tiago-peixoto",
+    "mremond"
+   ],
+   "rank": 12,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "petergyang/no-ai-slop",
+   "url": "https://github.com/petergyang/no-ai-slop",
+   "desc": "Removes 20+ patterns of AI slop from any piece of writing.",
+   "lang": "Python",
+   "stars": 10107,
+   "forks": 709,
+   "today": 2160,
+   "period": "this week",
+   "contributors": [
+    "petergyang",
+    "amateurhuman",
+    "tmchow",
+    "tymrtn",
+    "CooperSheroy"
+   ],
+   "rank": 13,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "microsoft/markitdown",
+   "url": "https://github.com/microsoft/markitdown",
+   "desc": "Python tool for converting files and office documents to Markdown.",
+   "lang": "Python",
+   "stars": 184796,
+   "forks": 13615,
+   "today": 3046,
+   "period": "this week",
+   "contributors": [
+    "afourney",
+    "gagb",
+    "sugatoray",
+    "PetrAPConsulting",
+    "dependabot"
+   ],
+   "rank": 14,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 95389,
+   "forks": 10108,
+   "today": 1766,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "HMAKT99"
+   ],
+   "rank": 15,
+   "prev_day": null,
+   "change": "",
+   "delta": null
+  }
+ ]
+}
