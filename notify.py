@@ -134,50 +134,35 @@ def overview(snap, top):
     return "\n".join(lines)
 
 
-def hot_board(snap, n=3):
-    """涨星最猛榜：按今日新增 star 排，不看名次。"""
-    if n <= 0:
-        return ""
-    items = [i for i in snap["items"] if i.get("today")]
-    if not items:
-        return ""
+def star_board(snap, hot=3, odd=3, min_stars=500, min_today=50):
+    """今日涨星（合并版）：一行「最多」（绝对增量），一行「最猛」（相对增速）。"""
     label = PERIOD.get(snap.get("since", "daily"), "今日")
-    top = sorted(items, key=lambda i: i["today"], reverse=True)[:n]
-    lines = [f"🔥 {label}涨星最猛"]
-    for k, it in enumerate(top, 1):
-        badge = change_badge(it)
-        lines.append(f"{k}. [{it['repo']}]({it['url']}) " + RED(f"+{it['today']:,}")
-                     + (GREY(f" · ★ {it['stars']:,}") if it.get("stars") else "")
-                     + (f"　{badge}" if badge else ""))
-    return "\n".join(lines)
+    lines = [f"🔥 {label}涨星"]
+    if hot > 0:
+        items = sorted([i for i in snap["items"] if i.get("today")],
+                       key=lambda i: i["today"], reverse=True)[:hot]
+        if items:
+            lines.append("**最多**　" + " · ".join(
+                f"[{i['repo']}]({i['url']}) " + RED(f"+{i['today']:,}") for i in items))
+    if odd > 0:
+        rows = []
+        for it in snap["items"]:
+            stars, today = it.get("stars"), it.get("today")
+            if not stars or not today:
+                continue
+            base = stars - today
+            if base < min_stars or today < min_today:
+                continue                    # 过滤小数仓 / 微小波动带来的假异常
+            rows.append((today / base, it))
+        rows.sort(key=lambda r: r[0], reverse=True)
+        if rows:
+            lines.append("**最猛**　" + " · ".join(
+                f"[{it['repo']}]({it['url']}) " + RED(f"+{ratio * 100:.1f}%")
+                for ratio, it in rows[:odd]))
+    return "\n".join(lines) if len(lines) > 1 else ""
 
 
-def odd_board(snap, n=3, min_stars=500, min_today=50):
-    """涨星速度异常：今日新增 / 昨日星数（分母用 stars - today，否则今天的增长会抬高分母）。"""
-    if n <= 0:
-        return ""
-    rows = []
-    for it in snap["items"]:
-        stars, today = it.get("stars"), it.get("today")
-        if not stars or not today:
-            continue
-        base = stars - today
-        if base < min_stars or today < min_today:
-            continue                        # 过滤小数仓 / 微小波动带来的假异常
-        rows.append((today / base, it, base))
-    if not rows:
-        return ""
-    rows.sort(key=lambda r: r[0], reverse=True)
-    lines = ["💥 涨星速度异常　" + GREY("（今日新增 ÷ 昨日星数）")]
-    for k, (ratio, it, base) in enumerate(rows[:n], 1):
-        badge = change_badge(it)
-        lines.append(f"{k}. [{it['repo']}]({it['url']}) " + RED(f"+{ratio * 100:.1f}%")
-                     + GREY(f"　今日 +{it['today']:,} · ★ {it['stars']:,}")
-                     + (f"　{badge}" if badge else ""))
-    return "\n".join(lines)
-
-
-def change_board(snap, limit=5):
+def change_board(snap, limit=3):
     """名次变化榜：上升最猛 / 掉得最狠 / 新上榜 / 掉出榜单。"""
     items = snap["items"]
     ups = [i for i in items if i.get("change") == "up"]
@@ -194,11 +179,11 @@ def change_board(snap, limit=5):
         lines.append(f"⬇️ 掉得最狠 **[{w['repo']}]({w['url']})** "
                      + GREY(f"#{w['prev_rank']} → #{w['rank']}"))
     if news:
-        lines.append("🆕 新上榜：" + " / ".join(
-            f"[{i['repo']}]({i['url']})" for i in news[:limit]))
+        names = " / ".join(f"[{i['repo']}]({i['url']})" for i in news[:limit])
+        lines.append("🆕 新上榜：" + names + (f"（共 {len(news)} 个）" if len(news) > limit else ""))
     if dropped:
-        lines.append("👋 掉出榜单：" + " / ".join(
-            f"[{d['repo']}]({d['url']})" for d in dropped[:limit]))
+        names = " / ".join(f"[{d['repo']}]({d['url']})" for d in dropped[:limit])
+        lines.append("👋 掉出榜单：" + names + (f"（共 {len(dropped)} 个）" if len(dropped) > limit else ""))
     return "\n".join(lines)
 
 
@@ -312,14 +297,10 @@ def build_card(snap, top, pages_base, with_desc=True, style="uniform", hot=3, od
         if board:
             elements += [{"tag": "hr"},
                          {"tag": "div", "text": {"tag": "lark_md", "content": board}}]
-        hots = hot_board(snap, hot)
-        if hots:
+        stars = star_board(snap, hot, odd)
+        if stars:
             elements += [{"tag": "hr"},
-                         {"tag": "div", "text": {"tag": "lark_md", "content": hots}}]
-        odds = odd_board(snap, odd)
-        if odds:
-            elements += [{"tag": "hr"},
-                         {"tag": "div", "text": {"tag": "lark_md", "content": odds}}]
+                         {"tag": "div", "text": {"tag": "lark_md", "content": stars}}]
         elements += [
             {"tag": "hr"},
             {"tag": "div", "text": {"tag": "lark_md",
@@ -422,8 +403,7 @@ def build_summary_md(snap, top, pages_base, with_desc=False):
         label = PERIOD.get(snap.get("since", "daily"), "今日")
         date = snap.get("date", "")
         out = [f"**GitHub Trending {label}榜 · {date}**"]
-        for board_fn in (change_board, lambda s: hot_board(s, 3), lambda s: odd_board(s, 3)):
-            block = board_fn(snap)
+        for block in (change_board(snap), star_board(snap, 3, 3)):
             if block:
                 out += ["", block]
         out += ["", "——————"]
