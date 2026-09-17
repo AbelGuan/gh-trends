@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-notify_feishu.py — 把当天抓到的 GitHub Trending 推送到飞书群机器人
+notify.py — 把当天抓到的 GitHub Trending 推到多个渠道（配了哪个就发哪个）
 
-凭据（二选一，环境变量优先）：
-  FEISHU_WEBHOOK   群机器人 webhook 地址，形如 https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
-  FEISHU_SECRET    开了「签名校验」才需要；没开就留空（那就得配「自定义关键词」）
+渠道与凭据（都用环境变量，或本地 feishu.local.json / .env）：
+  FEISHU_WEBHOOK    飞书群机器人 webhook（开了签名校验再加 FEISHU_SECRET）
+  NTFY_TOPIC        ntfy 主题名，例：gh-trends-7f3a9c；浏览器/手机订阅 https://ntfy.sh/<topic>
+  NTFY_SERVER       默认 https://ntfy.sh（自建服务器改这里）
+  SERVERCHAN_KEY    Server 酱 SendKey（SCTxxx / sctpxxx），推到微信
+  PUSHPLUS_TOKEN    PushPlus token（备选微信渠道，需实名）
+  PAGES_BASE        GitHub Pages 站点前缀，用来拼「完整看板」链接
 
 用法：
-  python notify_feishu.py                     # 推送今天的数据（读 ./data/daily/<今天>.json）
-  python notify_feishu.py --top 5             # 只推前 5
-  python notify_feishu.py --dry-run           # 只打印将要发送的 JSON，不发
-  python notify_feishu.py --text              # 用纯文本消息（最保守，排障用）
-  python notify_feishu.py --pages-base https://user.github.io/repo
-                                              # 卡片底部加一个「打开完整看板」按钮
+  python notify.py                          # 发送到所有已配置的渠道
+  python notify.py --channels feishu,ntfy    # 只发指定渠道
+  python notify.py --top 5 --hot 3 --odd 3   # 控制条数
+  python notify.py --dry-run                 # 只打印将发送的内容，不发
+  python notify.py --text                    # 飞书用纯文本（排障用）
 
-环境变量 PAGES_BASE 也可以代替 --pages-base；未提供则不显示按钮。
 零依赖（标准库）。
 """
 
@@ -27,6 +29,7 @@ import json
 import os
 import sys
 import time
+import urllib.parse
 import urllib.request
 from collections import Counter
 from datetime import datetime
@@ -105,8 +108,16 @@ def change_badge(it):
 
 
 MEDALS = ("🥇", "🥈", "🥉")
-GREY = lambda s: f"<font color='grey'>{s}</font>"      # noqa: E731
-RED = lambda s: f"<font color='red'>{s}</font>"        # noqa: E731
+# 飞书用 <font> 上色；微信/ntfy 是纯 Markdown，不能带这些标签，用 PLAIN_MD 关掉
+PLAIN_MD = False
+
+
+def GREY(s):
+    return s if PLAIN_MD else f"<font color='grey'>{s}</font>"
+
+
+def RED(s):
+    return s if PLAIN_MD else f"<font color='red'>{s}</font>"
 
 
 def overview(snap, top):
@@ -389,17 +400,101 @@ def send(payload, webhook, secret=None, timeout=20):
     return ok, txt
 
 
+def http_post(url, data, headers=None, timeout=20):
+    req = urllib.request.Request(url, data=data, headers=headers or {})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def pages_url(snap, pages_base, suffix="html"):
+    if not pages_base:
+        return ""
+    url = (pages_base.rstrip("/") + f"/reports/{snap.get('since', 'daily')}/"
+           f"{snap.get('date', '')}")
+    return url + ("." + suffix if suffix else "")
+
+
+def build_summary_md(snap, top, pages_base, with_desc=False):
+    """给微信 / 浏览器推送用的紧凑 Markdown（不带飞书的 <font> 标签）。"""
+    global PLAIN_MD
+    old, PLAIN_MD = PLAIN_MD, True
+    try:
+        label = PERIOD.get(snap.get("since", "daily"), "今日")
+        date = snap.get("date", "")
+        out = [f"**GitHub Trending {label}榜 · {date}**"]
+        for board_fn in (change_board, lambda s: hot_board(s, 3), lambda s: odd_board(s, 3)):
+            block = board_fn(snap)
+            if block:
+                out += ["", block]
+        out += ["", "——————"]
+        for it in snap["items"][:top]:
+            out.append(item_line(it, label))
+        url = pages_url(snap, pages_base)
+        if url:
+            out += ["", f"[📊 完整看板]({url})"]
+        return "\n".join(out)
+    finally:
+        PLAIN_MD = old
+
+
+def send_ntfy(title, message, topic, click=None, server="https://ntfy.sh", timeout=20):
+    """ntfy：浏览器/手机订阅 https://ntfy.sh/<topic> 就能收到系统通知。"""
+    payload = {"topic": topic, "title": title, "message": message,
+               "priority": 3, "markdown": True, "tags": ["bar_chart"]}
+    if click:
+        payload["click"] = click
+    txt = http_post(server.rstrip("/") + "/",
+                    json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+                    {"Content-Type": "application/json"}, timeout)
+    try:
+        res = json.loads(txt)
+    except Exception:                       # noqa: BLE001
+        return False, txt
+    return bool(res.get("id")), txt
+
+
+def send_serverchan(title, desp, key, timeout=20):
+    """Server 酱（微信）：免费每天 5 条，不用实名。"""
+    url = (key if key.startswith("http") else f"https://sctapi.ftqq.com/{key}.send")
+    data = urllib.parse.urlencode({"title": title, "desp": desp}).encode("utf-8")
+    txt = http_post(url, data, {"Content-Type": "application/x-www-form-urlencoded"}, timeout)
+    try:
+        res = json.loads(txt)
+    except Exception:                       # noqa: BLE001
+        return False, txt
+    code = res.get("code", res.get("data", {}).get("code") if isinstance(res.get("data"), dict) else None)
+    return code == 0, txt
+
+
+def send_pushplus(title, content, token, timeout=20):
+    """PushPlus（微信）：需实名认证，实名后 200 条/天。"""
+    body = {"token": token, "title": title, "content": content, "template": "markdown"}
+    txt = http_post("https://www.pushplus.plus/send",
+                    json.dumps(body, ensure_ascii=False).encode("utf-8"),
+                    {"Content-Type": "application/json"}, timeout)
+    try:
+        res = json.loads(txt)
+    except Exception:                       # noqa: BLE001
+        return False, txt
+    return res.get("code") == 200, txt
+
+
 def main():
     try:
         sys.stdout.reconfigure(encoding="utf-8")
     except Exception:                       # noqa: BLE001
         pass
 
-    p = argparse.ArgumentParser(description="把 GitHub Trending 推到飞书群机器人")
+    p = argparse.ArgumentParser(description="把 GitHub Trending 推到飞书 / 微信 / 浏览器")
     p.add_argument("--since", default="daily", choices=["daily", "weekly", "monthly"])
     p.add_argument("--top", type=int, default=10)
     p.add_argument("--webhook", default="")
     p.add_argument("--secret", default="")
+    p.add_argument("--ntfy-topic", default="")
+    p.add_argument("--ntfy-server", default="")
+    p.add_argument("--serverchan-key", default="")
+    p.add_argument("--pushplus-token", default="")
+    p.add_argument("--channels", default="", help="只发这些渠道，逗号分隔：feishu,ntfy,serverchan,pushplus")
     p.add_argument("--pages-base", default="")
     p.add_argument("--no-desc", action="store_true", help="不带简介，卡片更短")
     p.add_argument("--hot", type=int, default=3,
@@ -413,9 +508,14 @@ def main():
     args = p.parse_args()
 
     local = load_local_config()
-    args.webhook = args.webhook or os.environ.get("FEISHU_WEBHOOK", "") or local.get("webhook", "")
-    args.secret = args.secret or os.environ.get("FEISHU_SECRET", "") or local.get("secret", "")
-    args.pages_base = (args.pages_base or os.environ.get("PAGES_BASE", "")
+    env = os.environ.get
+    args.webhook = args.webhook or env("FEISHU_WEBHOOK", "") or local.get("webhook", "")
+    args.secret = args.secret or env("FEISHU_SECRET", "") or local.get("secret", "")
+    args.ntfy_topic = args.ntfy_topic or env("NTFY_TOPIC", "") or local.get("ntfy_topic", "")
+    args.ntfy_server = args.ntfy_server or env("NTFY_SERVER", "") or local.get("ntfy_server", "") or "https://ntfy.sh"
+    args.serverchan_key = args.serverchan_key or env("SERVERCHAN_KEY", "") or local.get("serverchan_key", "")
+    args.pushplus_token = args.pushplus_token or env("PUSHPLUS_TOKEN", "") or local.get("pushplus_token", "")
+    args.pages_base = (args.pages_base or env("PAGES_BASE", "")
                        or local.get("pages_base", "") or local.get("base", ""))
 
     snap, path = latest_snapshot(args.since)
@@ -428,28 +528,76 @@ def main():
     payload = (build_text if args.text else build_card)(
         snap, args.top, args.pages_base, with_desc=not args.no_desc, **kwargs)
 
-    if args.dry_run or not args.webhook:
-        if not args.webhook and not args.dry_run:
-            print("⚠️  没有配置 FEISHU_WEBHOOK，跳过推送。下面是将要发送的内容：\n", file=sys.stderr)
+    # 哪些渠道配了凭据就发哪些
+    want = {c.strip() for c in args.channels.split(",") if c.strip()}
+    avail = {
+        "feishu": ("飞书", bool(args.webhook)),
+        "ntfy": ("ntfy（浏览器/手机）", bool(args.ntfy_topic)),
+        "serverchan": ("微信 Server酱", bool(args.serverchan_key)),
+        "pushplus": ("微信 PushPlus", bool(args.pushplus_token)),
+    }
+    todo = {k: v for k, (v, ok) in avail.items() if ok and (not want or k in want)}
+
+    if args.dry_run or not todo:
+        if not todo and not args.dry_run:
+            print("⚠️  一个渠道都没配置，跳过推送。下面是将要发送的内容：\n", file=sys.stderr)
+        print("【飞书卡片】")
         print(json.dumps(payload, ensure_ascii=False, indent=2))
+        print("\n【微信/浏览器用的 Markdown】")
+        print(build_summary_md(snap, args.top, args.pages_base))
+        if args.ntfy_topic:
+            print(f"\n【ntfy】topic={args.ntfy_topic} server={args.ntfy_server}")
         return 0
 
-    # 依次降级：漂亮卡片 → 简化卡片 → 纯文本，保证至少有一条能发出去
-    attempts = ([(payload, "卡片")] if args.text else
-                [(payload, "卡片"),
-                 (build_card_simple(snap, args.top, args.pages_base, not args.no_desc), "简化卡片"),
-                 (build_text(snap, args.top, args.pages_base, not args.no_desc), "纯文本")])
-    for i, (pl, name) in enumerate(attempts):
+    print("启用的渠道：" + "、".join(todo.values()))
+    title = f"GitHub Trending {PERIOD.get(snap.get('since', 'daily'), '今日')}榜 · {snap.get('date', '')}"
+    summary = build_summary_md(snap, args.top, args.pages_base)
+    report_url = pages_url(snap, args.pages_base) or f"https://github.com/{os.environ.get('GITHUB_REPOSITORY', '')}"
+    results = {}
+
+    if "feishu" in todo:
+        # 三个级降级：漂亮卡片 → 简化卡片 → 纯文本
+        attempts = ([(payload, "卡片")] if args.text else
+                    [(payload, "卡片"),
+                     (build_card_simple(snap, args.top, args.pages_base, not args.no_desc), "简化卡片"),
+                     (build_text(snap, args.top, args.pages_base, not args.no_desc), "纯文本")])
+        results["飞书"] = (False, "未尝试")
+        for pl, name in attempts:
+            try:
+                ok, resp = send(pl, args.webhook, args.secret or None)
+            except Exception as e:              # noqa: BLE001
+                results["飞书"] = (False, f"{name}异常：{e}")
+                continue
+            results["飞书"] = (ok, f"{name}：{resp[:120]}")
+            if ok:
+                break
+
+    if "ntfy" in todo:
         try:
-            ok, resp = send(pl, args.webhook, args.secret or None)
+            ok, resp = send_ntfy(title, summary, args.ntfy_topic,
+                                 click=report_url, server=args.ntfy_server)
+            results["ntfy"] = (ok, resp[:120])
         except Exception as e:                  # noqa: BLE001
-            print(f"❌ {name}发送异常：{e}", file=sys.stderr)
-            continue
-        if ok:
-            print(f"✅ 已推送（{name}）：{resp}")
-            return 0
-        print(f"⚠️  {name}发送失败：{resp}", file=sys.stderr)
-    return 2
+            results["ntfy"] = (False, f"异常：{e}")
+
+    if "serverchan" in todo:
+        try:
+            ok, resp = send_serverchan(title, summary, args.serverchan_key)
+            results["Server酱"] = (ok, resp[:120])
+        except Exception as e:                  # noqa: BLE001
+            results["Server酱"] = (False, f"异常：{e}")
+
+    if "pushplus" in todo:
+        try:
+            ok, resp = send_pushplus(title, summary, args.pushplus_token)
+            results["PushPlus"] = (ok, resp[:120])
+        except Exception as e:                  # noqa: BLE001
+            results["PushPlus"] = (False, f"异常：{e}")
+
+    print()
+    for name, (ok, info) in results.items():
+        print(f"{('✅' if ok else '❌')} {name}：{info}")
+    return 0 if any(ok for ok, _ in results.values()) else 2
 
 
 if __name__ == "__main__":

@@ -60,7 +60,8 @@ gh-trends/
 用到的文件：
 
 - `.github/workflows/daily.yml` —— 每天 UTC 01:10（北京 09:10）抓取 + 推送 + 提交回仓库
-- `notify_feishu.py` —— 飞书群机器人推送（支持签名校验 / 关键词、卡片和纯文本两种格式）
+- `notify.py` —— 多渠推送：飞书群机器人 / ntfy（浏览器与手机）/ Server酱（微信）/ PushPlus（微信）
+  配了哪个渠道的凭据就发哪个，可以只用其中几个
 
 ### 方案二：本机 Windows 计划任务（要求机器开着）
 
@@ -78,19 +79,24 @@ schtasks /create /tn "GitHub Trending 每日" ^
 
 > 注：这个任务只是本机抓取 + 生成文件；开发这步不需要，但推送飞书时会把当天名单发到你的群。抓的是公开页面 `https://github.com/trending`。
 
-## 推送脚本 notify_feishu.py
+## 推送脚本 notify.py（多渠道）
+
+| 渠道 | 凭据（环境变量 / Secrets） | 说明 |
+| --- | --- | --- |
+| 飞书群机器人 | `FEISHU_WEBHOOK` + `FEISHU_SECRET` | 富卡片（奖牌、高亮、按钮、整卡跳转） |
+| ntfy（浏览器 / 手机） | `NTFY_TOPIC`（+ 自建才需 `NTFY_SERVER`） | 不用注册；浏览器打开 `https://ntfy.sh/<topic>` 订阅即得系统通知 |
+| Server酱（微信） | `SERVERCHAN_KEY` | 免费 5 条/天，不用实名 |
+| PushPlus（微信） | `PUSHPLUS_TOKEN` | 需实名，实名后 200 条/天 |
 
 ```bash
-python notify_feishu.py --dry-run          # 只打印将发送的 JSON，不发
-python notify_feishu.py --hot 5            # 「涨星最猛」展示前 5（默认 3，0=不展示）
-python notify_feishu.py --odd 5            # 「涨星速度异常」展示前 5（默认 3，0=不展示）
-python notify_feishu.py --top 5            # 榜单只推前 5 名
-python notify_feishu.py --style medal      # 前三名奖牌 + 加宽数据行
-python notify_feishu.py --style compact    # 每人一行，不带简介
-python notify_feishu.py --no-desc          # 卡片更短，不带简介
-python notify_feishu.py --text             # 用纯文本消息（排障用）
-python notify_feishu.py --pages-base https://user.github.io/gh-trends
+python notify.py --dry-run                    # 打印将发送的内容，不发
+python notify.py --channels ntfy              # 只发 ntfy
+python notify.py --channels ntfy,serverchan    # 发两个
+python notify.py --top 5 --hot 3 --odd 3       # 控制条数
 ```
+
+一个渠道都没配时会自动跳过推送（打印内容后正常退出），所以 Actions 上漏配 secret 不会把流程弄挂。
+Actions 里可用仓库 **Variables** 里的 `NOTIFY_CHANNELS` 控制发哪些（留空 = 发所有已配置的）。
 
 卡片长什么样（默认 `--style uniform`，十名一视同仁）：
 

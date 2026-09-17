@@ -36,12 +36,18 @@ jobs:
           python gh_trends.py --since daily --no-color
           python gh_trends.py --since weekly --no-color --limit 15
 
-      - name: 推送到飞书
+      - name: 推送（飞书 / 微信 / 浏览器）
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}          # 自建 ntfy 才需要，否则留空
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           PAGES_BASE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
-        run: python notify_feishu.py --top 10
+        # NOTIFY_CHANNELS 是仓库 Variables（不是 Secret）：留空=发所有已配置渠道，
+        # 填 feishu,ntfy,serverchan,pushplus 里的几个就能只发指定渠道
+        run: python notify.py --top 10 --channels "${{ vars.NOTIFY_CHANNELS }}"
 
       - name: 生成 Atom feed（给 Obsidian / RSS 阅读器订阅）
         env:
