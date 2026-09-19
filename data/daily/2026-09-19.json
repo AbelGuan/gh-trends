@@ -1,0 +1,461 @@
+{
+ "date": "2026-09-19",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-19 13:43:28",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-18",
+ "dropped": [
+  {
+   "repo": "alphaXiv/OpenResearch",
+   "url": "https://github.com/alphaXiv/OpenResearch",
+   "rank": 5,
+   "stars": 5087,
+   "today": 939
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "rank": 7,
+   "stars": 78638,
+   "today": 912
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "rank": 9,
+   "stars": 26525,
+   "today": 1125
+  },
+  {
+   "repo": "abue-ammar/tinycast",
+   "url": "https://github.com/abue-ammar/tinycast",
+   "rank": 10,
+   "stars": 6231,
+   "today": 739
+  },
+  {
+   "repo": "cilium/cilium",
+   "url": "https://github.com/cilium/cilium",
+   "rank": 11,
+   "stars": 25306,
+   "today": 111
+  },
+  {
+   "repo": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "rank": 12,
+   "stars": 54941,
+   "today": 667
+  },
+  {
+   "repo": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "rank": 14,
+   "stars": 50861,
+   "today": 329
+  },
+  {
+   "repo": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "rank": 15,
+   "stars": 35857,
+   "today": 873
+  },
+  {
+   "repo": "ever-co/ever-gauzy",
+   "url": "https://github.com/ever-co/ever-gauzy",
+   "rank": 17,
+   "stars": 7627,
+   "today": 470
+  },
+  {
+   "repo": "cline/cline",
+   "url": "https://github.com/cline/cline",
+   "rank": 18,
+   "stars": 68609,
+   "today": 380
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "rank": 20,
+   "stars": 205106,
+   "today": 281
+  }
+ ],
+ "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 14182,
+   "forks": 768,
+   "today": 3006,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-18",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": 146395,
+   "forks": 23818,
+   "today": 444,
+   "period": "today",
+   "contributors": [
+    "actions-user",
+    "poteat",
+    "bcherny",
+    "claude",
+    "ant-kurt"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-18",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 6
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 36871,
+   "forks": 2627,
+   "today": 2704,
+   "period": "today",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "stay-foolish-forever",
+    "claude"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-18",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 1
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 262215,
+   "forks": 39231,
+   "today": 958,
+   "period": "today",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "dependabot",
+    "pangerlkr"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-18",
+   "change": "up",
+   "delta": -9,
+   "prev_rank": 13
+  },
+  {
+   "repo": "Tencent/BrowserSkill",
+   "url": "https://github.com/Tencent/BrowserSkill",
+   "desc": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+   "lang": "TypeScript",
+   "stars": 5441,
+   "forks": 376,
+   "today": 1306,
+   "period": "today",
+   "contributors": [
+    "TencentXiaowei",
+    "Ljy-0827",
+    "iuyo5678",
+    "BB-fat",
+    "cursoragent"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-18",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 96509,
+   "forks": 10201,
+   "today": 675,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "HMAKT99"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-18",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 3
+  },
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "lang": "Python",
+   "stars": 4029,
+   "forks": 416,
+   "today": 569,
+   "period": "today",
+   "contributors": [
+    "jubaoliang",
+    "jubaoliang-tencent",
+    "cursoragent",
+    "liukewia",
+    "Pandakingxbc"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-18",
+   "change": "up",
+   "delta": -9,
+   "prev_rank": 16
+  },
+  {
+   "repo": "Fission-AI/OpenSpec",
+   "url": "https://github.com/Fission-AI/OpenSpec",
+   "desc": "Spec-driven development (SDD) for AI coding assistants.",
+   "lang": "TypeScript",
+   "stars": 69437,
+   "forks": 4755,
+   "today": 296,
+   "period": "today",
+   "contributors": [
+    "TabishB",
+    "clay-good",
+    "claude",
+    "github-actions",
+    "openspec-release-bot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ankitects/anki",
+   "url": "https://github.com/ankitects/anki",
+   "desc": "Anki is a smart spaced repetition flashcard program",
+   "lang": "Rust",
+   "stars": 31244,
+   "forks": 3238,
+   "today": 174,
+   "period": "today",
+   "contributors": [
+    "dae",
+    "hgiesel",
+    "RumovZ",
+    "abdnh",
+    "Arthur-Milchior"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 24934,
+   "forks": 2973,
+   "today": 299,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-18",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "supermemoryai/supermemory",
+   "url": "https://github.com/supermemoryai/supermemory",
+   "desc": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+   "lang": "TypeScript",
+   "stars": 30384,
+   "forks": 2646,
+   "today": 140,
+   "period": "today",
+   "contributors": [
+    "Dhravya",
+    "MaheshtheDev",
+    "yxshv",
+    "CodeTorso",
+    "ved015"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tradesdontlie/tradingview-mcp",
+   "url": "https://github.com/tradesdontlie/tradingview-mcp",
+   "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+   "lang": "JavaScript",
+   "stars": 6509,
+   "forks": 2718,
+   "today": 79,
+   "period": "today",
+   "contributors": [
+    "tradesdontlie",
+    "claude",
+    "xxhanselxx-sudo",
+    "jawadtazi-dot",
+    "wowkin2"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "rustfs/rustfs",
+   "url": "https://github.com/rustfs/rustfs",
+   "desc": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+   "lang": "Rust",
+   "stars": 33225,
+   "forks": 1486,
+   "today": 267,
+   "period": "today",
+   "contributors": [
+    "overtrue",
+    "houseme",
+    "heihutu",
+    "weisd",
+    "cxymds"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "lang": "TypeScript",
+   "stars": 110205,
+   "forks": 14331,
+   "today": 120,
+   "period": "today",
+   "contributors": [
+    "joshenlim",
+    "kiwicopple",
+    "MildTomato",
+    "saltcod",
+    "alaister"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "coder/coder",
+   "url": "https://github.com/coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars": 15356,
+   "forks": 1506,
+   "today": 478,
+   "period": "today",
+   "contributors": [
+    "dependabot",
+    "kylecarbs",
+    "mafredri",
+    "johnstcn",
+    "Emyrk"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-18",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 19
+  },
+  {
+   "repo": "ahmedkhaleel2004/gitdiagram",
+   "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+   "desc": "Free, simple, fast interactive diagrams for any GitHub repository",
+   "lang": "TypeScript",
+   "stars": 16518,
+   "forks": 1260,
+   "today": 152,
+   "period": "today",
+   "contributors": [
+    "ahmedkhaleel2004",
+    "claude",
+    "dependabot",
+    "martin226"
+   ],
+   "rank": 16,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "asciimoo/hister",
+   "url": "https://github.com/asciimoo/hister",
+   "desc": "Your own search engine",
+   "lang": "Go",
+   "stars": 5012,
+   "forks": 209,
+   "today": 889,
+   "period": "today",
+   "contributors": [
+    "asciimoo",
+    "4evy",
+    "dependabot",
+    "ISSOtm",
+    "Shadowbee27"
+   ],
+   "rank": 17,
+   "prev_day": "2026-09-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
