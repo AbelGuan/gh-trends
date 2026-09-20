@@ -1,0 +1,414 @@
+{
+ "date": "2026-09-20",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-20 14:03:51",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-19",
+ "dropped": [
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "rank": 3,
+   "stars": 36871,
+   "today": 2704
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "rank": 4,
+   "stars": 262215,
+   "today": 958
+  },
+  {
+   "repo": "Tencent/BrowserSkill",
+   "url": "https://github.com/Tencent/BrowserSkill",
+   "rank": 5,
+   "stars": 5441,
+   "today": 1306
+  },
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "rank": 7,
+   "stars": 4029,
+   "today": 569
+  },
+  {
+   "repo": "Fission-AI/OpenSpec",
+   "url": "https://github.com/Fission-AI/OpenSpec",
+   "rank": 8,
+   "stars": 69437,
+   "today": 296
+  },
+  {
+   "repo": "ankitects/anki",
+   "url": "https://github.com/ankitects/anki",
+   "rank": 9,
+   "stars": 31244,
+   "today": 174
+  },
+  {
+   "repo": "supermemoryai/supermemory",
+   "url": "https://github.com/supermemoryai/supermemory",
+   "rank": 11,
+   "stars": 30384,
+   "today": 140
+  },
+  {
+   "repo": "tradesdontlie/tradingview-mcp",
+   "url": "https://github.com/tradesdontlie/tradingview-mcp",
+   "rank": 12,
+   "stars": 6509,
+   "today": 79
+  },
+  {
+   "repo": "rustfs/rustfs",
+   "url": "https://github.com/rustfs/rustfs",
+   "rank": 13,
+   "stars": 33225,
+   "today": 267
+  },
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "rank": 14,
+   "stars": 110205,
+   "today": 120
+  },
+  {
+   "repo": "ahmedkhaleel2004/gitdiagram",
+   "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+   "rank": 16,
+   "stars": 16518,
+   "today": 152
+  }
+ ],
+ "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 16806,
+   "forks": 920,
+   "today": 3155,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-19",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "HTML",
+   "stars": 24649,
+   "forks": 1695,
+   "today": 859,
+   "period": "today",
+   "contributors": [
+    "f-trycua",
+    "ddupont808",
+    "claude",
+    "github-actions",
+    "r33drichards"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 97193,
+   "forks": 10258,
+   "today": 556,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "HMAKT99"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 6
+  },
+  {
+   "repo": "coder/coder",
+   "url": "https://github.com/coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars": 15698,
+   "forks": 1525,
+   "today": 402,
+   "period": "today",
+   "contributors": [
+    "dependabot",
+    "kylecarbs",
+    "mafredri",
+    "johnstcn",
+    "Emyrk"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -11,
+   "prev_rank": 15
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": 146802,
+   "forks": 23977,
+   "today": 483,
+   "period": "today",
+   "contributors": [
+    "actions-user",
+    "poteat",
+    "bcherny",
+    "claude",
+    "ant-kurt"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 2
+  },
+  {
+   "repo": "Open-Dev-Society/OpenStock",
+   "url": "https://github.com/Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars": 16247,
+   "forks": 2099,
+   "today": 472,
+   "period": "today",
+   "contributors": [
+    "ravixalgorithm",
+    "coderabbitai",
+    "keshav-005",
+    "nb-src",
+    "chinnsenn"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "higgsfield-ai/higgsfield",
+   "url": "https://github.com/higgsfield-ai/higgsfield",
+   "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+   "lang": "Jupyter Notebook",
+   "stars": 5044,
+   "forks": 923,
+   "today": 196,
+   "period": "today",
+   "contributors": [
+    "arpanetus",
+    "higgsfield",
+    "zxcjhg",
+    "dependabot"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "docling-project/docling",
+   "url": "https://github.com/docling-project/docling",
+   "desc": "Get your documents ready for gen AI",
+   "lang": "Python",
+   "stars": 67213,
+   "forks": 4840,
+   "today": 129,
+   "period": "today",
+   "contributors": [
+    "dolfim-ibm",
+    "github-actions",
+    "cau-git",
+    "ceberam",
+    "vagenas"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cloudflare/quiche",
+   "url": "https://github.com/cloudflare/quiche",
+   "desc": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+   "lang": "Rust",
+   "stars": 12081,
+   "forks": 1120,
+   "today": 31,
+   "period": "today",
+   "contributors": [
+    "ghedo",
+    "github-actions",
+    "traviscibot",
+    "LPardue",
+    "antoniovicente"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "asciimoo/hister",
+   "url": "https://github.com/asciimoo/hister",
+   "desc": "Your own search engine",
+   "lang": "Go",
+   "stars": 5310,
+   "forks": 222,
+   "today": 420,
+   "period": "today",
+   "contributors": [
+    "asciimoo",
+    "4evy",
+    "dependabot",
+    "ISSOtm",
+    "Shadowbee27"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 17
+  },
+  {
+   "repo": "ruanyf/weekly",
+   "url": "https://github.com/ruanyf/weekly",
+   "desc": "科技爱好者周刊，每周五发布",
+   "lang": "",
+   "stars": 103374,
+   "forks": 4431,
+   "today": 98,
+   "period": "today",
+   "contributors": [
+    "ruanyf",
+    "fanofxiaofeng",
+    "luhuadong",
+    "eltsai",
+    "keepwow"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ZuodaoTech/everyone-can-use-english",
+   "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+   "desc": "人人都能用英语",
+   "lang": "TypeScript",
+   "stars": 37952,
+   "forks": 5217,
+   "today": 48,
+   "period": "today",
+   "contributors": [
+    "an-lee",
+    "xiaolai",
+    "lyricat",
+    "zgw010",
+    "divisey"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 25184,
+   "forks": 2999,
+   "today": 281,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 10
+  },
+  {
+   "repo": "cactus-compute/needle",
+   "url": "https://github.com/cactus-compute/needle",
+   "desc": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+   "lang": "Python",
+   "stars": 11691,
+   "forks": 749,
+   "today": 234,
+   "period": "today",
+   "contributors": [
+    "HenryNdubuaku",
+    "ncylich",
+    "kar-m",
+    "justinl66",
+    "LeonSGP43"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "yynxxxxx/Codex-X",
+   "url": "https://github.com/yynxxxxx/Codex-X",
+   "desc": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+   "lang": "Rust",
+   "stars": 3464,
+   "forks": 451,
+   "today": 32,
+   "period": "today",
+   "contributors": [
+    "yynxxxxx",
+    "muzimu"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

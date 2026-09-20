@@ -1,0 +1,350 @@
+{
+ "date": "2026-09-20",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-20 14:03:52",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-09-19",
+ "dropped": [
+  {
+   "repo": "openai/plugins",
+   "url": "https://github.com/openai/plugins",
+   "rank": 11,
+   "stars": 6986,
+   "today": 542
+  }
+ ],
+ "items": [
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 37823,
+   "forks": 2695,
+   "today": 15028,
+   "period": "this week",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "stay-foolish-forever",
+    "claude"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-19",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": 146802,
+   "forks": 23977,
+   "today": 1999,
+   "period": "this week",
+   "contributors": [
+    "actions-user",
+    "poteat",
+    "bcherny",
+    "claude",
+    "ant-kurt"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 6
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 263077,
+   "forks": 39362,
+   "today": 6265,
+   "period": "this week",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "dependabot",
+    "pangerlkr"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "lang": "Go",
+   "stars": 27611,
+   "forks": 3715,
+   "today": 4867,
+   "period": "this week",
+   "contributors": [
+    "lyingbug",
+    "voidkey",
+    "begoniezhao",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars": 38767,
+   "forks": 7832,
+   "today": 10207,
+   "period": "this week",
+   "contributors": [
+    "samehkhamis",
+    "bilawalsidhu",
+    "Tom-Neverwinter",
+    "manjunath22466",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 97193,
+   "forks": 10258,
+   "today": 3445,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "HMAKT99"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 25184,
+   "forks": 2999,
+   "today": 1034,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 10
+  },
+  {
+   "repo": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "lang": "Python",
+   "stars": 48830,
+   "forks": 2839,
+   "today": 5589,
+   "period": "this week",
+   "contributors": [
+    "ayghri",
+    "thejesh23",
+    "claude",
+    "SillyDark",
+    "commie70"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 2
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 23700,
+   "forks": 1710,
+   "today": 1359,
+   "period": "this week",
+   "contributors": [
+    "mksglu",
+    "claude",
+    "github-actions",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "lang": "Rust",
+   "stars": 8135,
+   "forks": 282,
+   "today": 1141,
+   "period": "this week",
+   "contributors": [
+    "max-sixty",
+    "claude",
+    "worktrunk-bot",
+    "dependabot",
+    "github-actions"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 9
+  },
+  {
+   "repo": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "lang": "Python",
+   "stars": 50341,
+   "forks": 4059,
+   "today": 3024,
+   "period": "this week",
+   "contributors": [
+    "blader",
+    "claude",
+    "mvanhorn",
+    "Scott-Emberson",
+    "warp-agent"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 12
+  },
+  {
+   "repo": "home-assistant/core",
+   "url": "https://github.com/home-assistant/core",
+   "desc": "🏡 Open source home automation that puts local control and privacy first.",
+   "lang": "Python",
+   "stars": 90835,
+   "forks": 38708,
+   "today": 417,
+   "period": "this week",
+   "contributors": [
+    "bdraco",
+    "balloob",
+    "epenet",
+    "frenck",
+    "emontnemery"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 15
+  },
+  {
+   "repo": "microsoft/markitdown",
+   "url": "https://github.com/microsoft/markitdown",
+   "desc": "Python tool for converting files and office documents to Markdown.",
+   "lang": "Python",
+   "stars": 185737,
+   "forks": 13677,
+   "today": 2767,
+   "period": "this week",
+   "contributors": [
+    "afourney",
+    "gagb",
+    "sugatoray",
+    "PetrAPConsulting",
+    "dependabot"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-19",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 14
+  },
+  {
+   "repo": "kunchenguid/firstmate",
+   "url": "https://github.com/kunchenguid/firstmate",
+   "desc": "Talk to one agent. Ship with a crew.",
+   "lang": "Shell",
+   "stars": 6768,
+   "forks": 2040,
+   "today": 1073,
+   "period": "this week",
+   "contributors": [
+    "kunchenguid",
+    "mremond",
+    "tiago-peixoto",
+    "karotkriss",
+    "claude"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-19",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 13
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 83547,
+   "forks": 7322,
+   "today": 3914,
+   "period": "this week",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-19",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
