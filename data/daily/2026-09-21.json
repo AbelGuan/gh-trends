@@ -1,0 +1,349 @@
+{
+ "date": "2026-09-21",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-21 14:09:50",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-20",
+ "dropped": [
+  {
+   "repo": "docling-project/docling",
+   "url": "https://github.com/docling-project/docling",
+   "rank": 8,
+   "stars": 67213,
+   "today": 129
+  },
+  {
+   "repo": "cloudflare/quiche",
+   "url": "https://github.com/cloudflare/quiche",
+   "rank": 9,
+   "stars": 12081,
+   "today": 31
+  },
+  {
+   "repo": "asciimoo/hister",
+   "url": "https://github.com/asciimoo/hister",
+   "rank": 10,
+   "stars": 5310,
+   "today": 420
+  },
+  {
+   "repo": "ruanyf/weekly",
+   "url": "https://github.com/ruanyf/weekly",
+   "rank": 11,
+   "stars": 103374,
+   "today": 98
+  },
+  {
+   "repo": "ZuodaoTech/everyone-can-use-english",
+   "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+   "rank": 12,
+   "stars": 37952,
+   "today": 48
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "rank": 13,
+   "stars": 25184,
+   "today": 281
+  },
+  {
+   "repo": "cactus-compute/needle",
+   "url": "https://github.com/cactus-compute/needle",
+   "rank": 14,
+   "stars": 11691,
+   "today": 234
+  },
+  {
+   "repo": "yynxxxxx/Codex-X",
+   "url": "https://github.com/yynxxxxx/Codex-X",
+   "rank": 15,
+   "stars": 3464,
+   "today": 32
+  }
+ ],
+ "items": [
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 263998,
+   "forks": 39487,
+   "today": 826,
+   "period": "today",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "dependabot",
+    "pangerlkr"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "BuilderIO/agent-native",
+   "url": "https://github.com/BuilderIO/agent-native",
+   "desc": "A framework for building agentic apps",
+   "lang": "TypeScript",
+   "stars": 5401,
+   "forks": 502,
+   "today": 98,
+   "period": "today",
+   "contributors": [
+    "steve8708",
+    "builder-io-integration",
+    "github-actions",
+    "builderio-bot",
+    "3mdistal"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 18287,
+   "forks": 1023,
+   "today": 2428,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 1
+  },
+  {
+   "repo": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "HTML",
+   "stars": 25312,
+   "forks": 1742,
+   "today": 1018,
+   "period": "today",
+   "contributors": [
+    "f-trycua",
+    "ddupont808",
+    "claude",
+    "github-actions",
+    "r33drichards"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 2
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": 35491,
+   "forks": 5256,
+   "today": 260,
+   "period": "today",
+   "contributors": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "paperless-ngx/paperless-ngx",
+   "url": "https://github.com/paperless-ngx/paperless-ngx",
+   "desc": "A community-supported supercharged document management system: scan, index and archive all your documents",
+   "lang": "Python",
+   "stars": 45676,
+   "forks": 3158,
+   "today": 57,
+   "period": "today",
+   "contributors": [
+    "shamoon",
+    "stumpylog",
+    "dependabot",
+    "danielquinn",
+    "paperlessngx-bot"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": 147262,
+   "forks": 24085,
+   "today": 419,
+   "period": "today",
+   "contributors": [
+    "actions-user",
+    "poteat",
+    "bcherny",
+    "claude",
+    "ant-kurt"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 5
+  },
+  {
+   "repo": "mihail911/modern-software-dev-assignments",
+   "url": "https://github.com/mihail911/modern-software-dev-assignments",
+   "desc": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+   "lang": "Python",
+   "stars": 4637,
+   "forks": 1016,
+   "today": 172,
+   "period": "today",
+   "contributors": [
+    "mihail911",
+    "febielin"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "higgsfield-ai/higgsfield",
+   "url": "https://github.com/higgsfield-ai/higgsfield",
+   "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+   "lang": "Jupyter Notebook",
+   "stars": 5481,
+   "forks": 962,
+   "today": 465,
+   "period": "today",
+   "contributors": [
+    "arpanetus",
+    "higgsfield",
+    "zxcjhg",
+    "dependabot"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "Open-Dev-Society/OpenStock",
+   "url": "https://github.com/Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars": 17032,
+   "forks": 2147,
+   "today": 755,
+   "period": "today",
+   "contributors": [
+    "ravixalgorithm",
+    "coderabbitai",
+    "keshav-005",
+    "nb-src",
+    "chinnsenn"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 6
+  },
+  {
+   "repo": "coder/coder",
+   "url": "https://github.com/coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars": 16158,
+   "forks": 1547,
+   "today": 379,
+   "period": "today",
+   "contributors": [
+    "dependabot",
+    "kylecarbs",
+    "mafredri",
+    "johnstcn",
+    "Emyrk"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 7,
+   "prev_rank": 4
+  },
+  {
+   "repo": "vercel-labs/json-render",
+   "url": "https://github.com/vercel-labs/json-render",
+   "desc": "The Generative UI framework",
+   "lang": "TypeScript",
+   "stars": 17544,
+   "forks": 926,
+   "today": 291,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "github-actions",
+    "Railly",
+    "claude",
+    "lucianfialho"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 97818,
+   "forks": 10300,
+   "today": 736,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "HMAKT99"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-20",
+   "change": "down",
+   "delta": 10,
+   "prev_rank": 3
+  }
+ ]
+}
