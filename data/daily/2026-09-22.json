@@ -1,0 +1,329 @@
+{
+ "date": "2026-09-22",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-22 14:03:10",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-21",
+ "dropped": [
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "rank": 1,
+   "stars": 263998,
+   "today": 826
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "rank": 3,
+   "stars": 18287,
+   "today": 2428
+  },
+  {
+   "repo": "paperless-ngx/paperless-ngx",
+   "url": "https://github.com/paperless-ngx/paperless-ngx",
+   "rank": 6,
+   "stars": 45676,
+   "today": 57
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "rank": 7,
+   "stars": 147262,
+   "today": 419
+  },
+  {
+   "repo": "mihail911/modern-software-dev-assignments",
+   "url": "https://github.com/mihail911/modern-software-dev-assignments",
+   "rank": 8,
+   "stars": 4637,
+   "today": 172
+  },
+  {
+   "repo": "higgsfield-ai/higgsfield",
+   "url": "https://github.com/higgsfield-ai/higgsfield",
+   "rank": 9,
+   "stars": 5481,
+   "today": 465
+  },
+  {
+   "repo": "vercel-labs/json-render",
+   "url": "https://github.com/vercel-labs/json-render",
+   "rank": 12,
+   "stars": 17544,
+   "today": 291
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "rank": 13,
+   "stars": 97818,
+   "today": 736
+  }
+ ],
+ "items": [
+  {
+   "repo": "BuilderIO/agent-native",
+   "url": "https://github.com/BuilderIO/agent-native",
+   "desc": "A framework for building agentic apps",
+   "lang": "TypeScript",
+   "stars": 6079,
+   "forks": 554,
+   "today": 607,
+   "period": "today",
+   "contributors": [
+    "steve8708",
+    "builder-io-integration",
+    "github-actions",
+    "builderio-bot",
+    "3mdistal"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-21",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "HTML",
+   "stars": 25801,
+   "forks": 1773,
+   "today": 609,
+   "period": "today",
+   "contributors": [
+    "f-trycua",
+    "ddupont808",
+    "claude",
+    "github-actions",
+    "r33drichards"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-21",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 4
+  },
+  {
+   "repo": "Open-Dev-Society/OpenStock",
+   "url": "https://github.com/Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars": 17985,
+   "forks": 2218,
+   "today": 844,
+   "period": "today",
+   "contributors": [
+    "ravixalgorithm",
+    "coderabbitai",
+    "keshav-005",
+    "nb-src",
+    "chinnsenn"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-21",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 10
+  },
+  {
+   "repo": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars": 7823,
+   "forks": 527,
+   "today": 167,
+   "period": "today",
+   "contributors": [
+    "akitaonrails",
+    "claude",
+    "djalmajr",
+    "samirhvbr",
+    "wblech"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "coder/coder",
+   "url": "https://github.com/coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars": 16501,
+   "forks": 1569,
+   "today": 460,
+   "period": "today",
+   "contributors": [
+    "dependabot",
+    "kylecarbs",
+    "mafredri",
+    "johnstcn",
+    "Emyrk"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-21",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 11
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": 35928,
+   "forks": 5273,
+   "today": 424,
+   "period": "today",
+   "contributors": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-21",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "cloudflare/quiche",
+   "url": "https://github.com/cloudflare/quiche",
+   "desc": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+   "lang": "Rust",
+   "stars": 12412,
+   "forks": 1137,
+   "today": 32,
+   "period": "today",
+   "contributors": [
+    "ghedo",
+    "github-actions",
+    "traviscibot",
+    "LPardue",
+    "antoniovicente"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mvt-project/mvt",
+   "url": "https://github.com/mvt-project/mvt",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "lang": "Python",
+   "stars": 13694,
+   "forks": 1332,
+   "today": 169,
+   "period": "today",
+   "contributors": [
+    "botherder",
+    "DonnchaC",
+    "Te-k",
+    "besendorf",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "desc": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+   "lang": "Python",
+   "stars": 8438,
+   "forks": 1583,
+   "today": 250,
+   "period": "today",
+   "contributors": [
+    "zhouxiaoka",
+    "claude",
+    "cursoragent",
+    "mitsa-ng"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ruanyf/weekly",
+   "url": "https://github.com/ruanyf/weekly",
+   "desc": "科技爱好者周刊，每周五发布",
+   "lang": "",
+   "stars": 104192,
+   "forks": 4457,
+   "today": 182,
+   "period": "today",
+   "contributors": [
+    "ruanyf",
+    "fanofxiaofeng",
+    "luhuadong",
+    "eltsai",
+    "keepwow"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Crosstalk-Solutions/project-nomad",
+   "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+   "desc": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+   "lang": "TypeScript",
+   "stars": 37972,
+   "forks": 3775,
+   "today": 394,
+   "period": "today",
+   "contributors": [
+    "jakeaturner",
+    "chriscrosstalk",
+    "claude",
+    "cosmistack-bot",
+    "dependabot"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "yynxxxxx/Codex-X",
+   "url": "https://github.com/yynxxxxx/Codex-X",
+   "desc": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+   "lang": "Rust",
+   "stars": 3759,
+   "forks": 468,
+   "today": 50,
+   "period": "today",
+   "contributors": [
+    "yynxxxxx",
+    "muzimu"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

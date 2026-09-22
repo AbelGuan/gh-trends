@@ -1,0 +1,357 @@
+{
+ "date": "2026-09-22",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-22 14:03:11",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-09-21",
+ "dropped": [
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "rank": 9,
+   "stars": 8238,
+   "today": 822
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "rank": 14,
+   "stars": 52009,
+   "today": 2546
+  }
+ ],
+ "items": [
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 39353,
+   "forks": 2815,
+   "today": 14499,
+   "period": "this week",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "stay-foolish-forever",
+    "claude"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": 147510,
+   "forks": 24120,
+   "today": 2731,
+   "period": "this week",
+   "contributors": [
+    "actions-user",
+    "poteat",
+    "bcherny",
+    "claude",
+    "ant-kurt"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+   "lang": "C",
+   "stars": 36922,
+   "forks": 3958,
+   "today": 5565,
+   "period": "this week",
+   "contributors": [
+    "JustVugg",
+    "claude",
+    "ZacharyZcR",
+    "monotophic",
+    "steve-m"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "lang": "Go",
+   "stars": 28635,
+   "forks": 3850,
+   "today": 5455,
+   "period": "this week",
+   "contributors": [
+    "lyingbug",
+    "voidkey",
+    "begoniezhao",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 264868,
+   "forks": 39579,
+   "today": 6865,
+   "period": "this week",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "dependabot",
+    "pangerlkr"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-21",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 25378,
+   "forks": 3015,
+   "today": 1350,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 6
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 98211,
+   "forks": 10326,
+   "today": 4197,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "ayobamiseun"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-21",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 5
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": 74903,
+   "forks": 4896,
+   "today": 6125,
+   "period": "this week",
+   "contributors": [
+    "nwparker",
+    "AmethystLiang",
+    "orca-ide",
+    "brennanb2025",
+    "Jinwoo-H"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-21",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 12
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 23902,
+   "forks": 1722,
+   "today": 1089,
+   "period": "this week",
+   "contributors": [
+    "mksglu",
+    "claude",
+    "github-actions",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-21",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "home-assistant/core",
+   "url": "https://github.com/home-assistant/core",
+   "desc": "🏡 Open source home automation that puts local control and privacy first.",
+   "lang": "Python",
+   "stars": 90994,
+   "forks": 38723,
+   "today": 526,
+   "period": "this week",
+   "contributors": [
+    "bdraco",
+    "balloob",
+    "epenet",
+    "frenck",
+    "emontnemery"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 10
+  },
+  {
+   "repo": "danny-avila/LibreChat",
+   "url": "https://github.com/danny-avila/LibreChat",
+   "desc": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+   "lang": "TypeScript",
+   "stars": 44599,
+   "forks": 9157,
+   "today": 1401,
+   "period": "this week",
+   "contributors": [
+    "danny-avila",
+    "berry-13",
+    "github-actions",
+    "dustinhealy",
+    "wtlyu"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-21",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 15
+  },
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars": 40781,
+   "forks": 8278,
+   "today": 7318,
+   "period": "this week",
+   "contributors": [
+    "samehkhamis",
+    "bilawalsidhu",
+    "claude",
+    "Tom-Neverwinter",
+    "manjunath22466"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-21",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 7
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 84488,
+   "forks": 7421,
+   "today": 3526,
+   "period": "this week",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 13
+  },
+  {
+   "repo": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "lang": "Python",
+   "stars": 51157,
+   "forks": 4104,
+   "today": 3023,
+   "period": "this week",
+   "contributors": [
+    "blader",
+    "claude",
+    "mvanhorn",
+    "Scott-Emberson",
+    "warp-agent"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-21",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 11
+  },
+  {
+   "repo": "cline/cline",
+   "url": "https://github.com/cline/cline",
+   "desc": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+   "lang": "TypeScript",
+   "stars": 69002,
+   "forks": 7475,
+   "today": 1204,
+   "period": "this week",
+   "contributors": [
+    "saoudrizwan",
+    "abeatrix",
+    "celestial-vault",
+    "arafatkatze",
+    "BarreiroT"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
