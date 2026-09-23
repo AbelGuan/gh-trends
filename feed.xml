@@ -5,8 +5,15 @@
   <link href="https://AbelGuan.github.io/gh-trends/" rel="alternate"/>
   <link href="https://AbelGuan.github.io/gh-trends/feed.xml" rel="self"/>
   <id>https://AbelGuan.github.io/gh-trends/feed.xml</id>
-  <updated>2026-09-22T14:03:10Z</updated>
+  <updated>2026-09-23T13:50:37Z</updated>
   <author><name>gh-trends</name></author>
+  <entry>
+    <title>GitHub Trending 2026-09-23</title>
+    <link href="https://AbelGuan.github.io/gh-trends/reports/daily/2026-09-23.html"/>
+    <id>https://AbelGuan.github.io/gh-trends/reports/daily/2026-09-23.html</id>
+    <updated>2026-09-23T13:50:37Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;1. &lt;a href=&quot;https://github.com/anthropics/financial-services&quot;&gt;anthropics/financial-services&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Python　★36,510　今日 +438　⬆️5&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. &lt;a href=&quot;https://github.com/agent-substrate/substrate&quot;&gt;agent-substrate/substrate&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Go　★3,088　今日 +245　🆕 新上榜&lt;br&gt;Agent Substrate: the core system&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. &lt;a href=&quot;https://github.com/dream-num/univer&quot;&gt;dream-num/univer&lt;/a&gt;&lt;/b&gt;&lt;br&gt;TypeScript　★15,737　今日 +255　🆕 新上榜&lt;br&gt;The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. &lt;a href=&quot;https://github.com/davila7/claude-code-templates&quot;&gt;davila7/claude-code-templates&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Python　★31,207　今日 +64　🆕 新上榜&lt;br&gt;CLI tool for configuring and monitoring Claude Code&lt;/p&gt;&lt;p&gt;&lt;b&gt;5. &lt;a href=&quot;https://github.com/google/ax&quot;&gt;google/ax&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Go　★7,923　今日 +2,305　🆕 新上榜&lt;br&gt;Google&amp;#x27;s open agentic orchestration runtime&lt;/p&gt;&lt;p&gt;&lt;b&gt;6. &lt;a href=&quot;https://github.com/mvt-project/mvt&quot;&gt;mvt-project/mvt&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Python　★14,219　今日 +441　⬆️2&lt;br&gt;MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.&lt;/p&gt;&lt;p&gt;&lt;b&gt;7. &lt;a href=&quot;https://github.com/superdesigndev/treg&quot;&gt;superdesigndev/treg&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Python　★2,322　今日 +230　🆕 新上榜&lt;br&gt;OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn&lt;/p&gt;&lt;p&gt;&lt;b&gt;8. &lt;a href=&quot;https://github.com/browser-use/video-use&quot;&gt;browser-use/video-use&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Python　★26,029　今日 +191　🆕 新上榜&lt;br&gt;Edit videos with coding agents&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>GitHub Trending 2026-09-22</title>
     <link href="https://AbelGuan.github.io/gh-trends/reports/daily/2026-09-22.html"/>
