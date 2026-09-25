@@ -1,0 +1,384 @@
+{
+ "date": "2026-09-25",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-25 14:04:55",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-24",
+ "dropped": [
+  {
+   "repo": "davila7/claude-code-templates",
+   "url": "https://github.com/davila7/claude-code-templates",
+   "rank": 3,
+   "stars": 31587,
+   "today": 389
+  },
+  {
+   "repo": "BuilderIO/agent-native",
+   "url": "https://github.com/BuilderIO/agent-native",
+   "rank": 4,
+   "stars": 6642,
+   "today": 87
+  },
+  {
+   "repo": "Open-Dev-Society/OpenStock",
+   "url": "https://github.com/Open-Dev-Society/OpenStock",
+   "rank": 7,
+   "stars": 18947,
+   "today": 344
+  },
+  {
+   "repo": "agent-substrate/substrate",
+   "url": "https://github.com/agent-substrate/substrate",
+   "rank": 8,
+   "stars": 3579,
+   "today": 558
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "rank": 12,
+   "stars": 70466,
+   "today": 304
+  },
+  {
+   "repo": "DeusData/codebase-memory-mcp",
+   "url": "https://github.com/DeusData/codebase-memory-mcp",
+   "rank": 14,
+   "stars": 44684,
+   "today": 190
+  },
+  {
+   "repo": "harry7557558/spirula-studio",
+   "url": "https://github.com/harry7557558/spirula-studio",
+   "rank": 15,
+   "stars": 795,
+   "today": 69
+  },
+  {
+   "repo": "browser-use/video-use",
+   "url": "https://github.com/browser-use/video-use",
+   "rank": 16,
+   "stars": 26612,
+   "today": 746
+  },
+  {
+   "repo": "TNT-Likely/PanWatch",
+   "url": "https://github.com/TNT-Likely/PanWatch",
+   "rank": 17,
+   "stars": 1625,
+   "today": 95
+  }
+ ],
+ "items": [
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 56803,
+   "forks": 9957,
+   "today": 347,
+   "period": "today",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 28166,
+   "forks": 2770,
+   "today": 1668,
+   "period": "today",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 17957,
+   "forks": 1543,
+   "today": 1082,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-24",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 6
+  },
+  {
+   "repo": "google/ax",
+   "url": "https://github.com/google/ax",
+   "desc": "Google's open agentic orchestration runtime",
+   "lang": "Go",
+   "stars": 10722,
+   "forks": 525,
+   "today": 1373,
+   "period": "today",
+   "contributors": [
+    "rakyll",
+    "joycel-github",
+    "wjjclaud",
+    "anj-s",
+    "zbl94"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-24",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 2
+  },
+  {
+   "repo": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "lang": "Python",
+   "stars": 4156,
+   "forks": 633,
+   "today": 44,
+   "period": "today",
+   "contributors": [
+    "kevalmorabia97",
+    "shengliangxu",
+    "cjluo-nv",
+    "h-guo18",
+    "ajrasane"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "FxEmbed/FxEmbed",
+   "url": "https://github.com/FxEmbed/FxEmbed",
+   "desc": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+   "lang": "TypeScript",
+   "stars": 5402,
+   "forks": 252,
+   "today": 182,
+   "period": "today",
+   "contributors": [
+    "renovate",
+    "dangeredwolf",
+    "cursoragent",
+    "Wazbat",
+    "coderabbitai"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": 37423,
+   "forks": 5422,
+   "today": 509,
+   "period": "today",
+   "contributors": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-24",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 1
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": 50399,
+   "forks": 4618,
+   "today": 413,
+   "period": "today",
+   "contributors": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-24",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 10
+  },
+  {
+   "repo": "mvt-project/mvt",
+   "url": "https://github.com/mvt-project/mvt",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "lang": "Python",
+   "stars": 14764,
+   "forks": 1394,
+   "today": 272,
+   "period": "today",
+   "contributors": [
+    "botherder",
+    "DonnchaC",
+    "Te-k",
+    "besendorf",
+    "dependabot"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-24",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 13
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 291302,
+   "forks": 26063,
+   "today": 611,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "gaurav0107"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-24",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 5
+  },
+  {
+   "repo": "strands-agents/harness-sdk",
+   "url": "https://github.com/strands-agents/harness-sdk",
+   "desc": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+   "lang": "Python",
+   "stars": 8328,
+   "forks": 1244,
+   "today": 455,
+   "period": "today",
+   "contributors": [
+    "zastrowm",
+    "pgrayy",
+    "dependabot",
+    "strands-agent",
+    "yonib05"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-24",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 9
+  },
+  {
+   "repo": "julyx10/lap",
+   "url": "https://github.com/julyx10/lap",
+   "desc": "An offline-first photo manager for large local libraries",
+   "lang": "Vue",
+   "stars": 2942,
+   "forks": 173,
+   "today": 122,
+   "period": "today",
+   "contributors": [
+    "julyx10",
+    "baksohyeon",
+    "claude",
+    "talynone",
+    "Dimmitrius"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "superdesigndev/treg",
+   "url": "https://github.com/superdesigndev/treg",
+   "desc": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+   "lang": "Python",
+   "stars": 3230,
+   "forks": 268,
+   "today": 468,
+   "period": "today",
+   "contributors": [
+    "JayZeeDesign",
+    "claude",
+    "stonexer",
+    "unclecode",
+    "shehjad-dev"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-24",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 11
+  },
+  {
+   "repo": "leejet/stable-diffusion.cpp",
+   "url": "https://github.com/leejet/stable-diffusion.cpp",
+   "desc": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+   "lang": "C++",
+   "stars": 7291,
+   "forks": 814,
+   "today": 36,
+   "period": "today",
+   "contributors": [
+    "leejet",
+    "wbruna",
+    "stduhpf",
+    "fszontagh",
+    "rmatif"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
