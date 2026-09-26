@@ -1,0 +1,417 @@
+{
+ "date": "2026-09-26",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-26 14:04:11",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-25",
+ "dropped": [
+  {
+   "repo": "FxEmbed/FxEmbed",
+   "url": "https://github.com/FxEmbed/FxEmbed",
+   "rank": 6,
+   "stars": 5402,
+   "today": 182
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "rank": 7,
+   "stars": 37423,
+   "today": 509
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "rank": 8,
+   "stars": 50399,
+   "today": 413
+  },
+  {
+   "repo": "mvt-project/mvt",
+   "url": "https://github.com/mvt-project/mvt",
+   "rank": 9,
+   "stars": 14764,
+   "today": 272
+  },
+  {
+   "repo": "strands-agents/harness-sdk",
+   "url": "https://github.com/strands-agents/harness-sdk",
+   "rank": 11,
+   "stars": 8328,
+   "today": 455
+  },
+  {
+   "repo": "julyx10/lap",
+   "url": "https://github.com/julyx10/lap",
+   "rank": 12,
+   "stars": 2942,
+   "today": 122
+  },
+  {
+   "repo": "superdesigndev/treg",
+   "url": "https://github.com/superdesigndev/treg",
+   "rank": 13,
+   "stars": 3230,
+   "today": 468
+  },
+  {
+   "repo": "leejet/stable-diffusion.cpp",
+   "url": "https://github.com/leejet/stable-diffusion.cpp",
+   "rank": 14,
+   "stars": 7291,
+   "today": 36
+  }
+ ],
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 85375,
+   "forks": 15267,
+   "today": 2109,
+   "period": "today",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": 36984,
+   "forks": 4155,
+   "today": 83,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "tobinsouth"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 30156,
+   "forks": 3227,
+   "today": 1653,
+   "period": "today",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-25",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 291729,
+   "forks": 26111,
+   "today": 468,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "gaurav0107"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-25",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 10
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 269829,
+   "forks": 22737,
+   "today": 583,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 18791,
+   "forks": 1606,
+   "today": 1050,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-25",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 3
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 178403,
+   "forks": 21118,
+   "today": 189,
+   "period": "today",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "androoAGI/starnet",
+   "url": "https://github.com/androoAGI/starnet",
+   "desc": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+   "lang": "JavaScript",
+   "stars": 542,
+   "forks": 99,
+   "today": 93,
+   "period": "today",
+   "contributors": [
+    "androoAGI",
+    "claude"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "derv82/wifit3",
+   "url": "https://github.com/derv82/wifit3",
+   "desc": "Wifite but USB-only & cross-platform.",
+   "lang": "Python",
+   "stars": 1011,
+   "forks": 90,
+   "today": 183,
+   "period": "today",
+   "contributors": [
+    "derv82",
+    "xxcosita3czxx",
+    "laxdog",
+    "pzlabuda",
+    "francisuk1989"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "kelseyhightower/kubernetes-the-hard-way",
+   "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+   "desc": "Bootstrap Kubernetes the hard way. No scripts.",
+   "lang": "",
+   "stars": 50158,
+   "forks": 15921,
+   "today": 119,
+   "period": "today",
+   "contributors": [
+    "kelseyhightower",
+    "ksingh7",
+    "elsonrodriguez",
+    "amouat",
+    "0x5d"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 57703,
+   "forks": 10047,
+   "today": 1177,
+   "period": "today",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-25",
+   "change": "down",
+   "delta": 10,
+   "prev_rank": 1
+  },
+  {
+   "repo": "shy3130/tick-stock-panel",
+   "url": "https://github.com/shy3130/tick-stock-panel",
+   "desc": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+   "lang": "Python",
+   "stars": 5181,
+   "forks": 1262,
+   "today": 44,
+   "period": "today",
+   "contributors": [
+    "shy3130",
+    "kevin9327",
+    "claude",
+    "thinkbuf",
+    "intfoo"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google/ax",
+   "url": "https://github.com/google/ax",
+   "desc": "Google's open agentic orchestration runtime",
+   "lang": "Go",
+   "stars": 11626,
+   "forks": 558,
+   "today": 1379,
+   "period": "today",
+   "contributors": [
+    "rakyll",
+    "joycel-github",
+    "wjjclaud",
+    "anj-s",
+    "zbl94"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-25",
+   "change": "down",
+   "delta": 9,
+   "prev_rank": 4
+  },
+  {
+   "repo": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "lang": "Python",
+   "stars": 4531,
+   "forks": 655,
+   "today": 359,
+   "period": "today",
+   "contributors": [
+    "kevalmorabia97",
+    "shengliangxu",
+    "cjluo-nv",
+    "h-guo18",
+    "ajrasane"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-25",
+   "change": "down",
+   "delta": 9,
+   "prev_rank": 5
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 71286,
+   "forks": 4312,
+   "today": 306,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "openbao/openbao",
+   "url": "https://github.com/openbao/openbao",
+   "desc": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+   "lang": "Go",
+   "stars": 7801,
+   "forks": 587,
+   "today": 49,
+   "period": "today",
+   "contributors": [
+    "jefferai",
+    "vishalnayak",
+    "cipherboy",
+    "hc-github-team-secure-vault-core",
+    "armon"
+   ],
+   "rank": 16,
+   "prev_day": "2026-09-25",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
