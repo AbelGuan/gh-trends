@@ -1,0 +1,348 @@
+{
+ "date": "2026-09-27",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-27 14:30:59",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-09-26",
+ "dropped": [
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "rank": 14,
+   "stars": 4983,
+   "today": 1149
+  }
+ ],
+ "items": [
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": 37736,
+   "forks": 5453,
+   "today": 2633,
+   "period": "this week",
+   "contributors": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 22088,
+   "forks": 1278,
+   "today": 6474,
+   "period": "this week",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-26",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": 148248,
+   "forks": 24787,
+   "today": 1744,
+   "period": "this week",
+   "contributors": [
+    "actions-user",
+    "poteat",
+    "bcherny",
+    "claude",
+    "ant-kurt"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-26",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 87871,
+   "forks": 15483,
+   "today": 5376,
+   "period": "this week",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -8,
+   "prev_rank": 12
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 33616,
+   "forks": 3931,
+   "today": 7282,
+   "period": "this week",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 9
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "lang": "Go",
+   "stars": 30394,
+   "forks": 4073,
+   "today": 3015,
+   "period": "this week",
+   "contributors": [
+    "lyingbug",
+    "voidkey",
+    "begoniezhao",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-26",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 6
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 268028,
+   "forks": 40038,
+   "today": 5522,
+   "period": "this week",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "dependabot",
+    "pangerlkr"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-26",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 5
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": 79065,
+   "forks": 5178,
+   "today": 6503,
+   "period": "this week",
+   "contributors": [
+    "nwparker",
+    "AmethystLiang",
+    "orca-ide",
+    "brennanb2025",
+    "Jinwoo-H"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-26",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 8
+  },
+  {
+   "repo": "davila7/claude-code-templates",
+   "url": "https://github.com/davila7/claude-code-templates",
+   "desc": "CLI tool for configuring and monitoring Claude Code",
+   "lang": "Python",
+   "stars": 31935,
+   "forks": 3633,
+   "today": 1142,
+   "period": "this week",
+   "contributors": [
+    "davila7",
+    "claude",
+    "github-actions",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 11
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 41678,
+   "forks": 2999,
+   "today": 4310,
+   "period": "this week",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "stay-foolish-forever",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-26",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 4
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 25694,
+   "forks": 3038,
+   "today": 664,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-26",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 10
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 99328,
+   "forks": 10427,
+   "today": 2510,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "ayobamiseun"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-26",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 7
+  },
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars": 103387,
+   "forks": 30668,
+   "today": 295,
+   "period": "this week",
+   "contributors": [
+    "pytorchmergebot",
+    "ezyang",
+    "malfet",
+    "zou3519",
+    "cyyever"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-26",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 13
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": 50657,
+   "forks": 4631,
+   "today": 1055,
+   "period": "this week",
+   "contributors": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cloudflare/quiche",
+   "url": "https://github.com/cloudflare/quiche",
+   "desc": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+   "lang": "Rust",
+   "stars": 12634,
+   "forks": 1149,
+   "today": 736,
+   "period": "this week",
+   "contributors": [
+    "ghedo",
+    "github-actions",
+    "traviscibot",
+    "LPardue",
+    "antoniovicente"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-26",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 15
+  }
+ ]
+}

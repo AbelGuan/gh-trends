@@ -1,0 +1,412 @@
+{
+ "date": "2026-09-27",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-27 14:30:57",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-26",
+ "dropped": [
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "rank": 2,
+   "stars": 36984,
+   "today": 83
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "rank": 4,
+   "stars": 291729,
+   "today": 468
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "rank": 5,
+   "stars": 269829,
+   "today": 583
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "rank": 7,
+   "stars": 178403,
+   "today": 189
+  },
+  {
+   "repo": "androoAGI/starnet",
+   "url": "https://github.com/androoAGI/starnet",
+   "rank": 8,
+   "stars": 542,
+   "today": 93
+  },
+  {
+   "repo": "derv82/wifit3",
+   "url": "https://github.com/derv82/wifit3",
+   "rank": 9,
+   "stars": 1011,
+   "today": 183
+  },
+  {
+   "repo": "kelseyhightower/kubernetes-the-hard-way",
+   "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+   "rank": 10,
+   "stars": 50158,
+   "today": 119
+  },
+  {
+   "repo": "shy3130/tick-stock-panel",
+   "url": "https://github.com/shy3130/tick-stock-panel",
+   "rank": 12,
+   "stars": 5181,
+   "today": 44
+  },
+  {
+   "repo": "google/ax",
+   "url": "https://github.com/google/ax",
+   "rank": 13,
+   "stars": 11626,
+   "today": 1379
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "rank": 15,
+   "stars": 71286,
+   "today": 306
+  }
+ ],
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 87871,
+   "forks": 15483,
+   "today": 2608,
+   "period": "today",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-26",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 33616,
+   "forks": 3931,
+   "today": 2147,
+   "period": "today",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "lang": "Python",
+   "stars": 4816,
+   "forks": 672,
+   "today": 357,
+   "period": "today",
+   "contributors": [
+    "kevalmorabia97",
+    "shengliangxu",
+    "cjluo-nv",
+    "h-guo18",
+    "ajrasane"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -11,
+   "prev_rank": 14
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 19710,
+   "forks": 1660,
+   "today": 849,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "tensorflow/tensorflow",
+   "url": "https://github.com/tensorflow/tensorflow",
+   "desc": "An Open Source Machine Learning Framework for Everyone",
+   "lang": "C++",
+   "stars": 200496,
+   "forks": 77666,
+   "today": 46,
+   "period": "today",
+   "contributors": [
+    "tensorflower-gardener",
+    "ezhulenev",
+    "akuegel",
+    "hawkinsp",
+    "mihaimaruseac"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 58538,
+   "forks": 10149,
+   "today": 827,
+   "period": "today",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 11
+  },
+  {
+   "repo": "openbao/openbao",
+   "url": "https://github.com/openbao/openbao",
+   "desc": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+   "lang": "Go",
+   "stars": 8056,
+   "forks": 591,
+   "today": 364,
+   "period": "today",
+   "contributors": [
+    "jefferai",
+    "vishalnayak",
+    "cipherboy",
+    "hc-github-team-secure-vault-core",
+    "armon"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-26",
+   "change": "up",
+   "delta": -9,
+   "prev_rank": 16
+  },
+  {
+   "repo": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "desc": "A hive mind communication platform",
+   "lang": "Rust",
+   "stars": 34882,
+   "forks": 4598,
+   "today": 339,
+   "period": "today",
+   "contributors": [
+    "wesbillman",
+    "wpfleger96",
+    "tlongwell-block",
+    "claude",
+    "klopez4212"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "desc": "Visual Studio Code",
+   "lang": "TypeScript",
+   "stars": 193108,
+   "forks": 43604,
+   "today": 95,
+   "period": "today",
+   "contributors": [
+    "bpasero",
+    "jrieken",
+    "Tyriar",
+    "sandy081",
+    "joaomoreno"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "zhaoxuya520/reverse-skill",
+   "url": "https://github.com/zhaoxuya520/reverse-skill",
+   "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+   "lang": "PowerShell",
+   "stars": 38119,
+   "forks": 5289,
+   "today": 361,
+   "period": "today",
+   "contributors": [
+    "zhaoxuya520",
+    "dhicoc",
+    "jhuang-tw",
+    "zhaoxuya",
+    "doublecurry"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "llvm/llvm-project",
+   "url": "https://github.com/llvm/llvm-project",
+   "desc": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+   "lang": "LLVM",
+   "stars": 40776,
+   "forks": 18826,
+   "today": 41,
+   "period": "today",
+   "contributors": [
+    "lattner",
+    "topperc",
+    "RKSimon",
+    "arsenm",
+    "espindola"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/claude-code-action",
+   "url": "https://github.com/anthropics/claude-code-action",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 9140,
+   "forks": 2168,
+   "today": 31,
+   "period": "today",
+   "contributors": [
+    "actions-user",
+    "ashwin-ant",
+    "claude",
+    "ltawfik",
+    "claude"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "actions/runner-images",
+   "url": "https://github.com/actions/runner-images",
+   "desc": "GitHub Actions runner images",
+   "lang": "PowerShell",
+   "stars": 13333,
+   "forks": 3870,
+   "today": 19,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "459680",
+    "al-cheb",
+    "miketimofeev"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mobile-next/mobile-mcp",
+   "url": "https://github.com/mobile-next/mobile-mcp",
+   "desc": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+   "lang": "TypeScript",
+   "stars": 7485,
+   "forks": 650,
+   "today": 168,
+   "period": "today",
+   "contributors": [
+    "gmegidish",
+    "krismuhi",
+    "benlmyers",
+    "tomoya0x00",
+    "aluedeke"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "desc": "The React Framework",
+   "lang": "JavaScript",
+   "stars": 142695,
+   "forks": 33206,
+   "today": 54,
+   "period": "today",
+   "contributors": [
+    "ijjk",
+    "timneutkens",
+    "sokra",
+    "vercel-release-bot",
+    "huozhi"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
