@@ -1,0 +1,287 @@
+{
+ "date": "2026-09-28",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-28 14:40:34",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-27",
+ "dropped": [
+  {
+   "repo": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "rank": 3,
+   "stars": 4816,
+   "today": 357
+  },
+  {
+   "repo": "tensorflow/tensorflow",
+   "url": "https://github.com/tensorflow/tensorflow",
+   "rank": 5,
+   "stars": 200496,
+   "today": 46
+  },
+  {
+   "repo": "openbao/openbao",
+   "url": "https://github.com/openbao/openbao",
+   "rank": 7,
+   "stars": 8056,
+   "today": 364
+  },
+  {
+   "repo": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "rank": 8,
+   "stars": 34882,
+   "today": 339
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "rank": 9,
+   "stars": 193108,
+   "today": 95
+  },
+  {
+   "repo": "zhaoxuya520/reverse-skill",
+   "url": "https://github.com/zhaoxuya520/reverse-skill",
+   "rank": 10,
+   "stars": 38119,
+   "today": 361
+  },
+  {
+   "repo": "llvm/llvm-project",
+   "url": "https://github.com/llvm/llvm-project",
+   "rank": 11,
+   "stars": 40776,
+   "today": 41
+  },
+  {
+   "repo": "anthropics/claude-code-action",
+   "url": "https://github.com/anthropics/claude-code-action",
+   "rank": 12,
+   "stars": 9140,
+   "today": 31
+  },
+  {
+   "repo": "actions/runner-images",
+   "url": "https://github.com/actions/runner-images",
+   "rank": 13,
+   "stars": 13333,
+   "today": 19
+  },
+  {
+   "repo": "mobile-next/mobile-mcp",
+   "url": "https://github.com/mobile-next/mobile-mcp",
+   "rank": 14,
+   "stars": 7485,
+   "today": 168
+  },
+  {
+   "repo": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "rank": 15,
+   "stars": 142695,
+   "today": 54
+  }
+ ],
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 90740,
+   "forks": 15728,
+   "today": 2401,
+   "period": "today",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-27",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 38377,
+   "forks": 5016,
+   "today": 4520,
+   "period": "today",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-27",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 40855,
+   "forks": 4852,
+   "today": 3086,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-27",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 59707,
+   "forks": 10282,
+   "today": 790,
+   "period": "today",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-27",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "InfinityLoop1308/PipePipe",
+   "url": "https://github.com/InfinityLoop1308/PipePipe",
+   "desc": "An open-source Android app to let you browse YouTube and other services freely.",
+   "lang": "Shell",
+   "stars": 6686,
+   "forks": 225,
+   "today": 242,
+   "period": "today",
+   "contributors": [
+    "InfinityLoop1308",
+    "wh201906",
+    "Korb",
+    "Priveetee",
+    "yurtpage"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-27",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vercel-labs/scriptc",
+   "url": "https://github.com/vercel-labs/scriptc",
+   "desc": "TypeScript-to-Native Compiler",
+   "lang": "TypeScript",
+   "stars": 5496,
+   "forks": 143,
+   "today": 102,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "jimmyhmiller",
+    "HagegeR",
+    "mmamedel",
+    "ryoppippi"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-27",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars": 1178,
+   "forks": 111,
+   "today": 114,
+   "period": "today",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "mattik",
+    "agentS",
+    "danielkuykendall23-boop"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-27",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 20773,
+   "forks": 1766,
+   "today": 895,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-27",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 4
+  },
+  {
+   "repo": "willfaust/Madeira",
+   "url": "https://github.com/willfaust/Madeira",
+   "desc": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+   "lang": "C",
+   "stars": 882,
+   "forks": 153,
+   "today": 83,
+   "period": "today",
+   "contributors": [
+    "willfaust",
+    "claude",
+    "125hz",
+    "codex"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-27",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
