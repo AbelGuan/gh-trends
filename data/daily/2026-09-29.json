@@ -1,0 +1,217 @@
+{
+ "date": "2026-09-29",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-29 14:47:46",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-28",
+ "dropped": [
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "rank": 4,
+   "stars": 59707,
+   "today": 790
+  },
+  {
+   "repo": "InfinityLoop1308/PipePipe",
+   "url": "https://github.com/InfinityLoop1308/PipePipe",
+   "rank": 5,
+   "stars": 6686,
+   "today": 242
+  },
+  {
+   "repo": "vercel-labs/scriptc",
+   "url": "https://github.com/vercel-labs/scriptc",
+   "rank": 6,
+   "stars": 5496,
+   "today": 102
+  },
+  {
+   "repo": "willfaust/Madeira",
+   "url": "https://github.com/willfaust/Madeira",
+   "rank": 9,
+   "stars": 882,
+   "today": 83
+  }
+ ],
+ "items": [
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 45192,
+   "forks": 5173,
+   "today": 3221,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-28",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 93382,
+   "forks": 15936,
+   "today": 3197,
+   "period": "today",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-28",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 41530,
+   "forks": 5589,
+   "today": 4561,
+   "period": "today",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-28",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "NawfalMotii79/PLFM_RADAR",
+   "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+   "desc": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+   "lang": "PLSQL",
+   "stars": 25872,
+   "forks": 5893,
+   "today": 158,
+   "period": "today",
+   "contributors": [
+    "JJassonn69",
+    "NawfalMotii79",
+    "joyshmitz",
+    "shaun0927",
+    "3aLaee"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cs341-illinois/coursebook",
+   "url": "https://github.com/cs341-illinois/coursebook",
+   "desc": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+   "lang": "TeX",
+   "stars": 2646,
+   "forks": 245,
+   "today": 195,
+   "period": "today",
+   "contributors": [
+    "bhuvy2",
+    "angrave",
+    "PradyumnaShome",
+    "ekcom",
+    "aneeshdurg"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "byoungd/up",
+   "url": "https://github.com/byoungd/up",
+   "desc": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+   "lang": "JavaScript",
+   "stars": 65033,
+   "forks": 6541,
+   "today": 327,
+   "period": "today",
+   "contributors": [
+    "byoungd",
+    "fakesnow",
+    "holtenko",
+    "WMXPY",
+    "overtrue"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars": 1919,
+   "forks": 147,
+   "today": 734,
+   "period": "today",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "mattik",
+    "mvdpoel",
+    "agentS"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-28",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 7
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 21448,
+   "forks": 1812,
+   "today": 1099,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-28",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 8
+  }
+ ]
+}
