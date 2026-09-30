@@ -1,0 +1,333 @@
+{
+ "date": "2026-09-30",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-09-30 14:36:08",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-29",
+ "dropped": [
+  {
+   "repo": "NawfalMotii79/PLFM_RADAR",
+   "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+   "rank": 4,
+   "stars": 25872,
+   "today": 158
+  },
+  {
+   "repo": "byoungd/up",
+   "url": "https://github.com/byoungd/up",
+   "rank": 6,
+   "stars": 65033,
+   "today": 327
+  }
+ ],
+ "items": [
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 48877,
+   "forks": 5465,
+   "today": 4758,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-29",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": 10894,
+   "forks": 1438,
+   "today": 990,
+   "period": "today",
+   "contributors": [
+    "drew",
+    "johntmyers",
+    "pimlock",
+    "miyoungc",
+    "elezar"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 43177,
+   "forks": 5808,
+   "today": 2575,
+   "period": "today",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-29",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 94744,
+   "forks": 16086,
+   "today": 2458,
+   "period": "today",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-29",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 2
+  },
+  {
+   "repo": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "desc": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+   "lang": "Rust",
+   "stars": 22444,
+   "forks": 2103,
+   "today": 232,
+   "period": "today",
+   "contributors": [
+    "t8y2",
+    "zipg",
+    "github-actions",
+    "eryajf",
+    "q396921921"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars": 2566,
+   "forks": 181,
+   "today": 737,
+   "period": "today",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "mattik",
+    "dajiaohuang",
+    "mvdpoel"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-29",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "oblien/openship",
+   "url": "https://github.com/oblien/openship",
+   "desc": "Self-hosted deployment platform",
+   "lang": "TypeScript",
+   "stars": 14002,
+   "forks": 1251,
+   "today": 437,
+   "period": "today",
+   "contributors": [
+    "Hydralerne",
+    "claude",
+    "Rish-it",
+    "shuvamk",
+    "DiogoDuart3"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "averygan/reclip",
+   "url": "https://github.com/averygan/reclip",
+   "desc": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+   "lang": "HTML",
+   "stars": 10332,
+   "forks": 1547,
+   "today": 113,
+   "period": "today",
+   "contributors": [
+    "averygan",
+    "jouls0217",
+    "claude",
+    "AmanoSpica"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cs341-illinois/coursebook",
+   "url": "https://github.com/cs341-illinois/coursebook",
+   "desc": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+   "lang": "TeX",
+   "stars": 3206,
+   "forks": 278,
+   "today": 572,
+   "period": "today",
+   "contributors": [
+    "bhuvy2",
+    "angrave",
+    "PradyumnaShome",
+    "ekcom",
+    "aneeshdurg"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-29",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 5
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 61695,
+   "forks": 10560,
+   "today": 786,
+   "period": "today",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "VectifyAI/PageIndex",
+   "url": "https://github.com/VectifyAI/PageIndex",
+   "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+   "lang": "Python",
+   "stars": 37617,
+   "forks": 3276,
+   "today": 835,
+   "period": "today",
+   "contributors": [
+    "rejojer",
+    "zmtomorrow",
+    "BukeLy",
+    "S3DFX-CYBER",
+    "KylinMountain"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "willfaust/Madeira",
+   "url": "https://github.com/willfaust/Madeira",
+   "desc": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+   "lang": "C",
+   "stars": 1143,
+   "forks": 192,
+   "today": 81,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "willfaust",
+    "125hz",
+    "codex"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 21984,
+   "forks": 1859,
+   "today": 696,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-29",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 8
+  },
+  {
+   "repo": "rakyll/hey",
+   "url": "https://github.com/rakyll/hey",
+   "desc": "HTTP load generator, ApacheBench (ab) replacement",
+   "lang": "Go",
+   "stars": 20541,
+   "forks": 1315,
+   "today": 34,
+   "period": "today",
+   "contributors": [
+    "rakyll",
+    "mdakin",
+    "jronak",
+    "pasc",
+    "keramidasceid"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
