@@ -1,0 +1,449 @@
+{
+ "date": "2026-10-01",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-01 15:07:56",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-09-30",
+ "dropped": [
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "rank": 3,
+   "stars": 43177,
+   "today": 2575
+  },
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "rank": 4,
+   "stars": 94744,
+   "today": 2458
+  },
+  {
+   "repo": "oblien/openship",
+   "url": "https://github.com/oblien/openship",
+   "rank": 7,
+   "stars": 14002,
+   "today": 437
+  },
+  {
+   "repo": "averygan/reclip",
+   "url": "https://github.com/averygan/reclip",
+   "rank": 8,
+   "stars": 10332,
+   "today": 113
+  },
+  {
+   "repo": "cs341-illinois/coursebook",
+   "url": "https://github.com/cs341-illinois/coursebook",
+   "rank": 9,
+   "stars": 3206,
+   "today": 572
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "rank": 10,
+   "stars": 61695,
+   "today": 786
+  },
+  {
+   "repo": "willfaust/Madeira",
+   "url": "https://github.com/willfaust/Madeira",
+   "rank": 12,
+   "stars": 1143,
+   "today": 81
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "rank": 13,
+   "stars": 21984,
+   "today": 696
+  },
+  {
+   "repo": "rakyll/hey",
+   "url": "https://github.com/rakyll/hey",
+   "rank": 14,
+   "stars": 20541,
+   "today": 34
+  }
+ ],
+ "items": [
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": 13203,
+   "forks": 1572,
+   "today": 1281,
+   "period": "today",
+   "contributors": [
+    "drew",
+    "johntmyers",
+    "pimlock",
+    "miyoungc",
+    "elezar"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-30",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 50777,
+   "forks": 5630,
+   "today": 3483,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-30",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars": 3194,
+   "forks": 219,
+   "today": 624,
+   "period": "today",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "rudycelekli",
+    "nvtoan0201-swe",
+    "mvdpoel"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-30",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 6
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 24565,
+   "forks": 1771,
+   "today": 90,
+   "period": "today",
+   "contributors": [
+    "mksglu",
+    "claude",
+    "github-actions",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 149500,
+   "forks": 8031,
+   "today": 743,
+   "period": "today",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "Lakshya77089",
+    "ousamabenyounes",
+    "dhedhialy"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "lang": "Python",
+   "stars": 127692,
+   "forks": 19972,
+   "today": 431,
+   "period": "today",
+   "contributors": [
+    "harry0703",
+    "c020627",
+    "rudycelekli",
+    "claude",
+    "yyhhyyyyyy"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "desc": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+   "lang": "TypeScript",
+   "stars": 391066,
+   "forks": 82232,
+   "today": 136,
+   "period": "today",
+   "contributors": [
+    "steipete",
+    "vincentkoc",
+    "shakkernerd",
+    "obviyus",
+    "Takhoffman"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ComposioHQ/awesome-claude-skills",
+   "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+   "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+   "lang": "Python",
+   "stars": 76221,
+   "forks": 8883,
+   "today": 123,
+   "period": "today",
+   "contributors": [
+    "Prat011",
+    "sohamganatra",
+    "claude",
+    "sanjay3290",
+    "mellson"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 273216,
+   "forks": 22967,
+   "today": 876,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 54888,
+   "forks": 4988,
+   "today": 349,
+   "period": "today",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "firebase/firebase-ios-sdk",
+   "url": "https://github.com/firebase/firebase-ios-sdk",
+   "desc": "Firebase SDK for Apple App Development",
+   "lang": "C++",
+   "stars": 6789,
+   "forks": 1800,
+   "today": 8,
+   "period": "today",
+   "contributors": [
+    "paulb777",
+    "ncooke3",
+    "wilhuff",
+    "andrewheard",
+    "ryanwilson"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "modelcontextprotocol/servers",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "desc": "Model Context Protocol Servers",
+   "lang": "TypeScript",
+   "stars": 90868,
+   "forks": 11732,
+   "today": 50,
+   "period": "today",
+   "contributors": [
+    "olaservo",
+    "tadasant",
+    "cliffhall",
+    "dsp-ant",
+    "jspahrsummers"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "byoungd/up",
+   "url": "https://github.com/byoungd/up",
+   "desc": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+   "lang": "JavaScript",
+   "stars": 66504,
+   "forks": 6645,
+   "today": 743,
+   "period": "today",
+   "contributors": [
+    "byoungd",
+    "fakesnow",
+    "holtenko",
+    "WMXPY",
+    "overtrue"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "colbymchenry/codegraph",
+   "url": "https://github.com/colbymchenry/codegraph",
+   "desc": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+   "lang": "C",
+   "stars": 72673,
+   "forks": 4665,
+   "today": 118,
+   "period": "today",
+   "contributors": [
+    "colbymchenry",
+    "claude",
+    "github-actions",
+    "maxmilian",
+    "omonien"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "desc": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+   "lang": "Rust",
+   "stars": 23423,
+   "forks": 2162,
+   "today": 1138,
+   "period": "today",
+   "contributors": [
+    "t8y2",
+    "zipg",
+    "github-actions",
+    "eryajf",
+    "q396921921"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-30",
+   "change": "down",
+   "delta": 10,
+   "prev_rank": 5
+  },
+  {
+   "repo": "NawfalMotii79/PLFM_RADAR",
+   "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+   "desc": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+   "lang": "PLSQL",
+   "stars": 26476,
+   "forks": 5980,
+   "today": 263,
+   "period": "today",
+   "contributors": [
+    "JJassonn69",
+    "NawfalMotii79",
+    "joyshmitz",
+    "shaun0927",
+    "3aLaee"
+   ],
+   "rank": 16,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "VectifyAI/PageIndex",
+   "url": "https://github.com/VectifyAI/PageIndex",
+   "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+   "lang": "Python",
+   "stars": 38249,
+   "forks": 3317,
+   "today": 1097,
+   "period": "today",
+   "contributors": [
+    "rejojer",
+    "zmtomorrow",
+    "BukeLy",
+    "S3DFX-CYBER",
+    "KylinMountain"
+   ],
+   "rank": 17,
+   "prev_day": "2026-09-30",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 11
+  }
+ ]
+}

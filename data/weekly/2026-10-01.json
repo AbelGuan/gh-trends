@@ -1,0 +1,357 @@
+{
+ "date": "2026-10-01",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-01 15:07:57",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-09-30",
+ "dropped": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "rank": 12,
+   "stars": 23262,
+   "today": 3311
+  },
+  {
+   "repo": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "rank": 15,
+   "stars": 27420,
+   "today": 1211
+  }
+ ],
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 95465,
+   "forks": 16195,
+   "today": 13855,
+   "period": "this week",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 1,
+   "prev_day": "2026-09-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 44033,
+   "forks": 5855,
+   "today": 18389,
+   "period": "this week",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 2,
+   "prev_day": "2026-09-30",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": 38402,
+   "forks": 5526,
+   "today": 1637,
+   "period": "this week",
+   "contributors": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ],
+   "rank": 3,
+   "prev_day": "2026-09-30",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 50777,
+   "forks": 5630,
+   "today": 15186,
+   "period": "this week",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 4,
+   "prev_day": "2026-09-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 62208,
+   "forks": 10638,
+   "today": 6485,
+   "period": "this week",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-09-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 5
+  },
+  {
+   "repo": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "desc": "The React Framework",
+   "lang": "JavaScript",
+   "stars": 142960,
+   "forks": 33551,
+   "today": 595,
+   "period": "this week",
+   "contributors": [
+    "ijjk",
+    "timneutkens",
+    "sokra",
+    "vercel-release-bot",
+    "huozhi"
+   ],
+   "rank": 6,
+   "prev_day": "2026-09-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 6
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": 51147,
+   "forks": 4663,
+   "today": 1371,
+   "period": "this week",
+   "contributors": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ],
+   "rank": 7,
+   "prev_day": "2026-09-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 7
+  },
+  {
+   "repo": "davila7/claude-code-templates",
+   "url": "https://github.com/davila7/claude-code-templates",
+   "desc": "CLI tool for configuring and monitoring Claude Code",
+   "lang": "Python",
+   "stars": 32252,
+   "forks": 3662,
+   "today": 914,
+   "period": "this week",
+   "contributors": [
+    "davila7",
+    "claude",
+    "github-actions",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-09-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 8
+  },
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars": 103577,
+   "forks": 31024,
+   "today": 398,
+   "period": "this week",
+   "contributors": [
+    "pytorchmergebot",
+    "malfet",
+    "ezyang",
+    "zou3519",
+    "cyyever"
+   ],
+   "rank": 9,
+   "prev_day": "2026-09-30",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 10
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 73166,
+   "forks": 4418,
+   "today": 2775,
+   "period": "this week",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 10,
+   "prev_day": "2026-09-30",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 13
+  },
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "lang": "Python",
+   "stars": 6140,
+   "forks": 778,
+   "today": 1301,
+   "period": "this week",
+   "contributors": [
+    "jubaoliang-tencent",
+    "cursoragent",
+    "jubaoliang",
+    "liukewia",
+    "huangcheng"
+   ],
+   "rank": 11,
+   "prev_day": "2026-09-30",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 14
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": 82587,
+   "forks": 5360,
+   "today": 5987,
+   "period": "this week",
+   "contributors": [
+    "nwparker",
+    "AmethystLiang",
+    "brennanb2025",
+    "orca-ide",
+    "Jinwoo-H"
+   ],
+   "rank": 12,
+   "prev_day": "2026-09-30",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 9
+  },
+  {
+   "repo": "elastic/elasticsearch",
+   "url": "https://github.com/elastic/elasticsearch",
+   "desc": "Free and Open Source, Distributed, RESTful Search Engine",
+   "lang": "Java",
+   "stars": 78170,
+   "forks": 26097,
+   "today": 199,
+   "period": "this week",
+   "contributors": [
+    "elasticsearchmachine",
+    "kimchy",
+    "nik9000",
+    "martijnvg",
+    "s1monw"
+   ],
+   "rank": 13,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "lang": "Go",
+   "stars": 31556,
+   "forks": 4210,
+   "today": 2227,
+   "period": "this week",
+   "contributors": [
+    "lyingbug",
+    "voidkey",
+    "claude",
+    "begoniezhao",
+    "dependabot"
+   ],
+   "rank": 14,
+   "prev_day": "2026-09-30",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 11
+  },
+  {
+   "repo": "FxEmbed/FxEmbed",
+   "url": "https://github.com/FxEmbed/FxEmbed",
+   "desc": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+   "lang": "TypeScript",
+   "stars": 5617,
+   "forks": 268,
+   "today": 520,
+   "period": "this week",
+   "contributors": [
+    "renovate",
+    "dangeredwolf",
+    "cursoragent",
+    "Wazbat",
+    "coderabbitai"
+   ],
+   "rank": 15,
+   "prev_day": "2026-09-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
