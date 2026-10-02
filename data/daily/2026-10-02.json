@@ -1,0 +1,403 @@
+{
+ "date": "2026-10-02",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-02 14:56:38",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-01",
+ "dropped": [
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "rank": 2,
+   "stars": 50777,
+   "today": 3483
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "rank": 6,
+   "stars": 127692,
+   "today": 431
+  },
+  {
+   "repo": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "rank": 7,
+   "stars": 391066,
+   "today": 136
+  },
+  {
+   "repo": "ComposioHQ/awesome-claude-skills",
+   "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+   "rank": 8,
+   "stars": 76221,
+   "today": 123
+  },
+  {
+   "repo": "modelcontextprotocol/servers",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "rank": 12,
+   "stars": 90868,
+   "today": 50
+  },
+  {
+   "repo": "byoungd/up",
+   "url": "https://github.com/byoungd/up",
+   "rank": 13,
+   "stars": 66504,
+   "today": 743
+  },
+  {
+   "repo": "colbymchenry/codegraph",
+   "url": "https://github.com/colbymchenry/codegraph",
+   "rank": 14,
+   "stars": 72673,
+   "today": 118
+  },
+  {
+   "repo": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "rank": 15,
+   "stars": 23423,
+   "today": 1138
+  },
+  {
+   "repo": "NawfalMotii79/PLFM_RADAR",
+   "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+   "rank": 16,
+   "stars": 26476,
+   "today": 263
+  },
+  {
+   "repo": "VectifyAI/PageIndex",
+   "url": "https://github.com/VectifyAI/PageIndex",
+   "rank": 17,
+   "stars": 38249,
+   "today": 1097
+  }
+ ],
+ "items": [
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 150861,
+   "forks": 8096,
+   "today": 1194,
+   "period": "today",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "Lakshya77089",
+    "ousamabenyounes",
+    "dhedhialy"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 5
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 274127,
+   "forks": 23022,
+   "today": 883,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 9
+  },
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": 14135,
+   "forks": 1635,
+   "today": 2456,
+   "period": "today",
+   "contributors": [
+    "drew",
+    "johntmyers",
+    "pimlock",
+    "miyoungc",
+    "elezar"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-01",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 1
+  },
+  {
+   "repo": "firebase/firebase-ios-sdk",
+   "url": "https://github.com/firebase/firebase-ios-sdk",
+   "desc": "Firebase SDK for Apple App Development",
+   "lang": "C++",
+   "stars": 6892,
+   "forks": 1808,
+   "today": 112,
+   "period": "today",
+   "contributors": [
+    "paulb777",
+    "ncooke3",
+    "wilhuff",
+    "andrewheard",
+    "ryanwilson"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 11
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+   "lang": "TypeScript",
+   "stars": 3873,
+   "forks": 256,
+   "today": 642,
+   "period": "today",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "rudycelekli",
+    "korallis",
+    "Totopo27"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-01",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 9359,
+   "forks": 887,
+   "today": 150,
+   "period": "today",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 294094,
+   "forks": 26303,
+   "today": 455,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "gaurav0107"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 24853,
+   "forks": 1788,
+   "today": 362,
+   "period": "today",
+   "contributors": [
+    "mksglu",
+    "claude",
+    "github-actions",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-01",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 4
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 55484,
+   "forks": 5025,
+   "today": 627,
+   "period": "today",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 10
+  },
+  {
+   "repo": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "desc": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+   "lang": "TypeScript",
+   "stars": 111400,
+   "forks": 14144,
+   "today": 298,
+   "period": "today",
+   "contributors": [
+    "badlogic",
+    "mitsuhiko",
+    "davidbrai",
+    "christianklotz",
+    "cristinaponcela"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tile-ai/tilelang",
+   "url": "https://github.com/tile-ai/tilelang",
+   "desc": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+   "lang": "Python",
+   "stars": 8170,
+   "forks": 822,
+   "today": 163,
+   "period": "today",
+   "contributors": [
+    "LeiWang1999",
+    "chengyupku",
+    "SiriusNEO",
+    "Rachmanino",
+    "xwhzz"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pablostanley/yoinks",
+   "url": "https://github.com/pablostanley/yoinks",
+   "desc": "yoink any video from your terminal. no shady ads.",
+   "lang": "TypeScript",
+   "stars": 3074,
+   "forks": 291,
+   "today": 361,
+   "period": "today",
+   "contributors": [
+    "pablostanley",
+    "claude"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "HunxByts/GhostTrack",
+   "url": "https://github.com/HunxByts/GhostTrack",
+   "desc": "Useful tool to track location or mobile number",
+   "lang": "Python",
+   "stars": 16530,
+   "forks": 2265,
+   "today": 368,
+   "period": "today",
+   "contributors": [
+    "HunxByts",
+    "bakaemon"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 73851,
+   "forks": 4447,
+   "today": 495,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Friedrich-M/UniMate",
+   "url": "https://github.com/Friedrich-M/UniMate",
+   "desc": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+   "lang": "Python",
+   "stars": 1134,
+   "forks": 102,
+   "today": 217,
+   "period": "today",
+   "contributors": [
+    "Friedrich-M",
+    "claude"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

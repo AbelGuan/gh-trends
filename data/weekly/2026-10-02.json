@@ -1,0 +1,378 @@
+{
+ "date": "2026-10-02",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-02 14:56:39",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-01",
+ "dropped": [
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "rank": 9,
+   "stars": 103577,
+   "today": 398
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "rank": 12,
+   "stars": 82587,
+   "today": 5987
+  },
+  {
+   "repo": "elastic/elasticsearch",
+   "url": "https://github.com/elastic/elasticsearch",
+   "rank": 13,
+   "stars": 78170,
+   "today": 199
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "rank": 14,
+   "stars": 31556,
+   "today": 2227
+  },
+  {
+   "repo": "FxEmbed/FxEmbed",
+   "url": "https://github.com/FxEmbed/FxEmbed",
+   "rank": 15,
+   "stars": 5617,
+   "today": 520
+  }
+ ],
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 95952,
+   "forks": 16265,
+   "today": 14335,
+   "period": "this week",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-01",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 44420,
+   "forks": 5861,
+   "today": 17403,
+   "period": "this week",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-01",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 51526,
+   "forks": 5745,
+   "today": 16114,
+   "period": "this week",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 62505,
+   "forks": 10688,
+   "today": 6469,
+   "period": "this week",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": 38497,
+   "forks": 5537,
+   "today": 1270,
+   "period": "this week",
+   "contributors": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-01",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "desc": "The React Framework",
+   "lang": "JavaScript",
+   "stars": 142999,
+   "forks": 33561,
+   "today": 624,
+   "period": "this week",
+   "contributors": [
+    "ijjk",
+    "timneutkens",
+    "sokra",
+    "vercel-release-bot",
+    "huozhi"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-01",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 6
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 73851,
+   "forks": 4447,
+   "today": 2704,
+   "period": "this week",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-01",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 10
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": 51290,
+   "forks": 4678,
+   "today": 1055,
+   "period": "this week",
+   "contributors": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-01",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "alirezarezvani/claude-skills",
+   "url": "https://github.com/alirezarezvani/claude-skills",
+   "desc": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+   "lang": "Python",
+   "stars": 27213,
+   "forks": 3844,
+   "today": 743,
+   "period": "this week",
+   "contributors": [
+    "alirezarezvani",
+    "claude",
+    "olgasafonova",
+    "fernandezbaptiste",
+    "ikala-shawn"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "davila7/claude-code-templates",
+   "url": "https://github.com/davila7/claude-code-templates",
+   "desc": "CLI tool for configuring and monitoring Claude Code",
+   "lang": "Python",
+   "stars": 32286,
+   "forks": 3669,
+   "today": 601,
+   "period": "this week",
+   "contributors": [
+    "davila7",
+    "claude",
+    "github-actions",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-01",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "lang": "Python",
+   "stars": 6287,
+   "forks": 786,
+   "today": 1360,
+   "period": "this week",
+   "contributors": [
+    "jubaoliang-tencent",
+    "cursoragent",
+    "jubaoliang",
+    "liukewia",
+    "huangcheng"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-01",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 11
+  },
+  {
+   "repo": "agent-substrate/substrate",
+   "url": "https://github.com/agent-substrate/substrate",
+   "desc": "Agent Substrate: the core system",
+   "lang": "Go",
+   "stars": 4137,
+   "forks": 490,
+   "today": 365,
+   "period": "this week",
+   "contributors": [
+    "BenTheElder",
+    "juli4n",
+    "HavenXia",
+    "thockin",
+    "zoez7"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tile-ai/tilelang",
+   "url": "https://github.com/tile-ai/tilelang",
+   "desc": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+   "lang": "Python",
+   "stars": 8170,
+   "forks": 822,
+   "today": 481,
+   "period": "this week",
+   "contributors": [
+    "LeiWang1999",
+    "chengyupku",
+    "SiriusNEO",
+    "Rachmanino",
+    "xwhzz"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/claude-code-action",
+   "url": "https://github.com/anthropics/claude-code-action",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 9343,
+   "forks": 2185,
+   "today": 376,
+   "period": "this week",
+   "contributors": [
+    "actions-user",
+    "ashwin-ant",
+    "claude",
+    "ltawfik",
+    "claude"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars": 22271,
+   "forks": 1870,
+   "today": 5267,
+   "period": "this week",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-01",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
