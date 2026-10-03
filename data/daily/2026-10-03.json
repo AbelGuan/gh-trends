@@ -1,0 +1,418 @@
+{
+ "date": "2026-10-03",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-03 14:22:15",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-02",
+ "dropped": [
+  {
+   "repo": "firebase/firebase-ios-sdk",
+   "url": "https://github.com/firebase/firebase-ios-sdk",
+   "rank": 4,
+   "stars": 6892,
+   "today": 112
+  },
+  {
+   "repo": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "rank": 10,
+   "stars": 111400,
+   "today": 298
+  },
+  {
+   "repo": "tile-ai/tilelang",
+   "url": "https://github.com/tile-ai/tilelang",
+   "rank": 11,
+   "stars": 8170,
+   "today": 163
+  },
+  {
+   "repo": "HunxByts/GhostTrack",
+   "url": "https://github.com/HunxByts/GhostTrack",
+   "rank": 13,
+   "stars": 16530,
+   "today": 368
+  },
+  {
+   "repo": "Friedrich-M/UniMate",
+   "url": "https://github.com/Friedrich-M/UniMate",
+   "rank": 15,
+   "stars": 1134,
+   "today": 217
+  }
+ ],
+ "items": [
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 88967,
+   "forks": 7837,
+   "today": 696,
+   "period": "today",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "lang": "Go",
+   "stars": 109201,
+   "forks": 6320,
+   "today": 209,
+   "period": "today",
+   "contributors": [
+    "JuliusBrussee",
+    "claude",
+    "github-actions",
+    "hunleyd",
+    "AmirF194"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 294556,
+   "forks": 26330,
+   "today": 556,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "gaurav0107"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-02",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 7
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 152045,
+   "forks": 8155,
+   "today": 1435,
+   "period": "today",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "ousamabenyounes",
+    "Lakshya77089",
+    "dhedhialy"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 1
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 74479,
+   "forks": 4488,
+   "today": 722,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-02",
+   "change": "up",
+   "delta": -9,
+   "prev_rank": 14
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 274845,
+   "forks": 23069,
+   "today": 955,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 2
+  },
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": 14511,
+   "forks": 1666,
+   "today": 594,
+   "period": "today",
+   "contributors": [
+    "drew",
+    "johntmyers",
+    "pimlock",
+    "miyoungc",
+    "elezar"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 3
+  },
+  {
+   "repo": "coreyhaines31/marketingskills",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "lang": "JavaScript",
+   "stars": 52492,
+   "forks": 7885,
+   "today": 140,
+   "period": "today",
+   "contributors": [
+    "coreyhaines31",
+    "claude",
+    "njcameron",
+    "Jiliac",
+    "basseko"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 55996,
+   "forks": 5041,
+   "today": 580,
+   "period": "today",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-02",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 9
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 25095,
+   "forks": 1801,
+   "today": 282,
+   "period": "today",
+   "contributors": [
+    "mksglu",
+    "claude",
+    "github-actions",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": 20812,
+   "forks": 1725,
+   "today": 39,
+   "period": "today",
+   "contributors": [
+    "cloud-ix-copybara",
+    "holtskinner",
+    "martinvarelaj",
+    "wangauone",
+    "helloeve"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "getsentry/sentry",
+   "url": "https://github.com/getsentry/sentry",
+   "desc": "Developer-first error tracking and performance monitoring",
+   "lang": "Python",
+   "stars": 45068,
+   "forks": 4894,
+   "today": 16,
+   "period": "today",
+   "contributors": [
+    "dcramer",
+    "evanpurkhiser",
+    "scttcper",
+    "markstory",
+    "billyvg"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "colbymchenry/codegraph",
+   "url": "https://github.com/colbymchenry/codegraph",
+   "desc": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+   "lang": "C",
+   "stars": 73021,
+   "forks": 4686,
+   "today": 98,
+   "period": "today",
+   "contributors": [
+    "colbymchenry",
+    "claude",
+    "github-actions",
+    "maxmilian",
+    "omonien"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 9545,
+   "forks": 902,
+   "today": 163,
+   "period": "today",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 6
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+   "lang": "TypeScript",
+   "stars": 4444,
+   "forks": 303,
+   "today": 683,
+   "period": "today",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "rudycelekli",
+    "korallis",
+    "dajiaohuang"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 10,
+   "prev_rank": 5
+  },
+  {
+   "repo": "Effect-TS/effect",
+   "url": "https://github.com/Effect-TS/effect",
+   "desc": "Build production-ready applications in TypeScript",
+   "lang": "TypeScript",
+   "stars": 16617,
+   "forks": 804,
+   "today": 80,
+   "period": "today",
+   "contributors": [
+    "mikearnaldi",
+    "tim-smart",
+    "gcanti",
+    "github-actions",
+    "fubhy"
+   ],
+   "rank": 16,
+   "prev_day": "2026-10-02",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pablostanley/yoinks",
+   "url": "https://github.com/pablostanley/yoinks",
+   "desc": "yoink any video from your terminal. no shady ads.",
+   "lang": "TypeScript",
+   "stars": 3614,
+   "forks": 316,
+   "today": 623,
+   "period": "today",
+   "contributors": [
+    "pablostanley",
+    "claude"
+   ],
+   "rank": 17,
+   "prev_day": "2026-10-02",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 12
+  }
+ ]
+}
