@@ -1,0 +1,364 @@
+{
+ "date": "2026-10-04",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-04 14:44:50",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-03",
+ "dropped": [
+  {
+   "repo": "google/ax",
+   "url": "https://github.com/google/ax",
+   "rank": 11,
+   "stars": 12938,
+   "today": 1783
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "rank": 12,
+   "stars": 38574,
+   "today": 1073
+  },
+  {
+   "repo": "anthropics/claude-code-action",
+   "url": "https://github.com/anthropics/claude-code-action",
+   "rank": 14,
+   "stars": 9387,
+   "today": 417
+  }
+ ],
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 96837,
+   "forks": 16393,
+   "today": 10722,
+   "period": "this week",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-03",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 45195,
+   "forks": 5899,
+   "today": 14507,
+   "period": "this week",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "cdbartholomew",
+    "r266-tech"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-03",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 52744,
+   "forks": 5876,
+   "today": 16775,
+   "period": "this week",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-03",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 75549,
+   "forks": 4527,
+   "today": 3311,
+   "period": "this week",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-03",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 63310,
+   "forks": 10826,
+   "today": 5059,
+   "period": "this week",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-03",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 56379,
+   "forks": 5067,
+   "today": 3011,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-03",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 9
+  },
+  {
+   "repo": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "desc": "The React Framework",
+   "lang": "JavaScript",
+   "stars": 143107,
+   "forks": 33822,
+   "today": 678,
+   "period": "this week",
+   "contributors": [
+    "ijjk",
+    "timneutkens",
+    "sokra",
+    "vercel-release-bot",
+    "huozhi"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-03",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 7
+  },
+  {
+   "repo": "Effect-TS/effect",
+   "url": "https://github.com/Effect-TS/effect",
+   "desc": "Build production-ready applications in TypeScript",
+   "lang": "TypeScript",
+   "stars": 16880,
+   "forks": 816,
+   "today": 466,
+   "period": "this week",
+   "contributors": [
+    "mikearnaldi",
+    "tim-smart",
+    "gcanti",
+    "github-actions",
+    "fubhy"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-03",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "alirezarezvani/claude-skills",
+   "url": "https://github.com/alirezarezvani/claude-skills",
+   "desc": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+   "lang": "Python",
+   "stars": 27520,
+   "forks": 3876,
+   "today": 948,
+   "period": "this week",
+   "contributors": [
+    "alirezarezvani",
+    "claude",
+    "olgasafonova",
+    "fernandezbaptiste",
+    "ikala-shawn"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-03",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "flutter/flutter",
+   "url": "https://github.com/flutter/flutter",
+   "desc": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+   "lang": "Dart",
+   "stars": 179320,
+   "forks": 32966,
+   "today": 266,
+   "period": "this week",
+   "contributors": [
+    "skia-flutter-autoroll",
+    "engine-flutter-autoroll",
+    "abarth",
+    "Hixie",
+    "jason-simmons"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-03",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 5
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 90044,
+   "forks": 7921,
+   "today": 3952,
+   "period": "this week",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-03",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "lang": "Python",
+   "stars": 6626,
+   "forks": 816,
+   "today": 1476,
+   "period": "this week",
+   "contributors": [
+    "jubaoliang-tencent",
+    "cursoragent",
+    "jubaoliang",
+    "liukewia",
+    "huangcheng"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-03",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 10
+  },
+  {
+   "repo": "tile-ai/tilelang",
+   "url": "https://github.com/tile-ai/tilelang",
+   "desc": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+   "lang": "Python",
+   "stars": 8301,
+   "forks": 837,
+   "today": 800,
+   "period": "this week",
+   "contributors": [
+    "LeiWang1999",
+    "chengyupku",
+    "SiriusNEO",
+    "Rachmanino",
+    "xwhzz"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-03",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 13
+  },
+  {
+   "repo": "longbridge/gpui-kit",
+   "url": "https://github.com/longbridge/gpui-kit",
+   "desc": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+   "lang": "Rust",
+   "stars": 15930,
+   "forks": 981,
+   "today": 960,
+   "period": "this week",
+   "contributors": [
+    "huacnlee",
+    "madcodelife",
+    "claude",
+    "codex",
+    "ylinwind"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-03",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars": 103710,
+   "forks": 31301,
+   "today": 346,
+   "period": "this week",
+   "contributors": [
+    "pytorchmergebot",
+    "malfet",
+    "ezyang",
+    "zou3519",
+    "cyyever"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-03",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 15
+  }
+ ]
+}
