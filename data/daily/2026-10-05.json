@@ -1,0 +1,442 @@
+{
+ "date": "2026-10-05",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-05 14:52:38",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-04",
+ "dropped": [
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "rank": 3,
+   "stars": 272418,
+   "today": 897
+  },
+  {
+   "repo": "Effect-TS/effect",
+   "url": "https://github.com/Effect-TS/effect",
+   "rank": 4,
+   "stars": 16880,
+   "today": 302
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "rank": 5,
+   "stars": 109625,
+   "today": 507
+  },
+  {
+   "repo": "cloudflare/cloudflare-os",
+   "url": "https://github.com/cloudflare/cloudflare-os",
+   "rank": 9,
+   "stars": 10641,
+   "today": 85
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "rank": 11,
+   "stars": 294986,
+   "today": 577
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "rank": 12,
+   "stars": 275506,
+   "today": 751
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "rank": 13,
+   "stars": 25299,
+   "today": 256
+  },
+  {
+   "repo": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "rank": 14,
+   "stars": 112248,
+   "today": 408
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "rank": 16,
+   "stars": 149290,
+   "today": 128
+  },
+  {
+   "repo": "jamwithai/production-agentic-rag-course",
+   "url": "https://github.com/jamwithai/production-agentic-rag-course",
+   "rank": 17,
+   "stars": 9444,
+   "today": 193
+  },
+  {
+   "repo": "meituan-longcat/LongCat-Video",
+   "url": "https://github.com/meituan-longcat/LongCat-Video",
+   "rank": 18,
+   "stars": 8832,
+   "today": 44
+  }
+ ],
+ "items": [
+  {
+   "repo": "tester-army/e2e",
+   "url": "https://github.com/tester-army/e2e",
+   "desc": "Next generation e2e testing framework for web and mobile apps.",
+   "lang": "TypeScript",
+   "stars": 3482,
+   "forks": 134,
+   "today": 345,
+   "period": "today",
+   "contributors": [
+    "okwasniewski",
+    "kacperkapusciak",
+    "szymonrybczak",
+    "github-actions",
+    "DeryFerd"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 76521,
+   "forks": 4566,
+   "today": 1171,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-04",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "coreyhaines31/marketingskills",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "lang": "JavaScript",
+   "stars": 53195,
+   "forks": 7925,
+   "today": 197,
+   "period": "today",
+   "contributors": [
+    "coreyhaines31",
+    "claude",
+    "rudycelekli",
+    "FekyBaz",
+    "imMamdouhaboammar"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 155213,
+   "forks": 8342,
+   "today": 1894,
+   "period": "today",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "ousamabenyounes",
+    "Lakshya77089",
+    "dhedhialy"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-04",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 1
+  },
+  {
+   "repo": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "desc": "Give your agent CAD superpowers.",
+   "lang": "Python",
+   "stars": 16996,
+   "forks": 1750,
+   "today": 83,
+   "period": "today",
+   "contributors": [
+    "earthtojake",
+    "claude",
+    "github-actions",
+    "warun7",
+    "dependabot"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 91180,
+   "forks": 8008,
+   "today": 980,
+   "period": "today",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-04",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 6
+  },
+  {
+   "repo": "getsentry/sentry",
+   "url": "https://github.com/getsentry/sentry",
+   "desc": "Developer-first error tracking and performance monitoring",
+   "lang": "Python",
+   "stars": 45436,
+   "forks": 4906,
+   "today": 152,
+   "period": "today",
+   "contributors": [
+    "dcramer",
+    "evanpurkhiser",
+    "scttcper",
+    "markstory",
+    "billyvg"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-04",
+   "change": "up",
+   "delta": -8,
+   "prev_rank": 15
+  },
+  {
+   "repo": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "lang": "Python",
+   "stars": 63385,
+   "forks": 8074,
+   "today": 245,
+   "period": "today",
+   "contributors": [
+    "calesthio",
+    "claude",
+    "0xDevNinja",
+    "yiyabo",
+    "xucailiang"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 25299,
+   "forks": 6533,
+   "today": 490,
+   "period": "today",
+   "contributors": [
+    "juliusmarminge",
+    "claude",
+    "t3dotgg",
+    "codex",
+    "maria-rcks"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-04",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "caddyserver/caddy",
+   "url": "https://github.com/caddyserver/caddy",
+   "desc": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+   "lang": "Go",
+   "stars": 76688,
+   "forks": 5050,
+   "today": 24,
+   "period": "today",
+   "contributors": [
+    "mholt",
+    "francislavoie",
+    "mohammed90",
+    "WeidiDeng",
+    "dunglas"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "michael-denyer/pstack-claude",
+   "url": "https://github.com/michael-denyer/pstack-claude",
+   "desc": "Claude Code, Codex, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
+   "lang": "JavaScript",
+   "stars": 1221,
+   "forks": 138,
+   "today": 232,
+   "period": "today",
+   "contributors": [
+    "michael-denyer",
+    "harrymunro",
+    "younes-io",
+    "dependabot",
+    "tlmader"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 101297,
+   "forks": 10623,
+   "today": 336,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "ayobamiseun"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-04",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 10
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars": 96263,
+   "forks": 8498,
+   "today": 628,
+   "period": "today",
+   "contributors": [
+    "thedotmack",
+    "claude",
+    "cursoragent",
+    "rodboev",
+    "Copilot"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-04",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 8
+  },
+  {
+   "repo": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "lang": "TypeScript",
+   "stars": 135234,
+   "forks": 20094,
+   "today": 125,
+   "period": "today",
+   "contributors": [
+    "garrytan",
+    "claude",
+    "test22345",
+    "16francej",
+    "jbetala7"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "OpenCut-app/OpenCut",
+   "url": "https://github.com/OpenCut-app/OpenCut",
+   "desc": "The open-source CapCut alternative",
+   "lang": "TypeScript",
+   "stars": 92354,
+   "forks": 9093,
+   "today": 512,
+   "period": "today",
+   "contributors": [
+    "mazeincoding",
+    "izadoesdev",
+    "anwarulislam",
+    "khanguyen74",
+    "DevloperAmanSingh"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-04",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 19
+  },
+  {
+   "repo": "antirez/ds4",
+   "url": "https://github.com/antirez/ds4",
+   "desc": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+   "lang": "C",
+   "stars": 23494,
+   "forks": 2255,
+   "today": 211,
+   "period": "today",
+   "contributors": [
+    "antirez",
+    "claude",
+    "kyuz0",
+    "ivanfioravanti",
+    "polymorf"
+   ],
+   "rank": 16,
+   "prev_day": "2026-10-04",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
