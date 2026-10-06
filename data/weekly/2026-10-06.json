@@ -1,0 +1,371 @@
+{
+ "date": "2026-10-06",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-06 15:28:14",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-05",
+ "dropped": [
+  {
+   "repo": "TencentCloud/Octop",
+   "url": "https://github.com/TencentCloud/Octop",
+   "rank": 11,
+   "stars": 6790,
+   "today": 1496
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "rank": 13,
+   "stars": 128513,
+   "today": 2291
+  },
+  {
+   "repo": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "rank": 14,
+   "stars": 143180,
+   "today": 477
+  },
+  {
+   "repo": "cs341-illinois/coursebook",
+   "url": "https://github.com/cs341-illinois/coursebook",
+   "rank": 15,
+   "stars": 3707,
+   "today": 1626
+  }
+ ],
+ "items": [
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": 77210,
+   "forks": 4600,
+   "today": 4936,
+   "period": "this week",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-05",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": 97791,
+   "forks": 16524,
+   "today": 6030,
+   "period": "this week",
+   "contributors": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": 46069,
+   "forks": 5938,
+   "today": 6565,
+   "period": "this week",
+   "contributors": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "cdbartholomew",
+    "r266-tech"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 57473,
+   "forks": 5144,
+   "today": 3342,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-05",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 53935,
+   "forks": 6030,
+   "today": 12036,
+   "period": "this week",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 92152,
+   "forks": 8085,
+   "today": 5703,
+   "period": "this week",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-05",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "Effect-TS/effect",
+   "url": "https://github.com/Effect-TS/effect",
+   "desc": "Build production-ready applications in TypeScript",
+   "lang": "TypeScript",
+   "stars": 17062,
+   "forks": 830,
+   "today": 791,
+   "period": "this week",
+   "contributors": [
+    "mikearnaldi",
+    "tim-smart",
+    "gcanti",
+    "github-actions",
+    "fubhy"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 156208,
+   "forks": 8395,
+   "today": 8596,
+   "period": "this week",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "ousamabenyounes",
+    "Lakshya77089",
+    "dhedhialy"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Gaurav-Gosain/tuios",
+   "url": "https://github.com/Gaurav-Gosain/tuios",
+   "desc": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+   "lang": "Go",
+   "stars": 4894,
+   "forks": 217,
+   "today": 703,
+   "period": "this week",
+   "contributors": [
+    "Gaurav-Gosain",
+    "github-actions",
+    "cr2007",
+    "SebaWag",
+    "Tim4c"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 25717,
+   "forks": 6620,
+   "today": 1674,
+   "period": "this week",
+   "contributors": [
+    "juliusmarminge",
+    "claude",
+    "t3dotgg",
+    "codex",
+    "maria-rcks"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-05",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 10
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": 64924,
+   "forks": 11179,
+   "today": 4375,
+   "period": "this week",
+   "contributors": [
+    "rohitg00",
+    "github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 7
+  },
+  {
+   "repo": "alirezarezvani/claude-skills",
+   "url": "https://github.com/alirezarezvani/claude-skills",
+   "desc": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+   "lang": "Python",
+   "stars": 27747,
+   "forks": 3899,
+   "today": 984,
+   "period": "this week",
+   "contributors": [
+    "alirezarezvani",
+    "claude",
+    "olgasafonova",
+    "fernandezbaptiste",
+    "ikala-shawn"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 9
+  },
+  {
+   "repo": "cloudflare/cloudflare-os",
+   "url": "https://github.com/cloudflare/cloudflare-os",
+   "desc": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+   "lang": "TypeScript",
+   "stars": 11110,
+   "forks": 1316,
+   "today": 663,
+   "period": "this week",
+   "contributors": [
+    "kentonv",
+    "ndisidore",
+    "jonesphillip",
+    "bjesus",
+    "Maximo-Guk"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tile-ai/tilelang",
+   "url": "https://github.com/tile-ai/tilelang",
+   "desc": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+   "lang": "Python",
+   "stars": 8434,
+   "forks": 853,
+   "today": 922,
+   "period": "this week",
+   "contributors": [
+    "LeiWang1999",
+    "chengyupku",
+    "SiriusNEO",
+    "Rachmanino",
+    "xwhzz"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-05",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 12
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 9998,
+   "forks": 946,
+   "today": 1042,
+   "period": "this week",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
