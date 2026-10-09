@@ -1,0 +1,257 @@
+{
+ "date": "2026-10-09",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-09 15:19:03",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-08",
+ "dropped": [
+  {
+   "repo": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "rank": 4,
+   "stars": 55409,
+   "today": 619
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "rank": 6,
+   "stars": 103031,
+   "today": 677
+  },
+  {
+   "repo": "manaflow-ai/cmux",
+   "url": "https://github.com/manaflow-ai/cmux",
+   "rank": 9,
+   "stars": 27952,
+   "today": 44
+  },
+  {
+   "repo": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "rank": 10,
+   "stars": 28892,
+   "today": 228
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "rank": 11,
+   "stars": 26255,
+   "today": 576
+  },
+  {
+   "repo": "tester-army/e2e",
+   "url": "https://github.com/tester-army/e2e",
+   "rank": 12,
+   "stars": 7801,
+   "today": 1390
+  },
+  {
+   "repo": "DuarteSantos8/openGym",
+   "url": "https://github.com/DuarteSantos8/openGym",
+   "rank": 13,
+   "stars": 7388,
+   "today": 1493
+  }
+ ],
+ "items": [
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 17198,
+   "forks": 1375,
+   "today": 4669,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "boykopovar",
+    "oneandonlydean",
+    "adriadam10",
+    "SamG-Coder"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-08",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 46900,
+   "forks": 2981,
+   "today": 1160,
+   "period": "today",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "parveen0029",
+    "claude",
+    "mvanhorn"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-08",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 5
+  },
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 31269,
+   "forks": 3768,
+   "today": 7738,
+   "period": "today",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-08",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 1
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 281563,
+   "forks": 23599,
+   "today": 1774,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-08",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 2
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars": 98720,
+   "forks": 8655,
+   "today": 670,
+   "period": "today",
+   "contributors": [
+    "thedotmack",
+    "claude",
+    "rudycelekli",
+    "cursoragent",
+    "rodboev"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-08",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 8
+  },
+  {
+   "repo": "EpicGames/raddebugger",
+   "url": "https://github.com/EpicGames/raddebugger",
+   "desc": "A native, user-mode, multi-process, graphical debugger.",
+   "lang": "C",
+   "stars": 8181,
+   "forks": 392,
+   "today": 279,
+   "period": "today",
+   "contributors": [
+    "ryanfleury",
+    "NikitaSmith057",
+    "mmozeiko",
+    "NikitaAtEpic",
+    "andreymlv"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-08",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 27850,
+   "forks": 3222,
+   "today": 392,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 8962,
+   "forks": 1324,
+   "today": 2103,
+   "period": "today",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "liquidslr/system-design-notes",
+   "url": "https://github.com/liquidslr/system-design-notes",
+   "desc": "Notes of the book System Desgin Interview - An Insider's Guide",
+   "lang": "",
+   "stars": 24961,
+   "forks": 4637,
+   "today": 393,
+   "period": "today",
+   "contributors": [
+    "liquidslr",
+    "emmadonjo",
+    "stym01"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
