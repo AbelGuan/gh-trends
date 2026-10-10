@@ -1,0 +1,271 @@
+{
+ "date": "2026-10-10",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-10 14:57:10",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-09",
+ "dropped": [
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "rank": 5,
+   "stars": 98720,
+   "today": 670
+  },
+  {
+   "repo": "EpicGames/raddebugger",
+   "url": "https://github.com/EpicGames/raddebugger",
+   "rank": 6,
+   "stars": 8181,
+   "today": 279
+  },
+  {
+   "repo": "liquidslr/system-design-notes",
+   "url": "https://github.com/liquidslr/system-design-notes",
+   "rank": 9,
+   "stars": 24961,
+   "today": 393
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 54145,
+   "forks": 10249,
+   "today": 14927,
+   "period": "today",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-09",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 23357,
+   "forks": 1926,
+   "today": 5868,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "boykopovar",
+    "oneandonlydean",
+    "adriadam10",
+    "SamG-Coder"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 283200,
+   "forks": 23724,
+   "today": 1687,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-09",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 48205,
+   "forks": 3051,
+   "today": 1739,
+   "period": "today",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "parveen0029",
+    "claude",
+    "mvanhorn"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 2
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 45514,
+   "forks": 3285,
+   "today": 326,
+   "period": "today",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "stay-foolish-forever",
+    "Qiyuanqiii"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-09",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 28430,
+   "forks": 3256,
+   "today": 709,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-09",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "BerriAI/litellm",
+   "url": "https://github.com/BerriAI/litellm",
+   "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+   "lang": "Python",
+   "stars": 60791,
+   "forks": 12201,
+   "today": 95,
+   "period": "today",
+   "contributors": [
+    "ishaan-jaff",
+    "mateo-berri",
+    "devin-ai-integration",
+    "yuneng-berri",
+    "Sameerlite"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-09",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 104180,
+   "forks": 10873,
+   "today": 436,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "federicobartoli",
+    "claude",
+    "ayobamiseun"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-09",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 12212,
+   "forks": 1861,
+   "today": 3752,
+   "period": "today",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "Robbyant/lingbot-map",
+   "url": "https://github.com/Robbyant/lingbot-map",
+   "desc": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+   "lang": "Python",
+   "stars": 17812,
+   "forks": 1957,
+   "today": 110,
+   "period": "today",
+   "contributors": [
+    "LinZhuoChen",
+    "justimyhxu",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-09",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "twostraws/SwiftUI-Agent-Skill",
+   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+   "desc": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+   "lang": "",
+   "stars": 5579,
+   "forks": 197,
+   "today": 65,
+   "period": "today",
+   "contributors": [
+    "twostraws",
+    "GLinnik21",
+    "Jeehut"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-09",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

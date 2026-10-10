@@ -1,0 +1,260 @@
+{
+ "date": "2026-10-10",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-10 14:57:11",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-09",
+ "dropped": [
+  {
+   "repo": "pablostanley/yoinks",
+   "url": "https://github.com/pablostanley/yoinks",
+   "rank": 11,
+   "stars": 5503,
+   "today": 2706
+  }
+ ],
+ "items": [
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 23357,
+   "forks": 1926,
+   "today": 15539,
+   "period": "this week",
+   "contributors": [
+    "claude",
+    "boykopovar",
+    "oneandonlydean",
+    "adriadam10",
+    "SamG-Coder"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-09",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "desc": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+   "lang": "TypeScript",
+   "stars": 6548,
+   "forks": 481,
+   "today": 2338,
+   "period": "this week",
+   "contributors": [
+    "mvschwarz",
+    "claude",
+    "rudycelekli",
+    "DeryFerd"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-09",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 283200,
+   "forks": 23724,
+   "today": 8156,
+   "period": "this week",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-09",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 7
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 59955,
+   "forks": 5352,
+   "today": 4003,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 10635,
+   "forks": 1006,
+   "today": 1125,
+   "period": "this week",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-09",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 5
+  },
+  {
+   "repo": "EpicGames/raddebugger",
+   "url": "https://github.com/EpicGames/raddebugger",
+   "desc": "A native, user-mode, multi-process, graphical debugger.",
+   "lang": "C",
+   "stars": 8291,
+   "forks": 395,
+   "today": 654,
+   "period": "this week",
+   "contributors": [
+    "ryanfleury",
+    "NikitaSmith057",
+    "mmozeiko",
+    "NikitaAtEpic",
+    "andreymlv"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 4
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars": 99044,
+   "forks": 8674,
+   "today": 3850,
+   "period": "this week",
+   "contributors": [
+    "thedotmack",
+    "claude",
+    "rudycelekli",
+    "cursoragent",
+    "rodboev"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "desc": "Give your agent CAD superpowers.",
+   "lang": "Python",
+   "stars": 18832,
+   "forks": 1861,
+   "today": 2125,
+   "period": "this week",
+   "contributors": [
+    "earthtojake",
+    "claude",
+    "github-actions",
+    "warun7",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-09",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 9
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 26680,
+   "forks": 6968,
+   "today": 2379,
+   "period": "this week",
+   "contributors": [
+    "juliusmarminge",
+    "claude",
+    "t3dotgg",
+    "codex",
+    "maria-rcks"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-09",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 95117,
+   "forks": 8316,
+   "today": 7084,
+   "period": "this week",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "nyxst4ck",
+    "kadaliao",
+    "hymansun"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "DuarteSantos8/openGym",
+   "url": "https://github.com/DuarteSantos8/openGym",
+   "desc": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+   "lang": "JavaScript",
+   "stars": 8826,
+   "forks": 1092,
+   "today": 6749,
+   "period": "this week",
+   "contributors": [
+    "DuarteSantos8",
+    "claude",
+    "kurktchiev",
+    "gerrydoro",
+    "sgoendoer"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-09",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 10
+  }
+ ]
+}
