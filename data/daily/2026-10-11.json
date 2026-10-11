@@ -1,0 +1,333 @@
+{
+ "date": "2026-10-11",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-11 15:02:11",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-10",
+ "dropped": [
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "rank": 5,
+   "stars": 45514,
+   "today": 326
+  },
+  {
+   "repo": "BerriAI/litellm",
+   "url": "https://github.com/BerriAI/litellm",
+   "rank": 7,
+   "stars": 60791,
+   "today": 95
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "rank": 8,
+   "stars": 104180,
+   "today": 436
+  },
+  {
+   "repo": "Robbyant/lingbot-map",
+   "url": "https://github.com/Robbyant/lingbot-map",
+   "rank": 10,
+   "stars": 17812,
+   "today": 110
+  },
+  {
+   "repo": "twostraws/SwiftUI-Agent-Skill",
+   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+   "rank": 11,
+   "stars": 5579,
+   "today": 65
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 79481,
+   "forks": 17167,
+   "today": 25793,
+   "period": "today",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 27567,
+   "forks": 2332,
+   "today": 5805,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "adriadam10",
+    "oneandonlydean",
+    "boykopovar",
+    "CnRJay"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 15189,
+   "forks": 2418,
+   "today": 3222,
+   "period": "today",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-10",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 9
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 49253,
+   "forks": 3119,
+   "today": 1190,
+   "period": "today",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "parveen0029",
+    "claude",
+    "mvanhorn"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 26456,
+   "forks": 1903,
+   "today": 178,
+   "period": "today",
+   "contributors": [
+    "mksglu",
+    "github-actions",
+    "claude",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 284908,
+   "forks": 23843,
+   "today": 1736,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-10",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 3
+  },
+  {
+   "repo": "flutter/flutter",
+   "url": "https://github.com/flutter/flutter",
+   "desc": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+   "lang": "Dart",
+   "stars": 179645,
+   "forks": 33631,
+   "today": 88,
+   "period": "today",
+   "contributors": [
+    "skia-flutter-autoroll",
+    "engine-flutter-autoroll",
+    "abarth",
+    "Hixie",
+    "jason-simmons"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tensorflow/tensorflow",
+   "url": "https://github.com/tensorflow/tensorflow",
+   "desc": "An Open Source Machine Learning Framework for Everyone",
+   "lang": "C++",
+   "stars": 200795,
+   "forks": 78991,
+   "today": 26,
+   "period": "today",
+   "contributors": [
+    "tensorflower-gardener",
+    "ezhulenev",
+    "akuegel",
+    "hawkinsp",
+    "mihaimaruseac"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "desc": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "lang": "Python",
+   "stars": 59771,
+   "forks": 4714,
+   "today": 461,
+   "period": "today",
+   "contributors": [
+    "hugohe3",
+    "claude",
+    "shenqili",
+    "WodenJay",
+    "kevindesuyo"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars": 104206,
+   "forks": 31970,
+   "today": 84,
+   "period": "today",
+   "contributors": [
+    "pytorchmergebot",
+    "malfet",
+    "ezyang",
+    "zou3519",
+    "cyyever"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "desc": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+   "lang": "Python",
+   "stars": 167391,
+   "forks": 34809,
+   "today": 96,
+   "period": "today",
+   "contributors": [
+    "sgugger",
+    "ydshieh",
+    "thomwolf",
+    "LysandreJik",
+    "patrickvonplaten"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 28927,
+   "forks": 3286,
+   "today": 625,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-10",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 6
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": 218478,
+   "forks": 22002,
+   "today": 278,
+   "period": "today",
+   "contributors": [
+    "forrestchang",
+    "claude",
+    "back1ply",
+    "herobrine19",
+    "szkocot"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
