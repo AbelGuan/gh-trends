@@ -5,8 +5,15 @@
   <link href="https://AbelGuan.github.io/gh-trends/" rel="alternate"/>
   <link href="https://AbelGuan.github.io/gh-trends/feed.xml" rel="self"/>
   <id>https://AbelGuan.github.io/gh-trends/feed.xml</id>
-  <updated>2026-10-11T15:02:11Z</updated>
+  <updated>2026-10-12T15:15:23Z</updated>
   <author><name>gh-trends</name></author>
+  <entry>
+    <title>GitHub Trending 2026-10-12</title>
+    <link href="https://AbelGuan.github.io/gh-trends/reports/daily/2026-10-12.html"/>
+    <id>https://AbelGuan.github.io/gh-trends/reports/daily/2026-10-12.html</id>
+    <updated>2026-10-12T15:15:23Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;1. &lt;a href=&quot;https://github.com/morluto/rea&quot;&gt;morluto/rea&lt;/a&gt;&lt;/b&gt;&lt;br&gt;TypeScript　★120,286　今日 +25,599&lt;br&gt;Reverse engineer anything with agents, from app behavior down to native binaries.&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. &lt;a href=&quot;https://github.com/boykopovar/AnyPS5&quot;&gt;boykopovar/AnyPS5&lt;/a&gt;&lt;/b&gt;&lt;br&gt;C++　★30,978　今日 +3,952&lt;br&gt;Tool for automatic PS5 executables porting to Linux and Windows&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. &lt;a href=&quot;https://github.com/storytold/artcraft&quot;&gt;storytold/artcraft&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Rust　★19,076　今日 +2,957&lt;br&gt;ArtCraft is an intentional crafting engine for artists, designers, and filmmakers&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. &lt;a href=&quot;https://github.com/cathrynlavery/diagram-design&quot;&gt;cathrynlavery/diagram-design&lt;/a&gt;&lt;/b&gt;&lt;br&gt;HTML　★51,054　今日 +1,083&lt;br&gt;Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.&lt;/p&gt;&lt;p&gt;&lt;b&gt;5. &lt;a href=&quot;https://github.com/bilawalsidhu/gods-eye-view&quot;&gt;bilawalsidhu/gods-eye-view&lt;/a&gt;&lt;/b&gt;&lt;br&gt;JavaScript　★52,235　今日 +886　🆕 新上榜&lt;br&gt;A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.&lt;/p&gt;&lt;p&gt;&lt;b&gt;6. &lt;a href=&quot;https://github.com/pytorch/pytorch&quot;&gt;pytorch/pytorch&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Python　★104,645　今日 +315　⬆️4&lt;br&gt;Tensors and Dynamic neural networks in Python with strong GPU acceleration&lt;/p&gt;&lt;p&gt;&lt;b&gt;7. &lt;a href=&quot;https://github.com/lyogavin/airllm&quot;&gt;lyogavin/airllm&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Jupyter Notebook　★36,785　今日 +548　🆕 新上榜&lt;br&gt;AirLLM 70B inference with single 4GB GPU&lt;/p&gt;&lt;p&gt;&lt;b&gt;8. &lt;a href=&quot;https://github.com/chrislgarry/Apollo-11&quot;&gt;chrislgarry/Apollo-11&lt;/a&gt;&lt;/b&gt;&lt;br&gt;Assembly　★74,430　今日 +466　🆕 新上榜&lt;br&gt;Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>GitHub Trending 2026-10-11</title>
     <link href="https://AbelGuan.github.io/gh-trends/reports/daily/2026-10-11.html"/>

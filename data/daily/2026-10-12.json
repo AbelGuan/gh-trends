@@ -1,0 +1,245 @@
+{
+ "date": "2026-10-12",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-12 15:15:23",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-11",
+ "dropped": [
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "rank": 5,
+   "stars": 26456,
+   "today": 178
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "rank": 6,
+   "stars": 284908,
+   "today": 1736
+  },
+  {
+   "repo": "flutter/flutter",
+   "url": "https://github.com/flutter/flutter",
+   "rank": 7,
+   "stars": 179645,
+   "today": 88
+  },
+  {
+   "repo": "tensorflow/tensorflow",
+   "url": "https://github.com/tensorflow/tensorflow",
+   "rank": 8,
+   "stars": 200795,
+   "today": 26
+  },
+  {
+   "repo": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "rank": 9,
+   "stars": 59771,
+   "today": 461
+  },
+  {
+   "repo": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "rank": 11,
+   "stars": 167391,
+   "today": 96
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "rank": 12,
+   "stars": 28927,
+   "today": 625
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "rank": 13,
+   "stars": 218478,
+   "today": 278
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 120286,
+   "forks": 27012,
+   "today": 25599,
+   "period": "today",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 30978,
+   "forks": 2666,
+   "today": 3952,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "adriadam10",
+    "oneandonlydean",
+    "boykopovar",
+    "MarcZX100"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 19076,
+   "forks": 3115,
+   "today": 2957,
+   "period": "today",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 51054,
+   "forks": 3235,
+   "today": 1083,
+   "period": "today",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "parveen0029",
+    "claude",
+    "mvanhorn"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars": 52235,
+   "forks": 10448,
+   "today": 886,
+   "period": "today",
+   "contributors": [
+    "samehkhamis",
+    "claude",
+    "asturksever",
+    "bilawalsidhu",
+    "manjunath22466"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars": 104645,
+   "forks": 32185,
+   "today": 315,
+   "period": "today",
+   "contributors": [
+    "pytorchmergebot",
+    "malfet",
+    "ezyang",
+    "zou3519",
+    "cyyever"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-11",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 10
+  },
+  {
+   "repo": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "desc": "AirLLM 70B inference with single 4GB GPU",
+   "lang": "Jupyter Notebook",
+   "stars": 36785,
+   "forks": 3830,
+   "today": 548,
+   "period": "today",
+   "contributors": [
+    "lyogavin",
+    "cursoragent",
+    "eltociear",
+    "NavodPeiris",
+    "claude"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "chrislgarry/Apollo-11",
+   "url": "https://github.com/chrislgarry/Apollo-11",
+   "desc": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+   "lang": "Assembly",
+   "stars": 74430,
+   "forks": 8116,
+   "today": 466,
+   "period": "today",
+   "contributors": [
+    "wopian",
+    "chrislgarry",
+    "dwiyatci",
+    "proudindiv",
+    "oldmud0"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
