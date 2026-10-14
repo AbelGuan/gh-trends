@@ -1,0 +1,232 @@
+{
+ "date": "2026-10-14",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-14 14:01:41",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-13",
+ "dropped": [
+  {
+   "repo": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "rank": 5,
+   "stars": 155352,
+   "today": 157
+  },
+  {
+   "repo": "microsoft/BitNet",
+   "url": "https://github.com/microsoft/BitNet",
+   "rank": 8,
+   "stars": 41034,
+   "today": 97
+  },
+  {
+   "repo": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "rank": 9,
+   "stars": 59558,
+   "today": 626
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 216789,
+   "forks": 53531,
+   "today": 54679,
+   "period": "today",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-13",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars": 55778,
+   "forks": 10884,
+   "today": 1961,
+   "period": "today",
+   "contributors": [
+    "samehkhamis",
+    "claude",
+    "asturksever",
+    "bilawalsidhu",
+    "manjunath22466"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-13",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 64058,
+   "forks": 7124,
+   "today": 1748,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "velixio",
+    "kevin9327",
+    "jaketame"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 28446,
+   "forks": 2005,
+   "today": 969,
+   "period": "today",
+   "contributors": [
+    "mksglu",
+    "github-actions",
+    "claude",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-13",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 54548,
+   "forks": 3451,
+   "today": 1815,
+   "period": "today",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "rudycelekli",
+    "parveen0029",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-13",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "vercel-labs/skills",
+   "url": "https://github.com/vercel-labs/skills",
+   "desc": "The open agent skills tool - npx skills",
+   "lang": "TypeScript",
+   "stars": 34686,
+   "forks": 2958,
+   "today": 190,
+   "period": "today",
+   "contributors": [
+    "quuu",
+    "github-actions",
+    "huozhi",
+    "claude",
+    "jonathanhefner"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "desc": "AirLLM 2.8T LLM inference with single 4GB GPU",
+   "lang": "Jupyter Notebook",
+   "stars": 38460,
+   "forks": 3932,
+   "today": 1001,
+   "period": "today",
+   "contributors": [
+    "lyogavin",
+    "cursoragent",
+    "eltociear",
+    "NavodPeiris",
+    "claude"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-13",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 7
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 26315,
+   "forks": 4118,
+   "today": 4081,
+   "period": "today",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-13",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 4
+  },
+  {
+   "repo": "xtool-org/xtool",
+   "url": "https://github.com/xtool-org/xtool",
+   "desc": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+   "lang": "Swift",
+   "stars": 9718,
+   "forks": 410,
+   "today": 1198,
+   "period": "today",
+   "contributors": [
+    "kabiroberai",
+    "reklis",
+    "erikbdev",
+    "mvanhorn",
+    "pawlowskialex"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
