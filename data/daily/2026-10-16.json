@@ -1,0 +1,347 @@
+{
+ "date": "2026-10-16",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-16 13:45:08",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-15",
+ "dropped": [
+  {
+   "repo": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "rank": 4,
+   "stars": 95494,
+   "today": 52
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "rank": 6,
+   "stars": 52690,
+   "today": 103
+  },
+  {
+   "repo": "ifixai-ai/iFixAi",
+   "url": "https://github.com/ifixai-ai/iFixAi",
+   "rank": 7,
+   "stars": 27755,
+   "today": 2109
+  },
+  {
+   "repo": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "rank": 8,
+   "stars": 29848,
+   "today": 1025
+  },
+  {
+   "repo": "rust-lang/rust",
+   "url": "https://github.com/rust-lang/rust",
+   "rank": 9,
+   "stars": 120146,
+   "today": 207
+  },
+  {
+   "repo": "xtool-org/xtool",
+   "url": "https://github.com/xtool-org/xtool",
+   "rank": 10,
+   "stars": 11106,
+   "today": 1502
+  },
+  {
+   "repo": "ntdevlabs/tiny11builder",
+   "url": "https://github.com/ntdevlabs/tiny11builder",
+   "rank": 11,
+   "stars": 20343,
+   "today": 139
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 276062,
+   "forks": 69548,
+   "today": 32314,
+   "period": "today",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": 39384,
+   "forks": 4346,
+   "today": 307,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "tobinsouth"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars": 50740,
+   "forks": 4506,
+   "today": 1091,
+   "period": "today",
+   "contributors": [
+    "timothykassis",
+    "cursoragent",
+    "borealBytes",
+    "github-actions",
+    "claude"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-15",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 5
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "lang": "Go",
+   "stars": 112751,
+   "forks": 6530,
+   "today": 433,
+   "period": "today",
+   "contributors": [
+    "JuliusBrussee",
+    "claude",
+    "github-actions",
+    "nikpushkarski",
+    "AmirF194"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 69522,
+   "forks": 7609,
+   "today": 3024,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "velixio",
+    "kevin9327",
+    "jaketame"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-15",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 2
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 300103,
+   "forks": 26801,
+   "today": 582,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "gaurav0107"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars": 75259,
+   "forks": 8943,
+   "today": 147,
+   "period": "today",
+   "contributors": [
+    "ruvnet",
+    "claude",
+    "rudycelekli",
+    "proffesor-for-testing"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 29892,
+   "forks": 2090,
+   "today": 904,
+   "period": "today",
+   "contributors": [
+    "mksglu",
+    "github-actions",
+    "claude",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-15",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 3
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": 89003,
+   "forks": 9939,
+   "today": 1369,
+   "period": "today",
+   "contributors": [
+    "ryanmkurtz",
+    "ghidra1",
+    "dragonmacher",
+    "nsadeveloper789",
+    "caheckman"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-15",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 12
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 280597,
+   "forks": 41728,
+   "today": 1013,
+   "period": "today",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "montjeffrey",
+    "dependabot"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "lightseekorg/tokenspeed",
+   "url": "https://github.com/lightseekorg/tokenspeed",
+   "desc": "TokenSpeed is a speed-of-light LLM inference engine.",
+   "lang": "Python",
+   "stars": 2558,
+   "forks": 342,
+   "today": 30,
+   "period": "today",
+   "contributors": [
+    "lightseek-bot",
+    "antiagainst",
+    "nperrin-fr",
+    "longcat-ia-team",
+    "borontion"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+   "lang": "Rust",
+   "stars": 5921,
+   "forks": 319,
+   "today": 715,
+   "period": "today",
+   "contributors": [
+    "xerj-org",
+    "claude",
+    "buger",
+    "Vinz2168",
+    "thomas-villani"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "LibreSpark/LibreTV",
+   "url": "https://github.com/LibreSpark/LibreTV",
+   "desc": "一分钟搭建影视站，支持Docker等部署方式",
+   "lang": "TypeScript",
+   "stars": 18246,
+   "forks": 28791,
+   "today": 978,
+   "period": "today",
+   "contributors": [
+    "bestZwei",
+    "github-actions",
+    "senshinya",
+    "JohnsonRan",
+    "WLongSAMA"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

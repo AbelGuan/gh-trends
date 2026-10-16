@@ -1,0 +1,280 @@
+{
+ "date": "2026-10-16",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-16 13:45:10",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-15",
+ "dropped": [
+  {
+   "repo": "EpicGames/raddebugger",
+   "url": "https://github.com/EpicGames/raddebugger",
+   "rank": 5,
+   "stars": 8550,
+   "today": 814
+  },
+  {
+   "repo": "tester-army/e2e",
+   "url": "https://github.com/tester-army/e2e",
+   "rank": 6,
+   "stars": 10578,
+   "today": 3505
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "rank": 7,
+   "stars": 100818,
+   "today": 3371
+  },
+  {
+   "repo": "flutter/flutter",
+   "url": "https://github.com/flutter/flutter",
+   "rank": 11,
+   "stars": 180192,
+   "today": 1117
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 276062,
+   "forks": 69548,
+   "today": 239477,
+   "period": "this week",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 38933,
+   "forks": 3477,
+   "today": 25174,
+   "period": "this week",
+   "contributors": [
+    "claude",
+    "adriadam10",
+    "oneandonlydean",
+    "boykopovar",
+    "MarcZX100"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 293137,
+   "forks": 24579,
+   "today": 12147,
+   "period": "this week",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 64738,
+   "forks": 5829,
+   "today": 5318,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 56050,
+   "forks": 3546,
+   "today": 10237,
+   "period": "this week",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "rudycelekli",
+    "parveen0029",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-15",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 8
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": 89003,
+   "forks": 9939,
+   "today": 6614,
+   "period": "this week",
+   "contributors": [
+    "ryanmkurtz",
+    "ghidra1",
+    "dragonmacher",
+    "nsadeveloper789",
+    "caheckman"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-15",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 12
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "desc": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+   "lang": "TypeScript",
+   "stars": 1420,
+   "forks": 116,
+   "today": 659,
+   "period": "this week",
+   "contributors": [
+    "ranxianglei",
+    "github-actions",
+    "YunzhouLi-hub",
+    "yingzhongshuoqi",
+    "wangbl1010"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "desc": "Give your agent CAD superpowers.",
+   "lang": "Python",
+   "stars": 20771,
+   "forks": 2052,
+   "today": 2244,
+   "period": "this week",
+   "contributors": [
+    "earthtojake",
+    "claude",
+    "github-actions",
+    "warun7",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-15",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 10
+  },
+  {
+   "repo": "twostraws/SwiftUI-Agent-Skill",
+   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+   "desc": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+   "lang": "",
+   "stars": 6123,
+   "forks": 222,
+   "today": 900,
+   "period": "this week",
+   "contributors": [
+    "twostraws",
+    "GLinnik21",
+    "Jeehut"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 9
+  },
+  {
+   "repo": "DuarteSantos8/openGym",
+   "url": "https://github.com/DuarteSantos8/openGym",
+   "desc": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+   "lang": "JavaScript",
+   "stars": 12479,
+   "forks": 1528,
+   "today": 4471,
+   "period": "this week",
+   "contributors": [
+    "DuarteSantos8",
+    "claude",
+    "kurktchiev",
+    "gerrydoro",
+    "sgoendoer"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 11695,
+   "forks": 1140,
+   "today": 1214,
+   "period": "this week",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
