@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-17",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-17 13:30:26",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-16",
+ "dropped": [
+  {
+   "repo": "twostraws/SwiftUI-Agent-Skill",
+   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+   "rank": 9,
+   "stars": 6123,
+   "today": 900
+  },
+  {
+   "repo": "DuarteSantos8/openGym",
+   "url": "https://github.com/DuarteSantos8/openGym",
+   "rank": 10,
+   "stars": 12479,
+   "today": 4471
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "rank": 11,
+   "stars": 11695,
+   "today": 1214
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 293939,
+   "forks": 74116,
+   "today": 248962,
+   "period": "this week",
+   "contributors": [
+    "morluto",
+    "N0zoM1z0",
+    "kaoru0822-kitauji",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-16",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 30819,
+   "forks": 4895,
+   "today": 20267,
+   "period": "this week",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 40074,
+   "forks": 3589,
+   "today": 20518,
+   "period": "this week",
+   "contributors": [
+    "claude",
+    "adriadam10",
+    "oneandonlydean",
+    "boykopovar",
+    "MarcZX100"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-16",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 56532,
+   "forks": 3590,
+   "today": 9024,
+   "period": "this week",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "rudycelekli",
+    "claude",
+    "parveen0029"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-16",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 65443,
+   "forks": 5898,
+   "today": 5601,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-16",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 294252,
+   "forks": 24667,
+   "today": 11937,
+   "period": "this week",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-16",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 3
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": 89747,
+   "forks": 10035,
+   "today": 7510,
+   "period": "this week",
+   "contributors": [
+    "ryanmkurtz",
+    "ghidra1",
+    "dragonmacher",
+    "nsadeveloper789",
+    "caheckman"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-16",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 30298,
+   "forks": 2137,
+   "today": 4207,
+   "period": "this week",
+   "contributors": [
+    "mksglu",
+    "github-actions",
+    "claude",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "desc": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+   "lang": "TypeScript",
+   "stars": 1572,
+   "forks": 124,
+   "today": 779,
+   "period": "this week",
+   "contributors": [
+    "ranxianglei",
+    "github-actions",
+    "YunzhouLi-hub",
+    "yingzhongshuoqi",
+    "aolshevskiy"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-16",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": 40803,
+   "forks": 4414,
+   "today": 2328,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mhegazy"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "desc": "Give your agent CAD superpowers.",
+   "lang": "Python",
+   "stars": 21055,
+   "forks": 2077,
+   "today": 2286,
+   "period": "this week",
+   "contributors": [
+    "earthtojake",
+    "claude",
+    "github-actions",
+    "warun7",
+    "dependabot"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-16",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 8
+  }
+ ]
+}
