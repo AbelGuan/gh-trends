@@ -1,0 +1,349 @@
+{
+ "date": "2026-10-21",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-21 13:55:37",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-20",
+ "dropped": [
+  {
+   "repo": "YuJunZhiXue/dsh-purge",
+   "url": "https://github.com/YuJunZhiXue/dsh-purge",
+   "rank": 13,
+   "stars": 9597,
+   "today": 2933
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 350348,
+   "forks": 88065,
+   "today": 157631,
+   "period": "this week",
+   "contributors": [
+    "morluto",
+    "kaoru0822-kitauji",
+    "N0zoM1z0",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-20",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "lang": "Python",
+   "stars": 61243,
+   "forks": 19027,
+   "today": 12848,
+   "period": "this week",
+   "contributors": [
+    "claude",
+    "MadsLorentzen",
+    "ayobamiseun",
+    "rudycelekli",
+    "oscarbol09"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 4
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": 43456,
+   "forks": 4588,
+   "today": 5650,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mhegazy"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-20",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": 31435,
+   "forks": 2211,
+   "today": 3556,
+   "period": "this week",
+   "contributors": [
+    "mksglu",
+    "github-actions",
+    "claude",
+    "ipedro",
+    "ousamabenyounes"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 7
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": 92268,
+   "forks": 10332,
+   "today": 6184,
+   "period": "this week",
+   "contributors": [
+    "ryanmkurtz",
+    "ghidra1",
+    "dragonmacher",
+    "nsadeveloper789",
+    "caheckman"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars": 53341,
+   "forks": 4712,
+   "today": 4549,
+   "period": "this week",
+   "contributors": [
+    "timothykassis",
+    "cursoragent",
+    "borealBytes",
+    "github-actions",
+    "claude"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 10
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 68655,
+   "forks": 6207,
+   "today": 5994,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 79298,
+   "forks": 8717,
+   "today": 17057,
+   "period": "this week",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "velixio",
+    "kevin9327",
+    "jaketame"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 12
+  },
+  {
+   "repo": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars": 77959,
+   "forks": 9170,
+   "today": 3143,
+   "period": "this week",
+   "contributors": [
+    "ruvnet",
+    "claude",
+    "rudycelekli",
+    "proffesor-for-testing"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-20",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 14
+  },
+  {
+   "repo": "android/skills",
+   "url": "https://github.com/android/skills",
+   "desc": "",
+   "lang": "Kotlin",
+   "stars": 9079,
+   "forks": 588,
+   "today": 1255,
+   "period": "this week",
+   "contributors": [
+    "android-devrel-github-bot",
+    "simona-anomis",
+    "JoseAlcerreca",
+    "bentrengrove",
+    "vinishavathwani"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": 45716,
+   "forks": 4199,
+   "today": 11169,
+   "period": "this week",
+   "contributors": [
+    "adriadam10",
+    "claude",
+    "oneandonlydean",
+    "boykopovar",
+    "EagleBearerYS"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-20",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 5
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 13282,
+   "forks": 1308,
+   "today": 2040,
+   "period": "this week",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-20",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 11
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": 59138,
+   "forks": 3802,
+   "today": 5473,
+   "period": "this week",
+   "contributors": [
+    "cathrynlavery",
+    "github-actions",
+    "rudycelekli",
+    "claude",
+    "parveen0029"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-20",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 9
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": 34683,
+   "forks": 5493,
+   "today": 10287,
+   "period": "this week",
+   "contributors": [
+    "echelon",
+    "bflatastic",
+    "ArEnSc",
+    "wilwong",
+    "Quicksticks-oss"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-20",
+   "change": "down",
+   "delta": 11,
+   "prev_rank": 3
+  },
+  {
+   "repo": "wshobson/agents",
+   "url": "https://github.com/wshobson/agents",
+   "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
+   "lang": "Python",
+   "stars": 41335,
+   "forks": 4396,
+   "today": 665,
+   "period": "this week",
+   "contributors": [
+    "wshobson",
+    "dependabot",
+    "web-flow",
+    "claude",
+    "jau123"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-20",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
