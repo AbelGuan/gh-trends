@@ -1,0 +1,302 @@
+{
+ "date": "2026-10-22",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-22 13:59:36",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-21",
+ "dropped": [
+  {
+   "repo": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "rank": 1,
+   "stars": 61243,
+   "today": 3861
+  },
+  {
+   "repo": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "rank": 6,
+   "stars": 77959,
+   "today": 684
+  },
+  {
+   "repo": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "rank": 8,
+   "stars": 219158,
+   "today": 1240
+  },
+  {
+   "repo": "msitarzewski/agency-agents",
+   "url": "https://github.com/msitarzewski/agency-agents",
+   "rank": 9,
+   "stars": 162537,
+   "today": 562
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "rank": 11,
+   "stars": 30889,
+   "today": 267
+  },
+  {
+   "repo": "wshobson/agents",
+   "url": "https://github.com/wshobson/agents",
+   "rank": 12,
+   "stars": 41335,
+   "today": 93
+  },
+  {
+   "repo": "sickn33/agentic-awesome-skills",
+   "url": "https://github.com/sickn33/agentic-awesome-skills",
+   "rank": 13,
+   "stars": 48196,
+   "today": 83
+  }
+ ],
+ "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 37222,
+   "forks": 2324,
+   "today": 2012,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-21",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+   "lang": "Python",
+   "stars": 94989,
+   "forks": 23768,
+   "today": 441,
+   "period": "today",
+   "contributors": [
+    "DarkLight1337",
+    "claude",
+    "mgoin",
+    "WoosukKwon",
+    "hmellor"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-21",
+   "change": "up",
+   "delta": -13,
+   "prev_rank": 15
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": 101678,
+   "forks": 6430,
+   "today": 1541,
+   "period": "today",
+   "contributors": [
+    "nwparker",
+    "brennanb2025",
+    "Jinwoo-H",
+    "AmethystLiang",
+    "orca-ide"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-21",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "headroomlabs-ai/headroom",
+   "url": "https://github.com/headroomlabs-ai/headroom",
+   "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+   "lang": "Python",
+   "stars": 77378,
+   "forks": 6009,
+   "today": 474,
+   "period": "today",
+   "contributors": [
+    "chopratejas",
+    "JerrettDavis",
+    "claude",
+    "abhay-codes07",
+    "gglucass"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-21",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 10
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 172053,
+   "forks": 9365,
+   "today": 2079,
+   "period": "today",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "ousamabenyounes",
+    "Lakshya77089",
+    "dhedhialy"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-21",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "lang": "Python",
+   "stars": 141689,
+   "forks": 16742,
+   "today": 939,
+   "period": "today",
+   "contributors": [
+    "comfyanonymous",
+    "bigcat88",
+    "pythongosssss",
+    "comfyui-wiki",
+    "rattus128"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-21",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "lang": "TypeScript",
+   "stars": 113145,
+   "forks": 16974,
+   "today": 504,
+   "period": "today",
+   "contributors": [
+    "joshenlim",
+    "kiwicopple",
+    "MildTomato",
+    "saltcod",
+    "alaister"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "twentyhq/twenty",
+   "url": "https://github.com/twentyhq/twenty",
+   "desc": "The open alternative to Salesforce, designed for AI.",
+   "lang": "TypeScript",
+   "stars": 59347,
+   "forks": 9673,
+   "today": 112,
+   "period": "today",
+   "contributors": [
+    "charlesBochet",
+    "github-actions",
+    "FelixMalfait",
+    "bosiraphael",
+    "Weiko"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "lang": "Python",
+   "stars": 42952,
+   "forks": 7081,
+   "today": 575,
+   "period": "today",
+   "contributors": [
+    "shiyu-coder",
+    "Luciferbobo",
+    "CharlesJ-ABu",
+    "AnMakc",
+    "randyy179"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-21",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 14
+  },
+  {
+   "repo": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars": 12495,
+   "forks": 880,
+   "today": 286,
+   "period": "today",
+   "contributors": [
+    "akitaonrails",
+    "claude",
+    "viniciusdsandrade",
+    "djalmajr",
+    "everton-dgn"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-21",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+   "lang": "Python",
+   "stars": 131931,
+   "forks": 12659,
+   "today": 1433,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "safishamsi",
+    "ayushcodes10",
+    "rajatnagda45",
+    "abhay-codes07"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-21",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 7
+  }
+ ]
+}
