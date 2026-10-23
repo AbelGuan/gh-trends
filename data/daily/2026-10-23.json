@@ -1,0 +1,257 @@
+{
+ "date": "2026-10-23",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-23 13:56:23",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-22",
+ "dropped": [
+  {
+   "repo": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "rank": 2,
+   "stars": 94989,
+   "today": 441
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "rank": 3,
+   "stars": 101678,
+   "today": 1541
+  },
+  {
+   "repo": "headroomlabs-ai/headroom",
+   "url": "https://github.com/headroomlabs-ai/headroom",
+   "rank": 4,
+   "stars": 77378,
+   "today": 474
+  },
+  {
+   "repo": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "rank": 6,
+   "stars": 141689,
+   "today": 939
+  },
+  {
+   "repo": "twentyhq/twenty",
+   "url": "https://github.com/twentyhq/twenty",
+   "rank": 8,
+   "stars": 59347,
+   "today": 112
+  },
+  {
+   "repo": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "rank": 9,
+   "stars": 42952,
+   "today": 575
+  },
+  {
+   "repo": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "rank": 10,
+   "stars": 12495,
+   "today": 286
+  }
+ ],
+ "items": [
+  {
+   "repo": "php/php-src",
+   "url": "https://github.com/php/php-src",
+   "desc": "The PHP Interpreter",
+   "lang": "C",
+   "stars": 41291,
+   "forks": 8327,
+   "today": 287,
+   "period": "today",
+   "contributors": [
+    "dstogov",
+    "nikic",
+    "weltling",
+    "cmb69",
+    "iliaal"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-22",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 31749,
+   "forks": 3542,
+   "today": 303,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-22",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": 173849,
+   "forks": 9466,
+   "today": 1948,
+   "period": "today",
+   "contributors": [
+    "DietrichGebert",
+    "claude",
+    "ousamabenyounes",
+    "Lakshya77089",
+    "dhedhialy"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-22",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 5
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 40022,
+   "forks": 2498,
+   "today": 2979,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-22",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 1
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+   "lang": "Python",
+   "stars": 133227,
+   "forks": 12735,
+   "today": 1408,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "safishamsi",
+    "ayushcodes10",
+    "rajatnagda45",
+    "abhay-codes07"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-22",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 11
+  },
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "lang": "TypeScript",
+   "stars": 113582,
+   "forks": 17014,
+   "today": 693,
+   "period": "today",
+   "contributors": [
+    "joshenlim",
+    "kiwicopple",
+    "MildTomato",
+    "saltcod",
+    "alaister"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-22",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "fastapi/fastapi",
+   "url": "https://github.com/fastapi/fastapi",
+   "desc": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+   "lang": "Python",
+   "stars": 103898,
+   "forks": 10098,
+   "today": 101,
+   "period": "today",
+   "contributors": [
+    "tiangolo",
+    "github-actions",
+    "YuriiMotov",
+    "pre-commit-ci"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-22",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "lang": "Python",
+   "stars": 43464,
+   "forks": 5410,
+   "today": 177,
+   "period": "today",
+   "contributors": [
+    "luongnv89",
+    "claude",
+    "edocltd",
+    "toanalien",
+    "lzw-git-all"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-22",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Meloong-Git/PCL",
+   "url": "https://github.com/Meloong-Git/PCL",
+   "desc": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+   "lang": "Visual Basic .NET",
+   "stars": 8775,
+   "forks": 1221,
+   "today": 119,
+   "period": "today",
+   "contributors": [
+    "LTCatt",
+    "allMagicNB",
+    "RyogiMutsuki",
+    "wyc-26",
+    "Pigeon0v0"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-22",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
