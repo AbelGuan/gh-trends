@@ -1,0 +1,349 @@
+{
+ "date": "2026-10-24",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-24 13:40:54",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-23",
+ "dropped": [
+  {
+   "repo": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "rank": 15,
+   "stars": 31866,
+   "today": 2271
+  }
+ ],
+ "items": [
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": 374162,
+   "forks": 93577,
+   "today": 88243,
+   "period": "this week",
+   "contributors": [
+    "morluto",
+    "kaoru0822-kitauji",
+    "N0zoM1z0",
+    "claude",
+    "gensokyo-dev"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-23",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": 44169,
+   "forks": 4643,
+   "today": 4250,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "mhegazy",
+    "claude"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-23",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars": 78828,
+   "forks": 9255,
+   "today": 3349,
+   "period": "this week",
+   "contributors": [
+    "ruvnet",
+    "claude",
+    "rudycelekli",
+    "proffesor-for-testing"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-23",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "android/skills",
+   "url": "https://github.com/android/skills",
+   "desc": "",
+   "lang": "Kotlin",
+   "stars": 9473,
+   "forks": 608,
+   "today": 1471,
+   "period": "this week",
+   "contributors": [
+    "android-devrel-github-bot",
+    "simona-anomis",
+    "JoseAlcerreca",
+    "bentrengrove",
+    "vinishavathwani"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-23",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "desc": "The open source coding agent.",
+   "lang": "TypeScript",
+   "stars": 220707,
+   "forks": 29514,
+   "today": 6765,
+   "period": "this week",
+   "contributors": [
+    "thdxr",
+    "rekram1-node",
+    "adamdotdevin",
+    "opencode-agent",
+    "kitlangton"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-23",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": 104091,
+   "forks": 6577,
+   "today": 9545,
+   "period": "this week",
+   "contributors": [
+    "nwparker",
+    "brennanb2025",
+    "Jinwoo-H",
+    "AmethystLiang",
+    "orca-ide"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-23",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 13
+  },
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 13811,
+   "forks": 1367,
+   "today": 1946,
+   "period": "this week",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "minupalaniappan",
+    "ericzakariasson",
+    "roshansada"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-23",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars": 13100,
+   "forks": 914,
+   "today": 3449,
+   "period": "this week",
+   "contributors": [
+    "akitaonrails",
+    "claude",
+    "viniciusdsandrade",
+    "djalmajr",
+    "rudycelekli"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-23",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 9
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": 56664,
+   "forks": 5086,
+   "today": 3303,
+   "period": "this week",
+   "contributors": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "lang": "Python",
+   "stars": 142410,
+   "forks": 16793,
+   "today": 4531,
+   "period": "this week",
+   "contributors": [
+    "comfyanonymous",
+    "bigcat88",
+    "pythongosssss",
+    "comfyui-wiki",
+    "rattus128"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-23",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 14
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 83628,
+   "forks": 9227,
+   "today": 12526,
+   "period": "this week",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "velixio",
+    "kevin9327",
+    "jaketame"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 10
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": 70933,
+   "forks": 6413,
+   "today": 5553,
+   "period": "this week",
+   "contributors": [
+    "miguel-heygen",
+    "vanceingalls",
+    "jrusso1020",
+    "claude",
+    "ukimsanov"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 11
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars": 54285,
+   "forks": 4787,
+   "today": 3077,
+   "period": "this week",
+   "contributors": [
+    "timothykassis",
+    "cursoragent",
+    "borealBytes",
+    "github-actions",
+    "claude"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 5
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": 93720,
+   "forks": 10525,
+   "today": 4221,
+   "period": "this week",
+   "contributors": [
+    "ryanmkurtz",
+    "ghidra1",
+    "dragonmacher",
+    "nsadeveloper789",
+    "caheckman"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 12
+  },
+  {
+   "repo": "elie222/rakazo",
+   "url": "https://github.com/elie222/rakazo",
+   "desc": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+   "lang": "TypeScript",
+   "stars": 5487,
+   "forks": 964,
+   "today": 1094,
+   "period": "this week",
+   "contributors": [
+    "elie222",
+    "cursoragent",
+    "claude",
+    "fetw882",
+    "ald3b"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-23",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "date": "2026-10-24",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-24 13:40:53",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-23",
+ "dropped": [
+  {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "rank": 3,
+   "stars": 173849,
+   "today": 1948
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "rank": 5,
+   "stars": 133227,
+   "today": 1408
+  },
+  {
+   "repo": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "rank": 6,
+   "stars": 113582,
+   "today": 693
+  },
+  {
+   "repo": "fastapi/fastapi",
+   "url": "https://github.com/fastapi/fastapi",
+   "rank": 7,
+   "stars": 103898,
+   "today": 101
+  },
+  {
+   "repo": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "rank": 8,
+   "stars": 43464,
+   "today": 177
+  },
+  {
+   "repo": "Meloong-Git/PCL",
+   "url": "https://github.com/Meloong-Git/PCL",
+   "rank": 9,
+   "stars": 8775,
+   "today": 119
+  }
+ ],
+ "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 42509,
+   "forks": 2657,
+   "today": 2716,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-23",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 4
+  },
+  {
+   "repo": "php/php-src",
+   "url": "https://github.com/php/php-src",
+   "desc": "The PHP Interpreter",
+   "lang": "C",
+   "stars": 41598,
+   "forks": 8362,
+   "today": 716,
+   "period": "today",
+   "contributors": [
+    "dstogov",
+    "nikic",
+    "weltling",
+    "cmb69",
+    "iliaal"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 32338,
+   "forks": 3576,
+   "today": 635,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-23",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": 18928,
+   "forks": 1891,
+   "today": 1119,
+   "period": "today",
+   "contributors": [
+    "drew",
+    "johntmyers",
+    "pimlock",
+    "miyoungc",
+    "elezar"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-23",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+   "lang": "TypeScript",
+   "stars": 7007,
+   "forks": 1430,
+   "today": 546,
+   "period": "today",
+   "contributors": [
+    "Renhuai123",
+    "claude",
+    "dependabot",
+    "Renhuai",
+    "sakura168899-debug"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-23",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+   "lang": "Python",
+   "stars": 8616,
+   "forks": 1108,
+   "today": 226,
+   "period": "today",
+   "contributors": [
+    "SnailSploit",
+    "claude",
+    "halilkirazkaya",
+    "LvL23HT",
+    "yogesh-tessl"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-23",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "desc": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+   "lang": "Python",
+   "stars": 40358,
+   "forks": 4585,
+   "today": 150,
+   "period": "today",
+   "contributors": [
+    "Labmem-Zhouyx",
+    "a710128",
+    "bcsdcox",
+    "liuxin99",
+    "VoxInstruct"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-23",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
+   "lang": "JavaScript",
+   "stars": 122947,
+   "forks": 39839,
+   "today": 66,
+   "period": "today",
+   "contributors": [
+    "Trott",
+    "ry",
+    "bnoordhuis",
+    "addaleax",
+    "isaacs"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-23",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
