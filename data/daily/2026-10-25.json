@@ -1,0 +1,270 @@
+{
+ "date": "2026-10-25",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-25 13:56:16",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-24",
+ "dropped": [
+  {
+   "repo": "php/php-src",
+   "url": "https://github.com/php/php-src",
+   "rank": 2,
+   "stars": 41598,
+   "today": 716
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "rank": 3,
+   "stars": 32338,
+   "today": 635
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "rank": 5,
+   "stars": 7007,
+   "today": 546
+  },
+  {
+   "repo": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "rank": 6,
+   "stars": 8616,
+   "today": 226
+  },
+  {
+   "repo": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "rank": 7,
+   "stars": 40358,
+   "today": 150
+  },
+  {
+   "repo": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "rank": 8,
+   "stars": 122947,
+   "today": 66
+  }
+ ],
+ "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 45098,
+   "forks": 2803,
+   "today": 2264,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-24",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": 19601,
+   "forks": 1940,
+   "today": 896,
+   "period": "today",
+   "contributors": [
+    "drew",
+    "johntmyers",
+    "pimlock",
+    "miyoungc",
+    "elezar"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-24",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 4
+  },
+  {
+   "repo": "aws/agent-toolkit-for-aws",
+   "url": "https://github.com/aws/agent-toolkit-for-aws",
+   "desc": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+   "lang": "Python",
+   "stars": 3196,
+   "forks": 403,
+   "today": 13,
+   "period": "today",
+   "contributors": [
+    "arnewouters",
+    "herosjourney",
+    "anasstahr",
+    "rshevchuk-git",
+    "leon1418"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": 32431,
+   "forks": 1669,
+   "today": 455,
+   "period": "today",
+   "contributors": [
+    "Luffixos",
+    "Nutlope",
+    "claude",
+    "riccardogiorato",
+    "JaySmith502"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "lang": "Python",
+   "stars": 44704,
+   "forks": 5501,
+   "today": 392,
+   "period": "today",
+   "contributors": [
+    "luongnv89",
+    "claude",
+    "edocltd",
+    "toanalien",
+    "lzw-git-all"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "Rust",
+   "stars": 86619,
+   "forks": 5171,
+   "today": 619,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pollen-robotics/microduck",
+   "url": "https://github.com/pollen-robotics/microduck",
+   "desc": "A Tiny biped duck robot 🦆",
+   "lang": "Rust",
+   "stars": 11123,
+   "forks": 1422,
+   "today": 319,
+   "period": "today",
+   "contributors": [
+    "pierre-rouanet",
+    "apirrone",
+    "claude",
+    "Drenayaz",
+    "Nixxx19"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "lang": "TypeScript",
+   "stars": 108206,
+   "forks": 14820,
+   "today": 44,
+   "period": "today",
+   "contributors": [
+    "scidomino",
+    "jacob314",
+    "NTaylorMullen",
+    "abhipatel12",
+    "SandyTao520"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "jbiaojerry/ebook-treasure-chest",
+   "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+   "desc": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+   "lang": "Python",
+   "stars": 22816,
+   "forks": 3201,
+   "today": 227,
+   "period": "today",
+   "contributors": [
+    "jbiaojerry",
+    "github-actions"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": 4238,
+   "forks": 608,
+   "today": 477,
+   "period": "today",
+   "contributors": [
+    "dashhuang",
+    "zqchris",
+    "MagicLizi",
+    "DavidShenXD",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-24",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
