@@ -1,0 +1,347 @@
+{
+ "date": "2026-10-27",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-27 14:10:47",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-26",
+ "dropped": [
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "rank": 7,
+   "stars": 7890,
+   "today": 199
+  },
+  {
+   "repo": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "rank": 9,
+   "stars": 64624,
+   "today": 152
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "rank": 10,
+   "stars": 47303,
+   "today": 2878
+  },
+  {
+   "repo": "AgriciDaniel/claude-seo",
+   "url": "https://github.com/AgriciDaniel/claude-seo",
+   "rank": 11,
+   "stars": 21238,
+   "today": 197
+  }
+ ],
+ "items": [
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": 37030,
+   "forks": 1928,
+   "today": 2244,
+   "period": "today",
+   "contributors": [
+    "Luffixos",
+    "Nutlope",
+    "claude",
+    "riccardogiorato",
+    "JaySmith502"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-26",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "lang": "Python",
+   "stars": 116506,
+   "forks": 22330,
+   "today": 1395,
+   "period": "today",
+   "contributors": [
+    "Yijia-Xiao",
+    "EdwardoSunny",
+    "CadeYu",
+    "luohy15",
+    "claude"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-26",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 6
+  },
+  {
+   "repo": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "lang": "TypeScript",
+   "stars": 3189,
+   "forks": 175,
+   "today": 1173,
+   "period": "today",
+   "contributors": [
+    "rsolmano",
+    "danyaberezun",
+    "OLavrik",
+    "claude",
+    "SBOne-Kenobi"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-26",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 8
+  },
+  {
+   "repo": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": 6804,
+   "forks": 818,
+   "today": 1296,
+   "period": "today",
+   "contributors": [
+    "dashhuang",
+    "zqchris",
+    "MagicLizi",
+    "DavidShenXD",
+    "claude"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-26",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 1
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 290058,
+   "forks": 42988,
+   "today": 896,
+   "period": "today",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "montjeffrey",
+    "dependabot"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "Rust",
+   "stars": 89495,
+   "forks": 5325,
+   "today": 1506,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-26",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 4
+  },
+  {
+   "repo": "NVIDIA/SkillSpector",
+   "url": "https://github.com/NVIDIA/SkillSpector",
+   "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+   "lang": "Python",
+   "stars": 22415,
+   "forks": 1953,
+   "today": 214,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "rng1995",
+    "yashrajp22",
+    "claude",
+    "keshprad"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pollen-robotics/microduck",
+   "url": "https://github.com/pollen-robotics/microduck",
+   "desc": "A Tiny biped duck robot 🦆",
+   "lang": "Rust",
+   "stars": 12533,
+   "forks": 1559,
+   "today": 843,
+   "period": "today",
+   "contributors": [
+    "pierre-rouanet",
+    "apirrone",
+    "claude",
+    "Drenayaz",
+    "Nixxx19"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-26",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 5
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "lang": "TypeScript",
+   "stars": 1666,
+   "forks": 202,
+   "today": 176,
+   "period": "today",
+   "contributors": [
+    "NorbertBodziony",
+    "claude",
+    "Sniezka1927",
+    "nrb-dev",
+    "aniruddhaadak80"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": 104033,
+   "forks": 9228,
+   "today": 746,
+   "period": "today",
+   "contributors": [
+    "Panniantong",
+    "claude",
+    "LohseZSai",
+    "nyxst4ck",
+    "ricardolaurito"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": 89796,
+   "forks": 9897,
+   "today": 2297,
+   "period": "today",
+   "contributors": [
+    "debpalash",
+    "claude",
+    "velixio",
+    "kevin9327",
+    "jaketame"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-26",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 3
+  },
+  {
+   "repo": "gitroomhq/postiz-app",
+   "url": "https://github.com/gitroomhq/postiz-app",
+   "desc": "📨 The ultimate agentic social media scheduling tool 🤖",
+   "lang": "TypeScript",
+   "stars": 38647,
+   "forks": 7465,
+   "today": 188,
+   "period": "today",
+   "contributors": [
+    "nevo-david",
+    "giladresisi",
+    "egelhaus",
+    "claude",
+    "jamesread"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "alchaincyf/huashu-design",
+   "url": "https://github.com/alchaincyf/huashu-design",
+   "desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+   "lang": "HTML",
+   "stars": 27216,
+   "forks": 2985,
+   "today": 251,
+   "period": "today",
+   "contributors": [
+    "alchaincyf",
+    "claude",
+    "Jiandong7"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": 224883,
+   "forks": 22490,
+   "today": 638,
+   "period": "today",
+   "contributors": [
+    "forrestchang",
+    "claude",
+    "back1ply",
+    "herobrine19",
+    "szkocot"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-26",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
