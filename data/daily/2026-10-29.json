@@ -1,0 +1,331 @@
+{
+ "date": "2026-10-29",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-29 14:57:02",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-28",
+ "dropped": [
+  {
+   "repo": "gitroomhq/postiz-app",
+   "url": "https://github.com/gitroomhq/postiz-app",
+   "rank": 7,
+   "stars": 39638,
+   "today": 951
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "rank": 8,
+   "stars": 291115,
+   "today": 1165
+  }
+ ],
+ "items": [
+  {
+   "repo": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "lang": "TypeScript",
+   "stars": 5390,
+   "forks": 273,
+   "today": 1068,
+   "period": "today",
+   "contributors": [
+    "rsolmano",
+    "danyaberezun",
+    "OLavrik",
+    "claude",
+    "SBOne-Kenobi"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-28",
+   "change": "up",
+   "delta": -9,
+   "prev_rank": 10
+  },
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "desc": "",
+   "lang": "",
+   "stars": 11441,
+   "forks": 825,
+   "today": 2139,
+   "period": "today",
+   "contributors": [
+    "elayadesign",
+    "claude"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-28",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 307675,
+   "forks": 27367,
+   "today": 1095,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "arimu1"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-28",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": 48588,
+   "forks": 6018,
+   "today": 2371,
+   "period": "today",
+   "contributors": [
+    "pancacake",
+    "claude",
+    "Pinkllow",
+    "github-actions",
+    "evan188199-tech"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-28",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 9
+  },
+  {
+   "repo": "macro-inc/macro",
+   "url": "https://github.com/macro-inc/macro",
+   "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+   "lang": "Rust",
+   "stars": 5553,
+   "forks": 527,
+   "today": 117,
+   "period": "today",
+   "contributors": [
+    "gbirman",
+    "whutchinson98",
+    "synoet",
+    "sedson",
+    "peterchinman"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": 41080,
+   "forks": 2133,
+   "today": 2110,
+   "period": "today",
+   "contributors": [
+    "Luffixos",
+    "Nutlope",
+    "claude",
+    "riccardogiorato",
+    "JaySmith502"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-28",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 2
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "lang": "Rust",
+   "stars": 93478,
+   "forks": 5517,
+   "today": 1472,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-28",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 5
+  },
+  {
+   "repo": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": 8308,
+   "forks": 974,
+   "today": 728,
+   "period": "today",
+   "contributors": [
+    "dashhuang",
+    "zqchris",
+    "MagicLizi",
+    "DavidShenXD",
+    "claude"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-28",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "lang": "TypeScript",
+   "stars": 3448,
+   "forks": 330,
+   "today": 1054,
+   "period": "today",
+   "contributors": [
+    "NorbertBodziony",
+    "claude",
+    "Sniezka1927",
+    "nrb-dev",
+    "aniruddhaadak80"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-28",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 3
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "url": "https://github.com/togg53192-cmd/jailbreaks",
+   "desc": "LIST OF ALL MY JAILBREAKS",
+   "lang": "",
+   "stars": 7541,
+   "forks": 1071,
+   "today": 1477,
+   "period": "today",
+   "contributors": [
+    "togg53192-cmd",
+    "raghavraut",
+    "metalim",
+    "reblox01"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-28",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 11
+  },
+  {
+   "repo": "hmjz100/LinkSwift",
+   "url": "https://github.com/hmjz100/LinkSwift",
+   "desc": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+   "lang": "JavaScript",
+   "stars": 35524,
+   "forks": 2518,
+   "today": 1616,
+   "period": "today",
+   "contributors": [
+    "hmjz100",
+    "MisaLiu",
+    "Night-stars-1",
+    "sherlocknieh",
+    "DeepslateQAQ"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "expo/skills",
+   "url": "https://github.com/expo/skills",
+   "desc": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+   "lang": "Shell",
+   "stars": 3677,
+   "forks": 234,
+   "today": 90,
+   "period": "today",
+   "contributors": [
+    "EvanBacon",
+    "Kudo",
+    "gwdp",
+    "claude",
+    "ide"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "lang": "Rust",
+   "stars": 101279,
+   "forks": 13174,
+   "today": 557,
+   "period": "today",
+   "contributors": [
+    "ruvnet",
+    "claude",
+    "proffesor-for-testing",
+    "aepod",
+    "dependabot"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "xiaolai/the-craft-of-selfteaching",
+   "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+   "desc": "One has no future if one couldn't teach themself.",
+   "lang": "Jupyter Notebook",
+   "stars": 18697,
+   "forks": 17909,
+   "today": 148,
+   "period": "today",
+   "contributors": [
+    "xiaolai",
+    "wpeiran",
+    "towerzju",
+    "HarryYC",
+    "ljqbpm"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-28",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
