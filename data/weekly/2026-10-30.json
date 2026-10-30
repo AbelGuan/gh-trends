@@ -1,0 +1,263 @@
+{
+ "date": "2026-10-30",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-30 14:59:36",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-10-29",
+ "dropped": [
+  {
+   "repo": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "rank": 7,
+   "stars": 138074,
+   "today": 6662
+  },
+  {
+   "repo": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "rank": 10,
+   "stars": 222840,
+   "today": 3498
+  }
+ ],
+ "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 53138,
+   "forks": 3413,
+   "today": 14320,
+   "period": "this week",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-29",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "php/php-src",
+   "url": "https://github.com/php/php-src",
+   "desc": "The PHP Interpreter",
+   "lang": "C",
+   "stars": 41728,
+   "forks": 8495,
+   "today": 960,
+   "period": "this week",
+   "contributors": [
+    "dstogov",
+    "nikic",
+    "weltling",
+    "cmb69",
+    "iliaal"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "AgriciDaniel/claude-seo",
+   "url": "https://github.com/AgriciDaniel/claude-seo",
+   "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+   "lang": "Python",
+   "stars": 24128,
+   "forks": 3232,
+   "today": 4110,
+   "period": "this week",
+   "contributors": [
+    "AgriciDaniel",
+    "claude",
+    "Nordalux",
+    "dependabot",
+    "codex"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-29",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "lang": "Rust",
+   "stars": 95907,
+   "forks": 5650,
+   "today": 9713,
+   "period": "this week",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-29",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": 226555,
+   "forks": 22625,
+   "today": 4250,
+   "period": "this week",
+   "contributors": [
+    "forrestchang",
+    "claude",
+    "back1ply",
+    "herobrine19",
+    "szkocot"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-29",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "lang": "Python",
+   "stars": 118438,
+   "forks": 22653,
+   "today": 5557,
+   "period": "this week",
+   "contributors": [
+    "Yijia-Xiao",
+    "EdwardoSunny",
+    "CadeYu",
+    "luohy15",
+    "claude"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-29",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 308852,
+   "forks": 27469,
+   "today": 4894,
+   "period": "this week",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "arimu1"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-29",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": 33900,
+   "forks": 3727,
+   "today": 2504,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "jordanecker-ant",
+    "bryan-anthropic",
+    "claude",
+    "mattpic-ant"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-29",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 4
+  },
+  {
+   "repo": "Leonxlnx/taste-skill",
+   "url": "https://github.com/Leonxlnx/taste-skill",
+   "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+   "lang": "JavaScript",
+   "stars": 105764,
+   "forks": 7148,
+   "today": 4359,
+   "period": "this week",
+   "contributors": [
+    "Leonxlnx",
+    "cursoragent",
+    "claude",
+    "HugoSpy",
+    "flexi767"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-29",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "jakubkrehel/skills",
+   "url": "https://github.com/jakubkrehel/skills",
+   "desc": "A collection of agent skills that help you build great interfaces.",
+   "lang": "Markdown",
+   "stars": 9235,
+   "forks": 349,
+   "today": 980,
+   "period": "this week",
+   "contributors": [
+    "jakubkrehel",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-29",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 11
+  },
+  {
+   "repo": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars": 80188,
+   "forks": 9402,
+   "today": 1854,
+   "period": "this week",
+   "contributors": [
+    "ruvnet",
+    "claude",
+    "rudycelekli",
+    "proffesor-for-testing"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-29",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 9
+  }
+ ]
+}
