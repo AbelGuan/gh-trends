@@ -1,0 +1,362 @@
+{
+ "date": "2026-10-31",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-10-31 14:53:58",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-10-30",
+ "dropped": [
+  {
+   "repo": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "rank": 6,
+   "stars": 4035,
+   "today": 709
+  },
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "rank": 7,
+   "stars": 12489,
+   "today": 1187
+  },
+  {
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "rank": 11,
+   "stars": 29599,
+   "today": 353
+  }
+ ],
+ "items": [
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars": 106676,
+   "forks": 9386,
+   "today": 1140,
+   "period": "today",
+   "contributors": [
+    "thedotmack",
+    "claude",
+    "rudycelekli",
+    "cursoragent",
+    "rodboev"
+   ],
+   "rank": 1,
+   "prev_day": "2026-10-30",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 8
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 8947,
+   "forks": 1231,
+   "today": 895,
+   "period": "today",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "robinsonnblack",
+    "bradhallett"
+   ],
+   "rank": 2,
+   "prev_day": "2026-10-30",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 5
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "lang": "Rust",
+   "stars": 97389,
+   "forks": 5738,
+   "today": 2300,
+   "period": "today",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 3,
+   "prev_day": "2026-10-30",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "lang": "TypeScript",
+   "stars": 8929,
+   "forks": 1119,
+   "today": 706,
+   "period": "today",
+   "contributors": [
+    "davidmckayv",
+    "kevin9327",
+    "claude",
+    "Ayush7614",
+    "guidovizoso"
+   ],
+   "rank": 4,
+   "prev_day": "2026-10-30",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 9
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+   "lang": "TypeScript",
+   "stars": 11561,
+   "forks": 2285,
+   "today": 1126,
+   "period": "today",
+   "contributors": [
+    "Renhuai123",
+    "claude",
+    "dependabot",
+    "Renhuai",
+    "sakura168899-debug"
+   ],
+   "rank": 5,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "expo/skills",
+   "url": "https://github.com/expo/skills",
+   "desc": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+   "lang": "Shell",
+   "stars": 3936,
+   "forks": 248,
+   "today": 38,
+   "period": "today",
+   "contributors": [
+    "EvanBacon",
+    "Kudo",
+    "gwdp",
+    "claude",
+    "ide"
+   ],
+   "rank": 6,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "macro-inc/macro",
+   "url": "https://github.com/macro-inc/macro",
+   "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+   "lang": "Rust",
+   "stars": 5945,
+   "forks": 544,
+   "today": 57,
+   "period": "today",
+   "contributors": [
+    "gbirman",
+    "whutchinson98",
+    "synoet",
+    "sedson",
+    "peterchinman"
+   ],
+   "rank": 7,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 307673,
+   "forks": 25896,
+   "today": 876,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 8,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 33062,
+   "forks": 8683,
+   "today": 930,
+   "period": "today",
+   "contributors": [
+    "juliusmarminge",
+    "claude",
+    "t3dotgg",
+    "maria-rcks",
+    "codex"
+   ],
+   "rank": 9,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": 52004,
+   "forks": 6372,
+   "today": 2282,
+   "period": "today",
+   "contributors": [
+    "pancacake",
+    "claude",
+    "Pinkllow",
+    "github-actions",
+    "evan188199-tech"
+   ],
+   "rank": 10,
+   "prev_day": "2026-10-30",
+   "change": "down",
+   "delta": 9,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 185517,
+   "forks": 21909,
+   "today": 295,
+   "period": "today",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 11,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "lang": "TypeScript",
+   "stars": 6673,
+   "forks": 360,
+   "today": 722,
+   "period": "today",
+   "contributors": [
+    "rsolmano",
+    "danyaberezun",
+    "OLavrik",
+    "claude",
+    "SBOne-Kenobi"
+   ],
+   "rank": 12,
+   "prev_day": "2026-10-30",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 4
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "url": "https://github.com/togg53192-cmd/jailbreaks",
+   "desc": "LIST OF ALL MY JAILBREAKS",
+   "lang": "",
+   "stars": 11524,
+   "forks": 1694,
+   "today": 2055,
+   "period": "today",
+   "contributors": [
+    "togg53192-cmd",
+    "raghavraut",
+    "metalim",
+    "reblox01"
+   ],
+   "rank": 13,
+   "prev_day": "2026-10-30",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 10
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 309572,
+   "forks": 27545,
+   "today": 1259,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "arimu1"
+   ],
+   "rank": 14,
+   "prev_day": "2026-10-30",
+   "change": "down",
+   "delta": 12,
+   "prev_rank": 2
+  },
+  {
+   "repo": "lightpanda-io/browser",
+   "url": "https://github.com/lightpanda-io/browser",
+   "desc": "Lightpanda: the headless browser designed for AI and automation",
+   "lang": "Zig",
+   "stars": 38623,
+   "forks": 1878,
+   "today": 626,
+   "period": "today",
+   "contributors": [
+    "karlseguin",
+    "krichprollsch",
+    "arrufat",
+    "mookums",
+    "nikneym"
+   ],
+   "rank": 15,
+   "prev_day": "2026-10-30",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
