@@ -1,0 +1,354 @@
+{
+ "date": "2026-11-06",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-06 15:51:33",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-05",
+ "dropped": [
+  {
+   "repo": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "rank": 9,
+   "stars": 7678,
+   "today": 3031
+  },
+  {
+   "repo": "AgriciDaniel/claude-seo",
+   "url": "https://github.com/AgriciDaniel/claude-seo",
+   "rank": 13,
+   "stars": 26777,
+   "today": 3531
+  }
+ ],
+ "items": [
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars": 113693,
+   "forks": 9863,
+   "today": 9318,
+   "period": "this week",
+   "contributors": [
+    "thedotmack",
+    "claude",
+    "rudycelekli",
+    "cursoragent",
+    "rodboev"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-05",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": 49031,
+   "forks": 2597,
+   "today": 6994,
+   "period": "this week",
+   "contributors": [
+    "Luffixos",
+    "Nutlope",
+    "rudycelekli",
+    "cursoragent",
+    "Bortlesboat"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-05",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 48700,
+   "forks": 9656,
+   "today": 16235,
+   "period": "this week",
+   "contributors": [
+    "juliusmarminge",
+    "claude",
+    "t3dotgg",
+    "maria-rcks",
+    "codex"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-05",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 187887,
+   "forks": 22163,
+   "today": 3072,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": 55629,
+   "forks": 6818,
+   "today": 6229,
+   "period": "this week",
+   "contributors": [
+    "pancacake",
+    "claude",
+    "Pinkllow",
+    "github-actions",
+    "evan188199-tech"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "lang": "Rust",
+   "stars": 11663,
+   "forks": 447,
+   "today": 1802,
+   "period": "this week",
+   "contributors": [
+    "max-sixty",
+    "claude",
+    "worktrunk-bot",
+    "dependabot",
+    "github-actions"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 13902,
+   "forks": 1927,
+   "today": 5580,
+   "period": "this week",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "robinsonnblack",
+    "bradhallett"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 313198,
+   "forks": 27865,
+   "today": 5131,
+   "period": "this week",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "arimu1"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 5
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "lang": "Rust",
+   "stars": 104223,
+   "forks": 6178,
+   "today": 9303,
+   "period": "this week",
+   "contributors": [
+    "pbakaus",
+    "claude",
+    "github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 4
+  },
+  {
+   "repo": "hyprwm/Hyprland",
+   "url": "https://github.com/hyprwm/Hyprland",
+   "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+   "lang": "C++",
+   "stars": 40391,
+   "forks": 2169,
+   "today": 1371,
+   "period": "this week",
+   "contributors": [
+    "vaxerski",
+    "fufexan",
+    "gulafaran",
+    "MightyPlaza",
+    "UjinT34"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 12
+  },
+  {
+   "repo": "jakubkrehel/skills",
+   "url": "https://github.com/jakubkrehel/skills",
+   "desc": "A collection of agent skills that help you build great interfaces.",
+   "lang": "Markdown",
+   "stars": 11119,
+   "forks": 428,
+   "today": 1840,
+   "period": "this week",
+   "contributors": [
+    "jakubkrehel",
+    "claude"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 8
+  },
+  {
+   "repo": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "lang": "Python",
+   "stars": 77337,
+   "forks": 10276,
+   "today": 4132,
+   "period": "this week",
+   "contributors": [
+    "calesthio",
+    "claude",
+    "0xDevNinja",
+    "rudycelekli",
+    "yiyabo"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 14
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": 230003,
+   "forks": 22897,
+   "today": 3713,
+   "period": "this week",
+   "contributors": [
+    "forrestchang",
+    "claude",
+    "back1ply",
+    "herobrine19",
+    "szkocot"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 11
+  },
+  {
+   "repo": "ghostty-org/ghostty",
+   "url": "https://github.com/ghostty-org/ghostty",
+   "desc": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+   "lang": "Zig",
+   "stars": 63690,
+   "forks": 3834,
+   "today": 726,
+   "period": "this week",
+   "contributors": [
+    "mitchellh",
+    "jcollie",
+    "qwerasd205",
+    "github-actions",
+    "ghostty-vouch"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 10
+  },
+  {
+   "repo": "Leonxlnx/taste-skill",
+   "url": "https://github.com/Leonxlnx/taste-skill",
+   "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+   "lang": "JavaScript",
+   "stars": 110903,
+   "forks": 7446,
+   "today": 5426,
+   "period": "this week",
+   "contributors": [
+    "Leonxlnx",
+    "claude",
+    "cursoragent",
+    "HugoSpy",
+    "bougieL"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "date": "2026-11-06",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-06 15:51:32",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-05",
+ "dropped": [
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "rank": 5,
+   "stars": 113123,
+   "today": 1172
+  },
+  {
+   "repo": "github/spec-kit",
+   "url": "https://github.com/github/spec-kit",
+   "rank": 7,
+   "stars": 147523,
+   "today": 808
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "url": "https://github.com/The-PR-Agent/pr-agent",
+   "rank": 8,
+   "stars": 14924,
+   "today": 280
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "rank": 9,
+   "stars": 139342,
+   "today": 617
+  },
+  {
+   "repo": "FareedKhan-dev/kimi-k3-in-c",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "rank": 11,
+   "stars": 10536,
+   "today": 351
+  },
+  {
+   "repo": "MichaelCade/90DaysOfDevOps",
+   "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+   "rank": 13,
+   "stars": 30638,
+   "today": 97
+  },
+  {
+   "repo": "Thysrael/Horizon",
+   "url": "https://github.com/Thysrael/Horizon",
+   "rank": 15,
+   "stars": 12734,
+   "today": 121
+  }
+ ],
+ "items": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": 7948,
+   "forks": 639,
+   "today": 2679,
+   "period": "today",
+   "contributors": [
+    "DinaLaptii",
+    "yuvalshkolar",
+    "liavnave",
+    "liofnv",
+    "tomer-levin-nv"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-05",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 315790,
+   "forks": 26431,
+   "today": 2071,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "lang": "TypeScript",
+   "stars": 140182,
+   "forks": 20709,
+   "today": 612,
+   "period": "today",
+   "contributors": [
+    "garrytan",
+    "capy-ai",
+    "claude",
+    "test22345",
+    "szsunyuan"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 10
+  },
+  {
+   "repo": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+   "lang": "Python",
+   "stars": 17972,
+   "forks": 2980,
+   "today": 240,
+   "period": "today",
+   "contributors": [
+    "dingyufei615",
+    "claude",
+    "claude",
+    "ijodion",
+    "hurleychin"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+   "lang": "Python",
+   "stars": 98375,
+   "forks": 10305,
+   "today": 1655,
+   "period": "today",
+   "contributors": [
+    "D4Vinci",
+    "yetval",
+    "AbdullahY36",
+    "SulimanAbdulrazzaq",
+    "codex"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -9,
+   "prev_rank": 14
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "lang": "Rust",
+   "stars": 17390,
+   "forks": 1237,
+   "today": 2173,
+   "period": "today",
+   "contributors": [
+    "lahfir",
+    "github-actions",
+    "detail-app",
+    "dependabot",
+    "ctate"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-05",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 6
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "lang": "Rust",
+   "stars": 11663,
+   "forks": 447,
+   "today": 546,
+   "period": "today",
+   "contributors": [
+    "max-sixty",
+    "claude",
+    "worktrunk-bot",
+    "dependabot",
+    "github-actions"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 2
+  },
+  {
+   "repo": "lz4/lz4",
+   "url": "https://github.com/lz4/lz4",
+   "desc": "Extremely Fast Compression algorithm",
+   "lang": "C",
+   "stars": 12479,
+   "forks": 1640,
+   "today": 23,
+   "period": "today",
+   "contributors": [
+    "Cyan4973",
+    "inikep",
+    "t-mat",
+    "felixhandte",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": 22534,
+   "forks": 1898,
+   "today": 211,
+   "period": "today",
+   "contributors": [
+    "cloud-ix-copybara",
+    "holtskinner",
+    "martinvarelaj",
+    "helloeve",
+    "wangauone"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 46118,
+   "forks": 3157,
+   "today": 150,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+   "lang": "Python",
+   "stars": 3257,
+   "forks": 282,
+   "today": 667,
+   "period": "today",
+   "contributors": [
+    "hervenivon",
+    "claude",
+    "codex",
+    "gh-actions-token-retriever-public",
+    "edemaistre"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-05",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 16
+  },
+  {
+   "repo": "ConardLi/garden-skills",
+   "url": "https://github.com/ConardLi/garden-skills",
+   "desc": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+   "lang": "JavaScript",
+   "stars": 14349,
+   "forks": 1659,
+   "today": 175,
+   "period": "today",
+   "contributors": [
+    "ConardLi",
+    "github-actions",
+    "cursoragent",
+    "eltociear"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "microsoft/VibeVoice",
+   "url": "https://github.com/microsoft/VibeVoice",
+   "desc": "Open-Source Frontier Voice AI",
+   "lang": "Python",
+   "stars": 56253,
+   "forks": 6335,
+   "today": 223,
+   "period": "today",
+   "contributors": [
+    "YaoyaoChang",
+    "pengzhiliang",
+    "MSLDCherryPick",
+    "Copilot",
+    "jsoref"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-05",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "floci-io/floci",
+   "url": "https://github.com/floci-io/floci",
+   "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+   "lang": "Java",
+   "stars": 30627,
+   "forks": 3342,
+   "today": 779,
+   "period": "today",
+   "contributors": [
+    "hectorvent",
+    "pgermosen",
+    "AndreKurait",
+    "okinaka",
+    "exoego"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 10,
+   "prev_rank": 4
+  },
+  {
+   "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+   "desc": "",
+   "lang": "C#",
+   "stars": 7491,
+   "forks": 268,
+   "today": 984,
+   "period": "today",
+   "contributors": [
+    "JiaFeiMiao-K-Cat",
+    "Catho168",
+    "eltociear",
+    "keremuysal",
+    "claude"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-05",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 12
+  }
+ ]
+}
