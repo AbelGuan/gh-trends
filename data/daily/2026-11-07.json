@@ -1,0 +1,483 @@
+{
+ "date": "2026-11-07",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-07 15:00:17",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-06",
+ "dropped": [
+  {
+   "repo": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "rank": 3,
+   "stars": 140182,
+   "today": 612
+  },
+  {
+   "repo": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "rank": 4,
+   "stars": 17972,
+   "today": 240
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "rank": 5,
+   "stars": 98375,
+   "today": 1655
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "rank": 6,
+   "stars": 17390,
+   "today": 2173
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "rank": 7,
+   "stars": 11663,
+   "today": 546
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "rank": 10,
+   "stars": 46118,
+   "today": 150
+  },
+  {
+   "repo": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "rank": 11,
+   "stars": 3257,
+   "today": 667
+  },
+  {
+   "repo": "ConardLi/garden-skills",
+   "url": "https://github.com/ConardLi/garden-skills",
+   "rank": 12,
+   "stars": 14349,
+   "today": 175
+  },
+  {
+   "repo": "microsoft/VibeVoice",
+   "url": "https://github.com/microsoft/VibeVoice",
+   "rank": 13,
+   "stars": 56253,
+   "today": 223
+  },
+  {
+   "repo": "floci-io/floci",
+   "url": "https://github.com/floci-io/floci",
+   "rank": 14,
+   "stars": 30627,
+   "today": 779
+  },
+  {
+   "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+   "rank": 15,
+   "stars": 7491,
+   "today": 984
+  }
+ ],
+ "items": [
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": 93842,
+   "forks": 11512,
+   "today": 306,
+   "period": "today",
+   "contributors": [
+    "as-cii",
+    "maxbrunsfeld",
+    "maxdeviant",
+    "nathansobo",
+    "ConradIrwin"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": 9341,
+   "forks": 739,
+   "today": 2015,
+   "period": "today",
+   "contributors": [
+    "DinaLaptii",
+    "yuvalshkolar",
+    "liavnave",
+    "liofnv",
+    "tomer-levin-nv"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-06",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "rails/rails",
+   "url": "https://github.com/rails/rails",
+   "desc": "Ruby on Rails",
+   "lang": "Ruby",
+   "stars": 59059,
+   "forks": 23833,
+   "today": 142,
+   "period": "today",
+   "contributors": [
+    "rafaelfranca",
+    "kamipo",
+    "jeremy",
+    "tenderlove",
+    "byroot"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mpv-player/mpv",
+   "url": "https://github.com/mpv-player/mpv",
+   "desc": "🎥 Command line media player",
+   "lang": "C",
+   "stars": 37936,
+   "forks": 3635,
+   "today": 37,
+   "period": "today",
+   "contributors": [
+    "kasper93",
+    "Dudemanguy",
+    "guidocella",
+    "haasn",
+    "pigoz"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "rust-lang/rust",
+   "url": "https://github.com/rust-lang/rust",
+   "desc": "Empowering everyone to build reliable and efficient software.",
+   "lang": "Rust",
+   "stars": 121528,
+   "forks": 17369,
+   "today": 192,
+   "period": "today",
+   "contributors": [
+    "bors",
+    "matthiaskrgr",
+    "RalfJung",
+    "GuillaumeGomez",
+    "matklad"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "react/react",
+   "url": "https://github.com/react/react",
+   "desc": "The library for web and native user interfaces.",
+   "lang": "JavaScript",
+   "stars": 252309,
+   "forks": 51832,
+   "today": 248,
+   "period": "today",
+   "contributors": [
+    "sebmarkbage",
+    "zpao",
+    "gaearon",
+    "acdlite",
+    "sophiebits"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "angular/angular",
+   "url": "https://github.com/angular/angular",
+   "desc": "Deliver web apps with confidence 🚀",
+   "lang": "TypeScript",
+   "stars": 101424,
+   "forks": 28914,
+   "today": 135,
+   "period": "today",
+   "contributors": [
+    "gkalpak",
+    "petebacondarwin",
+    "crisbeto",
+    "angular-robot",
+    "devversion"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "symfony/symfony",
+   "url": "https://github.com/symfony/symfony",
+   "desc": "The Symfony PHP framework",
+   "lang": "PHP",
+   "stars": 31478,
+   "forks": 9950,
+   "today": 128,
+   "period": "today",
+   "contributors": [
+    "fabpot",
+    "nicolas-grekas",
+    "xabbuh",
+    "derrabus",
+    "chalasr"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "url": "https://github.com/prometheus/prometheus",
+   "desc": "The Prometheus monitoring system and time series database.",
+   "lang": "Go",
+   "stars": 67242,
+   "forks": 10991,
+   "today": 148,
+   "period": "today",
+   "contributors": [
+    "fabxc",
+    "juliusv",
+    "beorn7",
+    "bboreham",
+    "dependabot"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": 22957,
+   "forks": 1929,
+   "today": 534,
+   "period": "today",
+   "contributors": [
+    "cloud-ix-copybara",
+    "holtskinner",
+    "martinvarelaj",
+    "helloeve",
+    "wangauone"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-06",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 9
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "desc": "Visual Studio Code",
+   "lang": "TypeScript",
+   "stars": 195083,
+   "forks": 44434,
+   "today": 301,
+   "period": "today",
+   "contributors": [
+    "bpasero",
+    "jrieken",
+    "Tyriar",
+    "sandy081",
+    "joaomoreno"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "lz4/lz4",
+   "url": "https://github.com/lz4/lz4",
+   "desc": "Extremely Fast Compression algorithm",
+   "lang": "C",
+   "stars": 12649,
+   "forks": 1644,
+   "today": 315,
+   "period": "today",
+   "contributors": [
+    "Cyan4973",
+    "inikep",
+    "t-mat",
+    "felixhandte",
+    "dependabot"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-06",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 8
+  },
+  {
+   "repo": "nushell/nushell",
+   "url": "https://github.com/nushell/nushell",
+   "desc": "A new type of shell",
+   "lang": "Rust",
+   "stars": 41023,
+   "forks": 2344,
+   "today": 131,
+   "period": "today",
+   "contributors": [
+    "sophiajt",
+    "fdncred",
+    "sholderbach",
+    "dependabot",
+    "andrasio"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "etcd-io/etcd",
+   "url": "https://github.com/etcd-io/etcd",
+   "desc": "Distributed reliable key-value store for the most critical data of a distributed system",
+   "lang": "Go",
+   "stars": 52643,
+   "forks": 10590,
+   "today": 128,
+   "period": "today",
+   "contributors": [
+    "gyuho",
+    "ahrtr",
+    "xiang90",
+    "serathius",
+    "yichengq"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "openssl/openssl",
+   "url": "https://github.com/openssl/openssl",
+   "desc": "General purpose TLS and crypto library",
+   "lang": "C",
+   "stars": 31334,
+   "forks": 11583,
+   "today": 26,
+   "period": "today",
+   "contributors": [
+    "levitte",
+    "mattcaswell",
+    "dot-asm",
+    "paulidale",
+    "snhenson"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 316946,
+   "forks": 26525,
+   "today": 2070,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 16,
+   "prev_day": "2026-11-06",
+   "change": "down",
+   "delta": 14,
+   "prev_rank": 2
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 64455,
+   "forks": 4180,
+   "today": 2548,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 17,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "url": "https://github.com/astral-sh/ruff",
+   "desc": "An extremely fast Python linter and code formatter, written in Rust.",
+   "lang": "Rust",
+   "stars": 50757,
+   "forks": 2616,
+   "today": 169,
+   "period": "today",
+   "contributors": [
+    "charliermarsh",
+    "MichaReiser",
+    "AlexWaygood",
+    "renovate",
+    "sharkdp"
+   ],
+   "rank": 18,
+   "prev_day": "2026-11-06",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
