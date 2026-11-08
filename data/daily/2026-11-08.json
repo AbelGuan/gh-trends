@@ -1,0 +1,424 @@
+{
+ "date": "2026-11-08",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-08 15:10:32",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-07",
+ "dropped": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "rank": 2,
+   "stars": 9341,
+   "today": 2015
+  },
+  {
+   "repo": "rails/rails",
+   "url": "https://github.com/rails/rails",
+   "rank": 3,
+   "stars": 59059,
+   "today": 142
+  },
+  {
+   "repo": "mpv-player/mpv",
+   "url": "https://github.com/mpv-player/mpv",
+   "rank": 4,
+   "stars": 37936,
+   "today": 37
+  },
+  {
+   "repo": "rust-lang/rust",
+   "url": "https://github.com/rust-lang/rust",
+   "rank": 5,
+   "stars": 121528,
+   "today": 192
+  },
+  {
+   "repo": "react/react",
+   "url": "https://github.com/react/react",
+   "rank": 6,
+   "stars": 252309,
+   "today": 248
+  },
+  {
+   "repo": "angular/angular",
+   "url": "https://github.com/angular/angular",
+   "rank": 7,
+   "stars": 101424,
+   "today": 135
+  },
+  {
+   "repo": "symfony/symfony",
+   "url": "https://github.com/symfony/symfony",
+   "rank": 8,
+   "stars": 31478,
+   "today": 128
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "rank": 11,
+   "stars": 195083,
+   "today": 301
+  },
+  {
+   "repo": "lz4/lz4",
+   "url": "https://github.com/lz4/lz4",
+   "rank": 12,
+   "stars": 12649,
+   "today": 315
+  },
+  {
+   "repo": "nushell/nushell",
+   "url": "https://github.com/nushell/nushell",
+   "rank": 13,
+   "stars": 41023,
+   "today": 131
+  },
+  {
+   "repo": "etcd-io/etcd",
+   "url": "https://github.com/etcd-io/etcd",
+   "rank": 14,
+   "stars": 52643,
+   "today": 128
+  },
+  {
+   "repo": "openssl/openssl",
+   "url": "https://github.com/openssl/openssl",
+   "rank": 15,
+   "stars": 31334,
+   "today": 26
+  }
+ ],
+ "items": [
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 47031,
+   "forks": 3222,
+   "today": 190,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 66059,
+   "forks": 4298,
+   "today": 2085,
+   "period": "today",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-07",
+   "change": "up",
+   "delta": -15,
+   "prev_rank": 17
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": 23534,
+   "forks": 1967,
+   "today": 443,
+   "period": "today",
+   "contributors": [
+    "cloud-ix-copybara",
+    "holtskinner",
+    "martinvarelaj",
+    "helloeve",
+    "wangauone"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-07",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 10
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 317954,
+   "forks": 26605,
+   "today": 1100,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-07",
+   "change": "up",
+   "delta": -12,
+   "prev_rank": 16
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 188957,
+   "forks": 22274,
+   "today": 390,
+   "period": "today",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 14780,
+   "forks": 1211,
+   "today": 96,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "rubyycheung",
+    "josephfarina",
+    "vjeux"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "url": "https://github.com/prometheus/prometheus",
+   "desc": "The Prometheus monitoring system and time series database.",
+   "lang": "Go",
+   "stars": 67494,
+   "forks": 11011,
+   "today": 322,
+   "period": "today",
+   "contributors": [
+    "fabxc",
+    "juliusv",
+    "beorn7",
+    "bboreham",
+    "dependabot"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-07",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 9
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": 101144,
+   "forks": 11954,
+   "today": 1766,
+   "period": "today",
+   "contributors": [
+    "sdushantha",
+    "hoadlck",
+    "ppfeister",
+    "TheYahya",
+    "Czechball"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 17336,
+   "forks": 2440,
+   "today": 1955,
+   "period": "today",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "robinsonnblack",
+    "bradhallett"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "url": "https://github.com/astral-sh/ruff",
+   "desc": "An extremely fast Python linter and code formatter, written in Rust.",
+   "lang": "Rust",
+   "stars": 51035,
+   "forks": 2634,
+   "today": 350,
+   "period": "today",
+   "contributors": [
+    "charliermarsh",
+    "MichaReiser",
+    "AlexWaygood",
+    "renovate",
+    "sharkdp"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-07",
+   "change": "up",
+   "delta": -8,
+   "prev_rank": 18
+  },
+  {
+   "repo": "tailwindlabs/tailwindcss",
+   "url": "https://github.com/tailwindlabs/tailwindcss",
+   "desc": "A utility-first CSS framework for rapid UI development.",
+   "lang": "TypeScript",
+   "stars": 98577,
+   "forks": 7118,
+   "today": 122,
+   "period": "today",
+   "contributors": [
+    "adamwathan",
+    "RobinMalfait",
+    "depfu",
+    "thecrypticace",
+    "reinink"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mbillow/localthings",
+   "url": "https://github.com/mbillow/localthings",
+   "desc": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+   "lang": "Python",
+   "stars": 1102,
+   "forks": 114,
+   "today": 186,
+   "period": "today",
+   "contributors": [
+    "mbillow",
+    "perseus177",
+    "roweboat123",
+    "antiremy",
+    "Metal-Eagle"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": 94364,
+   "forks": 11558,
+   "today": 1114,
+   "period": "today",
+   "contributors": [
+    "as-cii",
+    "maxbrunsfeld",
+    "maxdeviant",
+    "nathansobo",
+    "ConradIrwin"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-07",
+   "change": "down",
+   "delta": 12,
+   "prev_rank": 1
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "lang": "TypeScript",
+   "stars": 4734,
+   "forks": 379,
+   "today": 191,
+   "period": "today",
+   "contributors": [
+    "ranxianglei",
+    "github-actions",
+    "YunzhouLi-hub",
+    "z0d0dOr",
+    "yanhuojiyusheng"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dsx-ai-factory/nvke",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+   "lang": "Go",
+   "stars": 621,
+   "forks": 95,
+   "today": 123,
+   "period": "today",
+   "contributors": [
+    "dims",
+    "TerryHowe",
+    "lia-campbell",
+    "jedimt",
+    "danbudris"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-07",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
