@@ -1,0 +1,325 @@
+{
+ "date": "2026-11-10",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-10 16:16:54",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-08",
+ "dropped": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "rank": 2,
+   "stars": 66059,
+   "today": 2085
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "rank": 3,
+   "stars": 23534,
+   "today": 443
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "rank": 4,
+   "stars": 317954,
+   "today": 1100
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "url": "https://github.com/prometheus/prometheus",
+   "rank": 7,
+   "stars": 67494,
+   "today": 322
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "url": "https://github.com/astral-sh/ruff",
+   "rank": 10,
+   "stars": 51035,
+   "today": 350
+  },
+  {
+   "repo": "tailwindlabs/tailwindcss",
+   "url": "https://github.com/tailwindlabs/tailwindcss",
+   "rank": 11,
+   "stars": 98577,
+   "today": 122
+  },
+  {
+   "repo": "mbillow/localthings",
+   "url": "https://github.com/mbillow/localthings",
+   "rank": 12,
+   "stars": 1102,
+   "today": 186
+  },
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "rank": 13,
+   "stars": 94364,
+   "today": 1114
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "rank": 14,
+   "stars": 4734,
+   "today": 191
+  },
+  {
+   "repo": "dsx-ai-factory/nvke",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "rank": 15,
+   "stars": 621,
+   "today": 123
+  }
+ ],
+ "items": [
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 191504,
+   "forks": 22478,
+   "today": 1038,
+   "period": "today",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-08",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 5
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 20997,
+   "forks": 1587,
+   "today": 3278,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "rubyycheung",
+    "josephfarina",
+    "vjeux"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-08",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 6
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": 107870,
+   "forks": 12467,
+   "today": 4267,
+   "period": "today",
+   "contributors": [
+    "sdushantha",
+    "hoadlck",
+    "ppfeister",
+    "TheYahya",
+    "Czechball"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-08",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 8
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": 17090,
+   "forks": 2015,
+   "today": 574,
+   "period": "today",
+   "contributors": [
+    "yuvaltassa",
+    "quagla",
+    "haroonq",
+    "kbayes",
+    "saran-t"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "lang": "Python",
+   "stars": 20185,
+   "forks": 3328,
+   "today": 551,
+   "period": "today",
+   "contributors": [
+    "cj-ant",
+    "claude",
+    "x5a",
+    "alexalbertt",
+    "zealoushacker"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "desc": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+   "lang": "TypeScript",
+   "stars": 32341,
+   "forks": 4781,
+   "today": 216,
+   "period": "today",
+   "contributors": [
+    "garrytan",
+    "capy-ai",
+    "time-attack",
+    "claude",
+    "Masashi-Ono0611"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 48761,
+   "forks": 3321,
+   "today": 916,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-08",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 1
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "lang": "Rust",
+   "stars": 103706,
+   "forks": 13431,
+   "today": 172,
+   "period": "today",
+   "contributors": [
+    "ruvnet",
+    "claude",
+    "proffesor-for-testing",
+    "aepod",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 69307,
+   "forks": 56496,
+   "today": 506,
+   "period": "today",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "lang": "Python",
+   "stars": 6217,
+   "forks": 302,
+   "today": 31,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "claude",
+    "kingpanther13",
+    "julienld",
+    "dependabot"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-08",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 20166,
+   "forks": 2757,
+   "today": 1587,
+   "period": "today",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "robinsonnblack",
+    "bradhallett"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-08",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 9
+  }
+ ]
+}
