@@ -1,0 +1,322 @@
+{
+ "date": "2026-11-11",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-11 15:41:52",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-10",
+ "dropped": [
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "rank": 13,
+   "stars": 52030,
+   "today": 5987
+  }
+ ],
+ "items": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": 11589,
+   "forks": 954,
+   "today": 9621,
+   "period": "this week",
+   "contributors": [
+    "DinaLaptii",
+    "yuvalshkolar",
+    "liavnave",
+    "liofnv",
+    "tomer-levin-nv"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "lang": "Rust",
+   "stars": 21620,
+   "forks": 1603,
+   "today": 9502,
+   "period": "this week",
+   "contributors": [
+    "lahfir",
+    "github-actions",
+    "detail-app",
+    "ctate",
+    "dependabot"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 192639,
+   "forks": 22673,
+   "today": 5014,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 20871,
+   "forks": 2896,
+   "today": 8951,
+   "period": "this week",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "AdityaUmale",
+    "robinsonnblack"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "lang": "Rust",
+   "stars": 12420,
+   "forks": 491,
+   "today": 2093,
+   "period": "this week",
+   "contributors": [
+    "max-sixty",
+    "claude",
+    "worktrunk-bot",
+    "dependabot",
+    "github-actions"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 49460,
+   "forks": 3465,
+   "today": 3606,
+   "period": "this week",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+   "lang": "Shell",
+   "stars": 38194,
+   "forks": 4978,
+   "today": 3730,
+   "period": "this week",
+   "contributors": [
+    "Donchitos",
+    "claude"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-10",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 7
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 321268,
+   "forks": 26935,
+   "today": 9872,
+   "period": "this week",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 14
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 69635,
+   "forks": 4609,
+   "today": 10967,
+   "period": "this week",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 12
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "url": "https://github.com/The-PR-Agent/pr-agent",
+   "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+   "lang": "Python",
+   "stars": 15905,
+   "forks": 2175,
+   "today": 1591,
+   "period": "this week",
+   "contributors": [
+    "mrT23",
+    "github-actions",
+    "PeterDaveHello",
+    "IsmaelMartinez",
+    "okotek"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 11
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars": 115954,
+   "forks": 10056,
+   "today": 4473,
+   "period": "this week",
+   "contributors": [
+    "thedotmack",
+    "claude",
+    "rudycelekli",
+    "Afloat16",
+    "cursoragent"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 6
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+   "lang": "Python",
+   "stars": 101317,
+   "forks": 10569,
+   "today": 7291,
+   "period": "this week",
+   "contributors": [
+    "D4Vinci",
+    "yetval",
+    "AbdullahY36",
+    "SulimanAbdulrazzaq",
+    "codex"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 10
+  },
+  {
+   "repo": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "desc": "Local voice dictation for mac, windows and linux",
+   "lang": "Rust",
+   "stars": 6271,
+   "forks": 380,
+   "today": 1839,
+   "period": "this week",
+   "contributors": [
+    "kitlangton",
+    "thdxr",
+    "Hona",
+    "rekram1-node",
+    "neriousy"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 56094,
+   "forks": 10380,
+   "today": 11979,
+   "period": "this week",
+   "contributors": [
+    "juliusmarminge",
+    "claude",
+    "t3dotgg",
+    "maria-rcks",
+    "codex"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 9
+  }
+ ]
+}

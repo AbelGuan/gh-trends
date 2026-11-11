@@ -1,0 +1,304 @@
+{
+ "date": "2026-11-11",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-11 15:41:51",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-10",
+ "dropped": [
+  {
+   "repo": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "rank": 6,
+   "stars": 32341,
+   "today": 216
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "rank": 8,
+   "stars": 103706,
+   "today": 172
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "rank": 9,
+   "stars": 69307,
+   "today": 506
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "rank": 11,
+   "stars": 20166,
+   "today": 1587
+  }
+ ],
+ "items": [
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 23694,
+   "forks": 1861,
+   "today": 3108,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "rubyycheung",
+    "josephfarina",
+    "vjeux"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 192639,
+   "forks": 22673,
+   "today": 1679,
+   "period": "today",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 115402,
+   "forks": 12110,
+   "today": 465,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "claude",
+    "rudycelekli",
+    "ayobamiseun"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "lang": "Python",
+   "stars": 20649,
+   "forks": 3478,
+   "today": 531,
+   "period": "today",
+   "contributors": [
+    "cj-ant",
+    "claude",
+    "x5a",
+    "alexalbertt",
+    "zealoushacker"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": 17506,
+   "forks": 2159,
+   "today": 456,
+   "period": "today",
+   "contributors": [
+    "yuvaltassa",
+    "quagla",
+    "haroonq",
+    "kbayes",
+    "saran-t"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 12281,
+   "forks": 909,
+   "today": 159,
+   "period": "today",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "lang": "Python",
+   "stars": 6839,
+   "forks": 439,
+   "today": 790,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "claude",
+    "kingpanther13",
+    "julienld",
+    "dependabot"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-10",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 10
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 49460,
+   "forks": 3465,
+   "today": 780,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": 109467,
+   "forks": 12701,
+   "today": 2393,
+   "period": "today",
+   "contributors": [
+    "sdushantha",
+    "hoadlck",
+    "ppfeister",
+    "TheYahya",
+    "Czechball"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-10",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 3
+  },
+  {
+   "repo": "tokio-rs/topcoat",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "desc": "A batteries-included framework for building web apps",
+   "lang": "Rust",
+   "stars": 6984,
+   "forks": 309,
+   "today": 192,
+   "period": "today",
+   "contributors": [
+    "pikaju",
+    "akoll",
+    "github-actions",
+    "carllerche",
+    "AmeinEskinder"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "lang": "TypeScript",
+   "stars": 6563,
+   "forks": 541,
+   "today": 375,
+   "period": "today",
+   "contributors": [
+    "ranxianglei",
+    "github-actions",
+    "YunzhouLi-hub",
+    "z0d0dOr",
+    "yanhuojiyusheng"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 321268,
+   "forks": 26935,
+   "today": 1225,
+   "period": "today",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-10",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
