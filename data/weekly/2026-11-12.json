@@ -1,0 +1,328 @@
+{
+ "date": "2026-11-12",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-12 16:10:56",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-11",
+ "dropped": [
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "rank": 5,
+   "stars": 12420,
+   "today": 2093
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "url": "https://github.com/The-PR-Agent/pr-agent",
+   "rank": 10,
+   "stars": 15905,
+   "today": 1591
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "rank": 11,
+   "stars": 115954,
+   "today": 4473
+  },
+  {
+   "repo": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "rank": 13,
+   "stars": 6271,
+   "today": 1839
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "rank": 14,
+   "stars": 56094,
+   "today": 11979
+  }
+ ],
+ "items": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": 12011,
+   "forks": 986,
+   "today": 7947,
+   "period": "this week",
+   "contributors": [
+    "DinaLaptii",
+    "yuvalshkolar",
+    "liavnave",
+    "liofnv",
+    "tomer-levin-nv"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 193339,
+   "forks": 22750,
+   "today": 5738,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-11",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "lang": "Rust",
+   "stars": 22344,
+   "forks": 1662,
+   "today": 7772,
+   "period": "this week",
+   "contributors": [
+    "lahfir",
+    "github-actions",
+    "detail-app",
+    "ctate",
+    "dependabot"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-11",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 21424,
+   "forks": 2990,
+   "today": 9257,
+   "period": "this week",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "AdityaUmale",
+    "robinsonnblack"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 50073,
+   "forks": 3494,
+   "today": 4183,
+   "period": "this week",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-11",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 70593,
+   "forks": 4685,
+   "today": 11507,
+   "period": "this week",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-11",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 9
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 322341,
+   "forks": 27036,
+   "today": 9575,
+   "period": "this week",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-11",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 8
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+   "lang": "Python",
+   "stars": 101816,
+   "forks": 10604,
+   "today": 5814,
+   "period": "this week",
+   "contributors": [
+    "D4Vinci",
+    "yetval",
+    "AbdullahY36",
+    "SulimanAbdulrazzaq",
+    "codex"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-11",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 12
+  },
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": 94757,
+   "forks": 11638,
+   "today": 2310,
+   "period": "this week",
+   "contributors": [
+    "as-cii",
+    "maxbrunsfeld",
+    "maxdeviant",
+    "nathansobo",
+    "ConradIrwin"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+   "lang": "Shell",
+   "stars": 38593,
+   "forks": 5018,
+   "today": 3150,
+   "period": "this week",
+   "contributors": [
+    "Donchitos",
+    "claude"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-11",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 7
+  },
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": 23983,
+   "forks": 1998,
+   "today": 2013,
+   "period": "this week",
+   "contributors": [
+    "cloud-ix-copybara",
+    "holtskinner",
+    "martinvarelaj",
+    "helloeve",
+    "wangauone"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": 17698,
+   "forks": 2175,
+   "today": 1535,
+   "period": "this week",
+   "contributors": [
+    "yuvaltassa",
+    "quagla",
+    "haroonq",
+    "kbayes",
+    "thowell"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "herdrdev/herdr",
+   "url": "https://github.com/herdrdev/herdr",
+   "desc": "the runtime your coding agents live on",
+   "lang": "Rust",
+   "stars": 50441,
+   "forks": 4072,
+   "today": 2213,
+   "period": "this week",
+   "contributors": [
+    "ogulcancelik",
+    "JJLiebig",
+    "akbash-bot",
+    "kangal-bot",
+    "github-actions"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

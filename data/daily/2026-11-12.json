@@ -1,0 +1,282 @@
+{
+ "date": "2026-11-12",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-12 16:10:55",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-11",
+ "dropped": [
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "rank": 2,
+   "stars": 192639,
+   "today": 1679
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "rank": 4,
+   "stars": 20649,
+   "today": 531
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "rank": 5,
+   "stars": 17506,
+   "today": 456
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "rank": 9,
+   "stars": 109467,
+   "today": 2393
+  },
+  {
+   "repo": "tokio-rs/topcoat",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "rank": 10,
+   "stars": 6984,
+   "today": 192
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "rank": 11,
+   "stars": 6563,
+   "today": 375
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "rank": 12,
+   "stars": 321268,
+   "today": 1225
+  }
+ ],
+ "items": [
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 25621,
+   "forks": 1993,
+   "today": 2776,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "rubyycheung",
+    "josephfarina",
+    "vjeux"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-11",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 70781,
+   "forks": 57017,
+   "today": 278,
+   "period": "today",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": 2045,
+   "forks": 151,
+   "today": 159,
+   "period": "today",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "philipwalton"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "shadcn/improve",
+   "url": "https://github.com/shadcn/improve",
+   "desc": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+   "lang": "",
+   "stars": 11212,
+   "forks": 454,
+   "today": 361,
+   "period": "today",
+   "contributors": [
+    "shadcn",
+    "claude",
+    "erikpr1994",
+    "beastawakens",
+    "morinim"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 116191,
+   "forks": 12175,
+   "today": 787,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "claude",
+    "rudycelekli",
+    "ayobamiseun"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-11",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 50073,
+   "forks": 3494,
+   "today": 708,
+   "period": "today",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-11",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 13248,
+   "forks": 978,
+   "today": 1078,
+   "period": "today",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-11",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "lang": "Python",
+   "stars": 7568,
+   "forks": 459,
+   "today": 645,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "claude",
+    "kingpanther13",
+    "julienld",
+    "dependabot"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-11",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "lang": "TypeScript",
+   "stars": 11955,
+   "forks": 953,
+   "today": 52,
+   "period": "today",
+   "contributors": [
+    "mldangelo-oai",
+    "codex",
+    "dependabot",
+    "ianw-oai",
+    "kmbroai"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "TheAlgorithms/Java",
+   "url": "https://github.com/TheAlgorithms/Java",
+   "desc": "All Algorithms implemented in Java",
+   "lang": "Java",
+   "stars": 67159,
+   "forks": 21519,
+   "today": 51,
+   "period": "today",
+   "contributors": [
+    "alxkm",
+    "dependabot",
+    "vil02",
+    "Hardvan",
+    "yanglbme"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-11",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
