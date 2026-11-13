@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-13",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-13 15:48:01",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-12",
+ "dropped": [
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "rank": 2,
+   "stars": 70781,
+   "today": 278
+  },
+  {
+   "repo": "shadcn/improve",
+   "url": "https://github.com/shadcn/improve",
+   "rank": 4,
+   "stars": 11212,
+   "today": 361
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "rank": 6,
+   "stars": 50073,
+   "today": 708
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "rank": 8,
+   "stars": 7568,
+   "today": 645
+  },
+  {
+   "repo": "TheAlgorithms/Java",
+   "url": "https://github.com/TheAlgorithms/Java",
+   "rank": 10,
+   "stars": 67159,
+   "today": 51
+  }
+ ],
+ "items": [
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": 3699,
+   "forks": 226,
+   "today": 739,
+   "period": "today",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "LeaVerou"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-12",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 3
+  },
+  {
+   "repo": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "lang": "TypeScript",
+   "stars": 12679,
+   "forks": 991,
+   "today": 643,
+   "period": "today",
+   "contributors": [
+    "mldangelo-oai",
+    "codex",
+    "dependabot",
+    "ianw-oai",
+    "kmbroai"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-12",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 9
+  },
+  {
+   "repo": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+   "lang": "Shell",
+   "stars": 96067,
+   "forks": 10762,
+   "today": 63,
+   "period": "today",
+   "contributors": [
+    "ljharb",
+    "PeterDaveHello",
+    "creationix",
+    "koenpunt",
+    "lukechilds"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "pookjw/HermesEnabler",
+   "url": "https://github.com/pookjw/HermesEnabler",
+   "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+   "lang": "Objective-C",
+   "stars": 1657,
+   "forks": 146,
+   "today": 218,
+   "period": "today",
+   "contributors": [
+    "pookjw",
+    "metalnodeug",
+    "SamZong233",
+    "claude",
+    "dfrias"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 14204,
+   "forks": 1072,
+   "today": 967,
+   "period": "today",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-12",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "lang": "TypeScript",
+   "stars": 30001,
+   "forks": 3410,
+   "today": 151,
+   "period": "today",
+   "contributors": [
+    "wenshao",
+    "qwencoder",
+    "yiliang114",
+    "tanzhenxin",
+    "qwen-code-dev-bot"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "desc": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+   "lang": "Zig",
+   "stars": 2025,
+   "forks": 397,
+   "today": 54,
+   "period": "today",
+   "contributors": [
+    "ashhart",
+    "jschmied",
+    "BobClawblaw",
+    "laudney",
+    "BlivionIaG"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
+   "lang": "JavaScript",
+   "stars": 123658,
+   "forks": 38060,
+   "today": 62,
+   "period": "today",
+   "contributors": [
+    "Trott",
+    "ry",
+    "bnoordhuis",
+    "addaleax",
+    "isaacs"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 116876,
+   "forks": 12221,
+   "today": 816,
+   "period": "today",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "claude",
+    "rudycelekli",
+    "ayobamiseun"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-12",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 5
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 26925,
+   "forks": 2087,
+   "today": 1830,
+   "period": "today",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "rubyycheung",
+    "josephfarina",
+    "vjeux"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-12",
+   "change": "down",
+   "delta": 9,
+   "prev_rank": 1
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "lang": "TypeScript",
+   "stars": 11876,
+   "forks": 1457,
+   "today": 298,
+   "period": "today",
+   "contributors": [
+    "davidmckayv",
+    "claude",
+    "kevin9327",
+    "guidovizoso",
+    "Ayush7614"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "desc": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "lang": "Python",
+   "stars": 69572,
+   "forks": 10799,
+   "today": 415,
+   "period": "today",
+   "contributors": [
+    "Alishahryar1",
+    "cursoragent",
+    "dependabot",
+    "claude",
+    "Tanishq-1"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "desc": "LLM inference in C/C++",
+   "lang": "C++",
+   "stars": 134737,
+   "forks": 25528,
+   "today": 176,
+   "period": "today",
+   "contributors": [
+    "ggerganov",
+    "ngxson",
+    "CISC",
+    "JohannesGaessler",
+    "slaren"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-12",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
