@@ -1,0 +1,347 @@
+{
+ "date": "2026-11-14",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-14 15:31:25",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-13",
+ "dropped": [
+  {
+   "repo": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "rank": 3,
+   "stars": 96067,
+   "today": 63
+  },
+  {
+   "repo": "pookjw/HermesEnabler",
+   "url": "https://github.com/pookjw/HermesEnabler",
+   "rank": 4,
+   "stars": 1657,
+   "today": 218
+  },
+  {
+   "repo": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "rank": 6,
+   "stars": 30001,
+   "today": 151
+  },
+  {
+   "repo": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "rank": 7,
+   "stars": 2025,
+   "today": 54
+  },
+  {
+   "repo": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "rank": 8,
+   "stars": 123658,
+   "today": 62
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "rank": 9,
+   "stars": 116876,
+   "today": 816
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "rank": 10,
+   "stars": 26925,
+   "today": 1830
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "rank": 11,
+   "stars": 11876,
+   "today": 298
+  },
+  {
+   "repo": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "rank": 12,
+   "stars": 69572,
+   "today": 415
+  },
+  {
+   "repo": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "rank": 13,
+   "stars": 134737,
+   "today": 176
+  }
+ ],
+ "items": [
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 50869,
+   "forks": 3789,
+   "today": 215,
+   "period": "today",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "Qiyuanqiii",
+    "stay-foolish-forever"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": 5108,
+   "forks": 282,
+   "today": 1925,
+   "period": "today",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "LeaVerou"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "lang": "TypeScript",
+   "stars": 13285,
+   "forks": 1029,
+   "today": 751,
+   "period": "today",
+   "contributors": [
+    "mldangelo-oai",
+    "codex",
+    "dependabot",
+    "ianw-oai",
+    "kmbroai"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 71891,
+   "forks": 57368,
+   "today": 256,
+   "period": "today",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 14899,
+   "forks": 1132,
+   "today": 925,
+   "period": "today",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-13",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 5
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 10576,
+   "forks": 791,
+   "today": 108,
+   "period": "today",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "utpalsinghdev",
+    "leoreisdias",
+    "uvw"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "desc": "A fancy self-hosted monitoring tool",
+   "lang": "JavaScript",
+   "stars": 93972,
+   "forks": 8729,
+   "today": 71,
+   "period": "today",
+   "contributors": [
+    "louislam",
+    "CommanderStorm",
+    "chakflying",
+    "Saibamen",
+    "Computroniks"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "desc": "A hive mind communication platform",
+   "lang": "Rust",
+   "stars": 37367,
+   "forks": 4944,
+   "today": 97,
+   "period": "today",
+   "contributors": [
+    "wesbillman",
+    "wpfleger96",
+    "claude",
+    "tlongwell-block",
+    "klopez4212"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": 4319,
+   "forks": 881,
+   "today": 69,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "tradermonty",
+    "dependabot",
+    "raikkonenPotter",
+    "wolframarnold"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "tailscale/tailcat",
+   "url": "https://github.com/tailscale/tailcat",
+   "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+   "lang": "Go",
+   "stars": 9582,
+   "forks": 436,
+   "today": 256,
+   "period": "today",
+   "contributors": [
+    "bradfitz",
+    "danderson",
+    "andrew-d",
+    "raggi",
+    "jwhited"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Likely7/Veyra-NRVideo",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "desc": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+   "lang": "C++",
+   "stars": 1728,
+   "forks": 77,
+   "today": 256,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "Likely7",
+    "georgeg911",
+    "github-actions",
+    "GeT-LeFt"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": 55701,
+   "forks": 4614,
+   "today": 67,
+   "period": "today",
+   "contributors": [
+    "OrKoN",
+    "dependabot",
+    "Lightning00Blade",
+    "browser-automation-bot",
+    "yulunz"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

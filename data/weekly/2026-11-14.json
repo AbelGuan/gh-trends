@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-14",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-14 15:31:26",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-13",
+ "dropped": [
+  {
+   "repo": "google/skills",
+   "url": "https://github.com/google/skills",
+   "rank": 10,
+   "stars": 24103,
+   "today": 1933
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "rank": 11,
+   "stars": 102294,
+   "today": 4743
+  }
+ ],
+ "items": [
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": 111342,
+   "forks": 12889,
+   "today": 13364,
+   "period": "this week",
+   "contributors": [
+    "sdushantha",
+    "hoadlck",
+    "ppfeister",
+    "TheYahya",
+    "Czechball"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 194252,
+   "forks": 22855,
+   "today": 6169,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 22339,
+   "forks": 3109,
+   "today": 7763,
+   "period": "this week",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "AdityaUmale",
+    "robinsonnblack"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 50830,
+   "forks": 3538,
+   "today": 4360,
+   "period": "this week",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "github-actions",
+    "lahfir",
+    "claude"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "google/elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "desc": "Open-source plugin for designing and reviewing software with agents",
+   "lang": "Python",
+   "stars": 18739,
+   "forks": 1399,
+   "today": 5560,
+   "period": "this week",
+   "contributors": [
+    "n3wth",
+    "briansuchy",
+    "eewing314",
+    "dependabot",
+    "briansuchy-goog"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 71891,
+   "forks": 57368,
+   "today": 3778,
+   "period": "this week",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": 12638,
+   "forks": 1039,
+   "today": 4108,
+   "period": "this week",
+   "contributors": [
+    "DinaLaptii",
+    "yuvalshkolar",
+    "liavnave",
+    "liofnv",
+    "tomer-levin-nv"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 4
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": 17908,
+   "forks": 2188,
+   "today": 1764,
+   "period": "this week",
+   "contributors": [
+    "yuvaltassa",
+    "quagla",
+    "haroonq",
+    "kbayes",
+    "thowell"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-13",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 9
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": 323986,
+   "forks": 27195,
+   "today": 7599,
+   "period": "this week",
+   "contributors": [
+    "mattpocock",
+    "claude",
+    "github-actions",
+    "gabimoncha"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 117253,
+   "forks": 12265,
+   "today": 3502,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "claude",
+    "rudycelekli",
+    "ayobamiseun"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": 72082,
+   "forks": 4804,
+   "today": 8829,
+   "period": "this week",
+   "contributors": [
+    "literally-dan",
+    "CooperSheroy",
+    "kennysarnoski-jarvis"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 6,
+   "prev_rank": 5
+  },
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": 94987,
+   "forks": 11698,
+   "today": 2117,
+   "period": "this week",
+   "contributors": [
+    "as-cii",
+    "maxbrunsfeld",
+    "maxdeviant",
+    "nathansobo",
+    "ConradIrwin"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 8
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "lang": "Python",
+   "stars": 20890,
+   "forks": 3491,
+   "today": 1731,
+   "period": "this week",
+   "contributors": [
+    "cj-ant",
+    "claude",
+    "x5a",
+    "alexalbertt",
+    "zealoushacker"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "lang": "Rust",
+   "stars": 23445,
+   "forks": 1737,
+   "today": 5408,
+   "period": "this week",
+   "contributors": [
+    "lahfir",
+    "github-actions",
+    "detail-app",
+    "ctate",
+    "dependabot"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-13",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 6
+  },
+  {
+   "repo": "lobehub/lobehub",
+   "url": "https://github.com/lobehub/lobehub",
+   "desc": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+   "lang": "TypeScript",
+   "stars": 85463,
+   "forks": 16305,
+   "today": 1126,
+   "period": "this week",
+   "contributors": [
+    "arvinxx",
+    "claude",
+    "semantic-release-bot",
+    "tjx666"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-13",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
