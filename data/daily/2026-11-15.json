@@ -1,0 +1,370 @@
+{
+ "date": "2026-11-15",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-15 15:46:05",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-14",
+ "dropped": [
+  {
+   "repo": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "rank": 3,
+   "stars": 13285,
+   "today": 751
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "rank": 4,
+   "stars": 71891,
+   "today": 256
+  },
+  {
+   "repo": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "rank": 8,
+   "stars": 37367,
+   "today": 97
+  },
+  {
+   "repo": "tailscale/tailcat",
+   "url": "https://github.com/tailscale/tailcat",
+   "rank": 10,
+   "stars": 9582,
+   "today": 256
+  }
+ ],
+ "items": [
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 11382,
+   "forks": 983,
+   "today": 408,
+   "period": "today",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "utpalsinghdev",
+    "leoreisdias",
+    "uvw"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-14",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 6
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": 6333,
+   "forks": 479,
+   "today": 1231,
+   "period": "today",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "LeaVerou"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-14",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": 5027,
+   "forks": 1055,
+   "today": 553,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "tradermonty",
+    "dependabot",
+    "raikkonenPotter",
+    "wolframarnold"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-14",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 9
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": 56484,
+   "forks": 4782,
+   "today": 664,
+   "period": "today",
+   "contributors": [
+    "OrKoN",
+    "dependabot",
+    "Lightning00Blade",
+    "browser-automation-bot",
+    "yulunz"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-14",
+   "change": "up",
+   "delta": -8,
+   "prev_rank": 12
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 51593,
+   "forks": 3990,
+   "today": 893,
+   "period": "today",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "Qiyuanqiii",
+    "stay-foolish-forever"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-14",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 1
+  },
+  {
+   "repo": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "lang": "TypeScript",
+   "stars": 30430,
+   "forks": 3523,
+   "today": 64,
+   "period": "today",
+   "contributors": [
+    "wenshao",
+    "qwencoder",
+    "yiliang114",
+    "tanzhenxin",
+    "qwen-code-dev-bot"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "lang": "TypeScript",
+   "stars": 25110,
+   "forks": 2300,
+   "today": 495,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wpxp123456",
+    "wzhudev",
+    "Dushusir"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "lang": "TypeScript",
+   "stars": 17476,
+   "forks": 1726,
+   "today": 9,
+   "period": "today",
+   "contributors": [
+    "ranst91",
+    "contextablemark",
+    "mme",
+    "claude",
+    "jpr5"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "desc": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+   "lang": "Zig",
+   "stars": 2208,
+   "forks": 517,
+   "today": 37,
+   "period": "today",
+   "contributors": [
+    "ashhart",
+    "jschmied",
+    "BobClawblaw",
+    "laudney",
+    "BlivionIaG"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "lang": "Go",
+   "stars": 120196,
+   "forks": 7007,
+   "today": 227,
+   "period": "today",
+   "contributors": [
+    "JuliusBrussee",
+    "claude",
+    "github-actions",
+    "nikpushkarski",
+    "AmirF194"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "desc": "A fancy self-hosted monitoring tool",
+   "lang": "JavaScript",
+   "stars": 94331,
+   "forks": 8836,
+   "today": 430,
+   "period": "today",
+   "contributors": [
+    "louislam",
+    "CommanderStorm",
+    "chakflying",
+    "Saibamen",
+    "Computroniks"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-14",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 7
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 15442,
+   "forks": 1323,
+   "today": 659,
+   "period": "today",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-14",
+   "change": "down",
+   "delta": 7,
+   "prev_rank": 5
+  },
+  {
+   "repo": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "desc": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+   "lang": "Go",
+   "stars": 1025,
+   "forks": 233,
+   "today": 33,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "fx-kurumi",
+    "Robert0622",
+    "cursoragent",
+    "cocofhu"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "Likely7/Veyra-NRVideo",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "desc": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+   "lang": "C++",
+   "stars": 2439,
+   "forks": 205,
+   "today": 420,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "Likely7",
+    "georgeg911",
+    "github-actions",
+    "GeT-LeFt"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-14",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 11
+  },
+  {
+   "repo": "martin-olivier/airgorah",
+   "url": "https://github.com/martin-olivier/airgorah",
+   "desc": "A WiFi security auditing software",
+   "lang": "Rust",
+   "stars": 6044,
+   "forks": 1045,
+   "today": 270,
+   "period": "today",
+   "contributors": [
+    "martin-olivier",
+    "dependabot",
+    "claude",
+    "m-bdf"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-14",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
