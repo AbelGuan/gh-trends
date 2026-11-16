@@ -1,0 +1,325 @@
+{
+ "date": "2026-11-16",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-16 15:52:20",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-15",
+ "dropped": [
+  {
+   "repo": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "rank": 6,
+   "stars": 30430,
+   "today": 64
+  },
+  {
+   "repo": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "rank": 9,
+   "stars": 2208,
+   "today": 37
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "rank": 10,
+   "stars": 120196,
+   "today": 227
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "rank": 11,
+   "stars": 94331,
+   "today": 430
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "rank": 12,
+   "stars": 15442,
+   "today": 659
+  },
+  {
+   "repo": "Likely7/Veyra-NRVideo",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "rank": 14,
+   "stars": 2439,
+   "today": 420
+  },
+  {
+   "repo": "martin-olivier/airgorah",
+   "url": "https://github.com/martin-olivier/airgorah",
+   "rank": 15,
+   "stars": 6044,
+   "today": 270
+  }
+ ],
+ "items": [
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "lang": "TypeScript",
+   "stars": 26652,
+   "forks": 2428,
+   "today": 988,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wpxp123456",
+    "wzhudev",
+    "Dushusir"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-15",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 7
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "lang": "TypeScript",
+   "stars": 18183,
+   "forks": 1878,
+   "today": 355,
+   "period": "today",
+   "contributors": [
+    "ranst91",
+    "contextablemark",
+    "mme",
+    "claude",
+    "jpr5"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-15",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 8
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": 9483,
+   "forks": 1179,
+   "today": 247,
+   "period": "today",
+   "contributors": [
+    "JLXIA",
+    "davideast",
+    "Emp1500",
+    "dalmaer",
+    "meeChn"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 12082,
+   "forks": 1135,
+   "today": 866,
+   "period": "today",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "utpalsinghdev",
+    "leoreisdias",
+    "uvw"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 1
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": 57254,
+   "forks": 4827,
+   "today": 717,
+   "period": "today",
+   "contributors": [
+    "OrKoN",
+    "dependabot",
+    "Lightning00Blade",
+    "browser-automation-bot",
+    "yulunz"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 52454,
+   "forks": 4202,
+   "today": 691,
+   "period": "today",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "Qiyuanqiii",
+    "stay-foolish-forever"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 5
+  },
+  {
+   "repo": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "desc": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+   "lang": "Go",
+   "stars": 1926,
+   "forks": 311,
+   "today": 423,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "cursoragent",
+    "Robert0622",
+    "crispinhu27"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-15",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 13
+  },
+  {
+   "repo": "ggml-org/ggml",
+   "url": "https://github.com/ggml-org/ggml",
+   "desc": "Tensor library for machine learning",
+   "lang": "C++",
+   "stars": 16013,
+   "forks": 2058,
+   "today": 43,
+   "period": "today",
+   "contributors": [
+    "ggerganov",
+    "JohannesGaessler",
+    "jeffbolznv",
+    "slaren",
+    "lhez"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "lang": "Python",
+   "stars": 6798,
+   "forks": 1047,
+   "today": 98,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "injectifytest",
+    "elementalsouls",
+    "github-actions",
+    "xiaolai"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": 7526,
+   "forks": 658,
+   "today": 1219,
+   "period": "today",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "LeaVerou"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 2
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": 5828,
+   "forks": 1230,
+   "today": 706,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "tradermonty",
+    "dependabot",
+    "raikkonenPotter",
+    "wolframarnold"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 3
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "desc": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "lang": "Python",
+   "stars": 2012,
+   "forks": 280,
+   "today": 122,
+   "period": "today",
+   "contributors": [
+    "rng1995",
+    "chrisknvidia",
+    "claude",
+    "YMuskrat",
+    "kweinmeister"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

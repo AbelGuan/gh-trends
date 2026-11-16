@@ -1,0 +1,262 @@
+{
+ "date": "2026-11-16",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-16 15:52:21",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-15",
+ "dropped": [
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "rank": 11,
+   "stars": 21008,
+   "today": 1794
+  }
+ ],
+ "items": [
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 29137,
+   "forks": 2276,
+   "today": 13501,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "josephfarina",
+    "rubyycheung",
+    "vjeux"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-15",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 195538,
+   "forks": 22979,
+   "today": 6077,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-15",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 3
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": 112728,
+   "forks": 13010,
+   "today": 10412,
+   "period": "this week",
+   "contributors": [
+    "sdushantha",
+    "hoadlck",
+    "ppfeister",
+    "TheYahya",
+    "Czechball"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 12082,
+   "forks": 1135,
+   "today": 1719,
+   "period": "this week",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "utpalsinghdev",
+    "leoreisdias",
+    "uvw"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-15",
+   "change": "up",
+   "delta": -5,
+   "prev_rank": 9
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 51768,
+   "forks": 3622,
+   "today": 4217,
+   "period": "this week",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "lahfir",
+    "github-actions",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 72622,
+   "forks": 57616,
+   "today": 4548,
+   "period": "this week",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-15",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 15808,
+   "forks": 1384,
+   "today": 4556,
+   "period": "this week",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-15",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": 23706,
+   "forks": 3302,
+   "today": 5463,
+   "period": "this week",
+   "contributors": [
+    "milind-soni",
+    "claude",
+    "aivsomkar",
+    "AdityaUmale",
+    "robinsonnblack"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "google/elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "desc": "Open-source plugin for designing and reviewing software with agents",
+   "lang": "Python",
+   "stars": 19976,
+   "forks": 1483,
+   "today": 5060,
+   "period": "this week",
+   "contributors": [
+    "n3wth",
+    "briansuchy",
+    "eewing314",
+    "dependabot",
+    "briansuchy-goog"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 5
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": 18113,
+   "forks": 2216,
+   "today": 1922,
+   "period": "this week",
+   "contributors": [
+    "yuvaltassa",
+    "quagla",
+    "haroonq",
+    "kbayes",
+    "thowell"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 8
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 118069,
+   "forks": 12349,
+   "today": 3889,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "ayobamiseun",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-15",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 10
+  }
+ ]
+}
