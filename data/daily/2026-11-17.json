@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-17",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-17 17:02:13",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-16",
+ "dropped": [
+  {
+   "repo": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "rank": 7,
+   "stars": 1926,
+   "today": 423
+  },
+  {
+   "repo": "ggml-org/ggml",
+   "url": "https://github.com/ggml-org/ggml",
+   "rank": 8,
+   "stars": 16013,
+   "today": 43
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "rank": 10,
+   "stars": 7526,
+   "today": 1219
+  }
+ ],
+ "items": [
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "lang": "TypeScript",
+   "stars": 19609,
+   "forks": 2024,
+   "today": 791,
+   "period": "today",
+   "contributors": [
+    "ranst91",
+    "contextablemark",
+    "mme",
+    "claude",
+    "jpr5"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 12830,
+   "forks": 1273,
+   "today": 696,
+   "period": "today",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "utpalsinghdev",
+    "leoreisdias",
+    "uvw"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 4
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "lang": "TypeScript",
+   "stars": 28562,
+   "forks": 2583,
+   "today": 1828,
+   "period": "today",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wpxp123456",
+    "wzhudev",
+    "Dushusir"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 1
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": 6629,
+   "forks": 1379,
+   "today": 837,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "tradermonty",
+    "dependabot",
+    "raikkonenPotter",
+    "wolframarnold"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 11
+  },
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "lang": "Python",
+   "stars": 7850,
+   "forks": 1217,
+   "today": 1094,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "injectifytest",
+    "elementalsouls",
+    "github-actions",
+    "rudycelekli"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 9
+  },
+  {
+   "repo": "getarcaneapp/arcane",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "desc": "Modern Docker Management, Designed for Everyone",
+   "lang": "Go",
+   "stars": 8970,
+   "forks": 463,
+   "today": 46,
+   "period": "today",
+   "contributors": [
+    "kmendell",
+    "dependabot",
+    "getarcaneappbot",
+    "cabaucom376",
+    "GiulioSavini"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "DeanChensj/jiangshan-map",
+   "url": "https://github.com/DeanChensj/jiangshan-map",
+   "desc": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+   "lang": "JavaScript",
+   "stars": 7435,
+   "forks": 889,
+   "today": 288,
+   "period": "today",
+   "contributors": [
+    "DeanChensj",
+    "claude",
+    "xcv58",
+    "mathieuwang",
+    "zsc8917zsc"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": 9874,
+   "forks": 1282,
+   "today": 529,
+   "period": "today",
+   "contributors": [
+    "JLXIA",
+    "davideast",
+    "Emp1500",
+    "dalmaer",
+    "meeChn"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 3
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": 68432,
+   "forks": 6088,
+   "today": 135,
+   "period": "today",
+   "contributors": [
+    "mvanhorn",
+    "tmchow",
+    "claude",
+    "iliaal",
+    "dependabot"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "desc": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "lang": "Python",
+   "stars": 3063,
+   "forks": 435,
+   "today": 873,
+   "period": "today",
+   "contributors": [
+    "rng1995",
+    "chrisknvidia",
+    "claude",
+    "YMuskrat",
+    "kweinmeister"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 12
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 53251,
+   "forks": 4361,
+   "today": 951,
+   "period": "today",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "Qiyuanqiii",
+    "stay-foolish-forever"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 6
+  },
+  {
+   "repo": "google-research/paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "desc": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "lang": "Python",
+   "stars": 1956,
+   "forks": 302,
+   "today": 313,
+   "period": "today",
+   "contributors": [
+    "yiwen-song",
+    "obrienciaran"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": 57873,
+   "forks": 4860,
+   "today": 841,
+   "period": "today",
+   "contributors": [
+    "OrKoN",
+    "dependabot",
+    "Lightning00Blade",
+    "browser-automation-bot",
+    "yulunz"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 8,
+   "prev_rank": 5
+  },
+  {
+   "repo": "sveltejs/svelte",
+   "url": "https://github.com/sveltejs/svelte",
+   "desc": "web development for the rest of us",
+   "lang": "JavaScript",
+   "stars": 89148,
+   "forks": 6136,
+   "today": 115,
+   "period": "today",
+   "contributors": [
+    "Rich-Harris",
+    "dummdidumm",
+    "Conduitry",
+    "github-actions",
+    "trueadm"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "kajisho5/ffmpeg-skill",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+   "lang": "Python",
+   "stars": 7334,
+   "forks": 664,
+   "today": 367,
+   "period": "today",
+   "contributors": [
+    "claude",
+    "kajisho5",
+    "github-actions",
+    "claude",
+    "dependabot"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

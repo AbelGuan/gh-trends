@@ -1,0 +1,328 @@
+{
+ "date": "2026-11-17",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-17 17:02:14",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-16",
+ "dropped": [
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "rank": 8,
+   "stars": 23706,
+   "today": 5463
+  }
+ ],
+ "items": [
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": 8191,
+   "forks": 710,
+   "today": 6542,
+   "period": "this week",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "LeaVerou"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 29842,
+   "forks": 2325,
+   "today": 10939,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "josephfarina",
+    "rubyycheung",
+    "vjeux"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 1
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 12830,
+   "forks": 1273,
+   "today": 2325,
+   "period": "this week",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "utpalsinghdev",
+    "leoreisdias",
+    "uvw"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 4
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 196302,
+   "forks": 23038,
+   "today": 5666,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 2
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 52188,
+   "forks": 3649,
+   "today": 3760,
+   "period": "this week",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "lahfir",
+    "github-actions",
+    "claude"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-16",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 5
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 16105,
+   "forks": 1400,
+   "today": 4679,
+   "period": "this week",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-16",
+   "change": "up",
+   "delta": -1,
+   "prev_rank": 7
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 72944,
+   "forks": 57719,
+   "today": 4355,
+   "period": "this week",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 6
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": 113434,
+   "forks": 13061,
+   "today": 7067,
+   "period": "this week",
+   "contributors": [
+    "sdushantha",
+    "hoadlck",
+    "ppfeister",
+    "TheYahya",
+    "Czechball"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 3
+  },
+  {
+   "repo": "google/elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "desc": "Open-source plugin for designing and reviewing software with agents",
+   "lang": "Python",
+   "stars": 20541,
+   "forks": 1521,
+   "today": 4249,
+   "period": "this week",
+   "contributors": [
+    "n3wth",
+    "briansuchy",
+    "eewing314",
+    "dependabot",
+    "briansuchy-goog"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-16",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 9
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": 18221,
+   "forks": 2208,
+   "today": 1448,
+   "period": "this week",
+   "contributors": [
+    "yuvaltassa",
+    "quagla",
+    "haroonq",
+    "kbayes",
+    "thowell"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-16",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 10
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 53251,
+   "forks": 4361,
+   "today": 3056,
+   "period": "this week",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "Qiyuanqiii",
+    "stay-foolish-forever"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": 118466,
+   "forks": 12362,
+   "today": 3960,
+   "period": "this week",
+   "contributors": [
+    "addyosmani",
+    "nucliweb",
+    "ayobamiseun",
+    "claude",
+    "rudycelekli"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-16",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 11
+  },
+  {
+   "repo": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "lang": "TypeScript",
+   "stars": 13847,
+   "forks": 1086,
+   "today": 2352,
+   "period": "this week",
+   "contributors": [
+    "mldangelo-oai",
+    "codex",
+    "dependabot",
+    "ianw-oai",
+    "kmbroai"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "lang": "TypeScript",
+   "stars": 30695,
+   "forks": 3554,
+   "today": 1497,
+   "period": "this week",
+   "contributors": [
+    "wenshao",
+    "qwencoder",
+    "yiliang114",
+    "tanzhenxin",
+    "qwen-code-dev-bot"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-16",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
