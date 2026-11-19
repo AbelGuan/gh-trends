@@ -1,0 +1,476 @@
+{
+ "date": "2026-11-19",
+ "since": "daily",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-19 16:39:23",
+ "url": "https://github.com/trending?since=daily",
+ "prev_date": "2026-11-18",
+ "dropped": [
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "rank": 1,
+   "stars": 10048,
+   "today": 1005
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "rank": 3,
+   "stars": 54001,
+   "today": 763
+  },
+  {
+   "repo": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "rank": 4,
+   "stars": 3596,
+   "today": 591
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "rank": 5,
+   "stars": 29601,
+   "today": 1774
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "rank": 10,
+   "stars": 20193,
+   "today": 1445
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "rank": 11,
+   "stars": 13210,
+   "today": 691
+  },
+  {
+   "repo": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "rank": 14,
+   "stars": 66306,
+   "today": 192
+  }
+ ],
+ "items": [
+  {
+   "repo": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": 17359,
+   "forks": 1914,
+   "today": 314,
+   "period": "today",
+   "contributors": [
+    "cursoragent",
+    "poteto",
+    "djiang-jq",
+    "minupalaniappan",
+    "ericzakariasson"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 8
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": 60079,
+   "forks": 5456,
+   "today": 389,
+   "period": "today",
+   "contributors": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": 70361,
+   "forks": 6266,
+   "today": 1059,
+   "period": "today",
+   "contributors": [
+    "mvanhorn",
+    "tmchow",
+    "claude",
+    "iliaal",
+    "dependabot"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 2
+  },
+  {
+   "repo": "getarcaneapp/arcane",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "desc": "Modern Docker Management, Designed for Everyone",
+   "lang": "Go",
+   "stars": 9983,
+   "forks": 570,
+   "today": 547,
+   "period": "today",
+   "contributors": [
+    "kmendell",
+    "dependabot",
+    "getarcaneappbot",
+    "cabaucom376",
+    "GiulioSavini"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 6
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "desc": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+   "lang": "Python",
+   "stars": 3933,
+   "forks": 532,
+   "today": 312,
+   "period": "today",
+   "contributors": [
+    "rng1995",
+    "chrisknvidia",
+    "claude",
+    "YMuskrat",
+    "kweinmeister"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+   "lang": "Shell",
+   "stars": 96209,
+   "forks": 10795,
+   "today": 237,
+   "period": "today",
+   "contributors": [
+    "ljharb",
+    "PeterDaveHello",
+    "creationix",
+    "koenpunt",
+    "lukechilds"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "astral-sh/uv",
+   "url": "https://github.com/astral-sh/uv",
+   "desc": "An extremely fast Python package and project manager, written in Rust.",
+   "lang": "Rust",
+   "stars": 92344,
+   "forks": 3931,
+   "today": 258,
+   "period": "today",
+   "contributors": [
+    "charliermarsh",
+    "zanieb",
+    "konstin",
+    "renovate",
+    "astral-automations-bot"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "google-research/paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "desc": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "lang": "Python",
+   "stars": 4653,
+   "forks": 573,
+   "today": 1524,
+   "period": "today",
+   "contributors": [
+    "yiwen-song",
+    "obrienciaran"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -7,
+   "prev_rank": 15
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": 10529,
+   "forks": 1372,
+   "today": 365,
+   "period": "today",
+   "contributors": [
+    "JLXIA",
+    "davideast",
+    "Emp1500",
+    "dalmaer",
+    "meeChn"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 7
+  },
+  {
+   "repo": "sveltejs/svelte",
+   "url": "https://github.com/sveltejs/svelte",
+   "desc": "web development for the rest of us",
+   "lang": "JavaScript",
+   "stars": 89719,
+   "forks": 6222,
+   "today": 692,
+   "period": "today",
+   "contributors": [
+    "Rich-Harris",
+    "dummdidumm",
+    "Conduitry",
+    "github-actions",
+    "trueadm"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 12
+  },
+  {
+   "repo": "jquery/jquery",
+   "url": "https://github.com/jquery/jquery",
+   "desc": "jQuery JavaScript Library",
+   "lang": "JavaScript",
+   "stars": 60078,
+   "forks": 20714,
+   "today": 266,
+   "period": "today",
+   "contributors": [
+    "jeresig",
+    "timmywil",
+    "dmethvin",
+    "mgol",
+    "jzaefferer"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "appwrite/appwrite",
+   "url": "https://github.com/appwrite/appwrite",
+   "desc": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+   "lang": "TypeScript",
+   "stars": 58346,
+   "forks": 5893,
+   "today": 232,
+   "period": "today",
+   "contributors": [
+    "eldadfux",
+    "abnegate",
+    "ChiragAgg5k",
+    "lohanidamodar",
+    "Meldiron"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "lang": "C++",
+   "stars": 11421,
+   "forks": 3609,
+   "today": 24,
+   "period": "today",
+   "contributors": [
+    "ilya-lavrenov",
+    "rkazants",
+    "ilyachur",
+    "mvafin",
+    "dependabot"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": 321542,
+   "forks": 28582,
+   "today": 822,
+   "period": "today",
+   "contributors": [
+    "obra",
+    "arittr",
+    "claude",
+    "clkao",
+    "arimu1"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 9
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": 306814,
+   "forks": 45164,
+   "today": 1108,
+   "period": "today",
+   "contributors": [
+    "affaan-m",
+    "haelyra",
+    "claude",
+    "montjeffrey",
+    "L4XB"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 2,
+   "prev_rank": 13
+  },
+  {
+   "repo": "DeanChensj/jiangshan-map",
+   "url": "https://github.com/DeanChensj/jiangshan-map",
+   "desc": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+   "lang": "JavaScript",
+   "stars": 8293,
+   "forks": 1014,
+   "today": 218,
+   "period": "today",
+   "contributors": [
+    "DeanChensj",
+    "claude",
+    "xcv58",
+    "mathieuwang",
+    "zsc8917zsc"
+   ],
+   "rank": 16,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+   "lang": "TypeScript",
+   "stars": 211297,
+   "forks": 61579,
+   "today": 325,
+   "period": "today",
+   "contributors": [
+    "janober",
+    "claude",
+    "ivov",
+    "netroy",
+    "RicardoE105"
+   ],
+   "rank": 17,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "solidjs/solid",
+   "url": "https://github.com/solidjs/solid",
+   "desc": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+   "lang": "TypeScript",
+   "stars": 36710,
+   "forks": 1191,
+   "today": 40,
+   "period": "today",
+   "contributors": [
+    "ryansolid",
+    "cursoragent",
+    "claude",
+    "brenelz"
+   ],
+   "rank": 18,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "desc": "A collection of MCP servers.",
+   "lang": "",
+   "stars": 98166,
+   "forks": 20385,
+   "today": 53,
+   "period": "today",
+   "contributors": [
+    "punkpeye",
+    "claude",
+    "SecretiveShell",
+    "kukapay",
+    "cursoragent"
+   ],
+   "rank": 19,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}

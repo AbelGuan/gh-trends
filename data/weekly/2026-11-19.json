@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-19",
+ "since": "weekly",
+ "lang": "",
+ "spoken": "",
+ "fetched_at": "2026-11-19 16:39:25",
+ "url": "https://github.com/trending?since=weekly",
+ "prev_date": "2026-11-18",
+ "dropped": [
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "rank": 7,
+   "stars": 10048,
+   "today": 2508
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "rank": 14,
+   "stars": 118754,
+   "today": 3884
+  }
+ ],
+ "items": [
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": 8948,
+   "forks": 748,
+   "today": 7257,
+   "period": "this week",
+   "contributors": [
+    "paulirish",
+    "rviscomi",
+    "micahjo7",
+    "github-actions",
+    "LeaVerou"
+   ],
+   "rank": 1,
+   "prev_day": "2026-11-18",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 1
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "lang": "TypeScript",
+   "stars": 13547,
+   "forks": 1366,
+   "today": 3290,
+   "period": "this week",
+   "contributors": [
+    "backnotprop",
+    "claude",
+    "rudycelekli",
+    "utpalsinghdev",
+    "leoreisdias"
+   ],
+   "rank": 2,
+   "prev_day": "2026-11-18",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 2
+  },
+  {
+   "repo": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": 30714,
+   "forks": 2406,
+   "today": 6250,
+   "period": "this week",
+   "contributors": [
+    "github-actions",
+    "cixzhang",
+    "josephfarina",
+    "rubyycheung",
+    "vjeux"
+   ],
+   "rank": 3,
+   "prev_day": "2026-11-18",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 3
+  },
+  {
+   "repo": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": 16577,
+   "forks": 1453,
+   "today": 3866,
+   "period": "this week",
+   "contributors": [
+    "jjmata",
+    "dependabot",
+    "claude",
+    "zachgoll",
+    "Shpigford"
+   ],
+   "rank": 4,
+   "prev_day": "2026-11-18",
+   "change": "same",
+   "delta": 0,
+   "prev_rank": 4
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": 54255,
+   "forks": 4488,
+   "today": 4383,
+   "period": "this week",
+   "contributors": [
+    "lizhengfeng101",
+    "wu21-web",
+    "chethanuk",
+    "Qiyuanqiii",
+    "stay-foolish-forever"
+   ],
+   "rank": 5,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -3,
+   "prev_rank": 8
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": 10529,
+   "forks": 1372,
+   "today": 1567,
+   "period": "this week",
+   "contributors": [
+    "JLXIA",
+    "davideast",
+    "Emp1500",
+    "dalmaer",
+    "meeChn"
+   ],
+   "rank": 6,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -6,
+   "prev_rank": 12
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": 7130,
+   "forks": 1445,
+   "today": 3242,
+   "period": "this week",
+   "contributors": [
+    "claude",
+    "tradermonty",
+    "dependabot",
+    "raikkonenPotter",
+    "sx4im"
+   ],
+   "rank": 7,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -4,
+   "prev_rank": 11
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": 58267,
+   "forks": 4879,
+   "today": 3143,
+   "period": "this week",
+   "contributors": [
+    "OrKoN",
+    "dependabot",
+    "Lightning00Blade",
+    "browser-automation-bot",
+    "yulunz"
+   ],
+   "rank": 8,
+   "prev_day": "2026-11-18",
+   "change": "up",
+   "delta": -2,
+   "prev_rank": 10
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": 197406,
+   "forks": 23114,
+   "today": 4381,
+   "period": "this week",
+   "contributors": [
+    "rlancemartin",
+    "klazuka",
+    "claude",
+    "cj-ant",
+    "ericharmeling"
+   ],
+   "rank": 9,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 3,
+   "prev_rank": 6
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": 73422,
+   "forks": 57928,
+   "today": 3566,
+   "period": "this week",
+   "contributors": [
+    "ZhuLinsen",
+    "massif-01",
+    "freesme",
+    "Activer007",
+    "birdxs"
+   ],
+   "rank": 10,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 5,
+   "prev_rank": 5
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": 70361,
+   "forks": 6266,
+   "today": 2423,
+   "period": "this week",
+   "contributors": [
+    "mvanhorn",
+    "tmchow",
+    "claude",
+    "iliaal",
+    "dependabot"
+   ],
+   "rank": 11,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "lang": "TypeScript",
+   "stars": 20530,
+   "forks": 2109,
+   "today": 3221,
+   "period": "this week",
+   "contributors": [
+    "ranst91",
+    "contextablemark",
+    "mme",
+    "claude",
+    "jpr5"
+   ],
+   "rank": 12,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": 52732,
+   "forks": 3692,
+   "today": 2987,
+   "period": "this week",
+   "contributors": [
+    "ctate",
+    "Railly",
+    "lahfir",
+    "github-actions",
+    "claude"
+   ],
+   "rank": 13,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 4,
+   "prev_rank": 9
+  },
+  {
+   "repo": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "lang": "TypeScript",
+   "stars": 14152,
+   "forks": 1104,
+   "today": 2630,
+   "period": "this week",
+   "contributors": [
+    "mldangelo-oai",
+    "codex",
+    "dependabot",
+    "ianw-oai",
+    "kmbroai"
+   ],
+   "rank": 14,
+   "prev_day": "2026-11-18",
+   "change": "down",
+   "delta": 1,
+   "prev_rank": 13
+  },
+  {
+   "repo": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "lang": "TypeScript",
+   "stars": 30182,
+   "forks": 2720,
+   "today": 6840,
+   "period": "this week",
+   "contributors": [
+    "jikkai",
+    "DR-Univer",
+    "wpxp123456",
+    "wzhudev",
+    "Dushusir"
+   ],
+   "rank": 15,
+   "prev_day": "2026-11-18",
+   "change": "new",
+   "delta": null,
+   "prev_rank": null
+  }
+ ]
+}
